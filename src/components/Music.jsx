@@ -17,6 +17,7 @@ const Music = () => {
         <>
 
         <Helmet>
+            <title>{update.title} | Majita Mag</title>
             <meta property="og:title" content={update.title} />
             <meta property="og:type" content={update.type} />
             <meta property="og:url" content={window.location.href} />
