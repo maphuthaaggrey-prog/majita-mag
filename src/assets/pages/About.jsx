@@ -1,6 +1,10 @@
-
+import { Helmet } from "react-helmet";
 const About = () => {
     return (  
+<>
+        <Helmet>
+            <title>Search</title> 
+        </Helmet>
 
      
         <div className="majita-mag">
@@ -43,7 +47,7 @@ const About = () => {
             <strong>Aggrey</strong>
             <br />Website & Technical Lead</p>
     </div>
-      
+    </>    
     
  );
 }

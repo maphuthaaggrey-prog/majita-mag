@@ -1,6 +1,7 @@
 import { majitas } from '../assets/data/majitas';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 const Updates = () => {
     const [allUpdates, setAllUpdates] = useState([]);
@@ -13,6 +14,12 @@ const Updates = () => {
     }, []);
 
     return (
+        <>
+        <Helmet>
+            <title>Updates</title> 
+        </Helmet>
+
+
         <div className="wrap">
             <div className="music-grid">
                 <div className="latest-grid-head" style={{ marginTop: '6em' }}>
@@ -55,6 +62,7 @@ const Updates = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 };
 

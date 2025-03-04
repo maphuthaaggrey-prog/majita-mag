@@ -2,6 +2,7 @@ import { majitas } from '../assets/data/majitas';
 import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom'
+import { Helmet } from 'react-helmet';
 
 const Search = () => {
   const [inputValue, setInputValue] = useState('');
@@ -36,6 +37,11 @@ const Search = () => {
   }, [inputValue]);
 
   return (
+    <>
+            <Helmet>
+                <title>Search</title> 
+            </Helmet>
+ 
     <div style={{ marginTop: '8em'}}>
       <div className="search-bar">
         <input
@@ -97,6 +103,7 @@ const Search = () => {
       </div>
       </div>
     </div>
+    </>
   );
 };
 

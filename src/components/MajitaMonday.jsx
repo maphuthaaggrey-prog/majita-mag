@@ -1,7 +1,7 @@
 import { majitas } from '../assets/data/majitas'
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-
+import { Helmet } from 'react-helmet';
 
 const MajitaMonday = () => {
     const [sortedMajitas, setSortedMajitas] = useState([]);
@@ -15,6 +15,10 @@ const MajitaMonday = () => {
     }, []);
 
     return ( 
+        <>
+        <Helmet>
+         <title>Majita Monday</title> 
+        </Helmet>
 
         <div id="creative-details">
         <div className="highlighted-creatives">
@@ -56,7 +60,7 @@ const MajitaMonday = () => {
         </div>
     </div> 
     </div> 
-
+    </>
     
 );
 }
