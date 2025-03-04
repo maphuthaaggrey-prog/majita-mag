@@ -78,7 +78,7 @@ const Header = () => {
         <>
             <div className="navbar">
                 <div>
-                    <a href="/"><img src={logo} className="logo" alt="Logo" /></a>
+                    <a href="https://maphuthaaggrey-prog.github.io/majita-mag/"><img src={logo} className="logo" alt="Logo" /></a>
                 </div>
                 <nav >
                     <ul className={menuOpen ? "nav ul open" : ""}>
