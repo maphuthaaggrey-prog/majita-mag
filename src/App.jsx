@@ -10,7 +10,7 @@ import Music from './components/Music';
 import Events from './components/Events'
 import Search from "./components/Search";
 import './index.css';
-import { BrowserRouter as Router, Routes, Route, useLocation, Form } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import ScrollToTop from "./components/ScrollToTop";
 
 function AppContent() {
