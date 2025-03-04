@@ -17,13 +17,14 @@ const Events = () => {
     return (
         <>
 
-        <Helmet>
-            <meta property="og:title" content={update.title} />
-            <meta property="og:type" content={update.type} />
-            <meta property="og:url" content={window.location.href} />
-            <meta property="og:image" content={update.image} />
-            <meta property="og:description" content={update.content} />
-       </Helmet>
+            <Helmet>
+                <title>{update.title} | Majita Mag</title>
+                <meta property="og:title" content={update.title} />
+                <meta property="og:type" content={update.type} />
+                <meta property="og:url" content={window.location.href} />
+                <meta property="og:image" content={update.image} />
+                <meta property="og:description" content={Array.isArray(update.content) ? update.content.join(' ') : update.content} />
+            </Helmet>
             <div className="hero-section">
                 <div className="majitas-grid">
                     <div className="updates-container">
