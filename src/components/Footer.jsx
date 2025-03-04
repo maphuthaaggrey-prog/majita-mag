@@ -4,7 +4,7 @@ import instagram from '../assets/icons/Instagram_white.svg';
 import { useState } from 'react';
 
 const Footer = () => {
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxqaNpKRORm4Tk7CRHZmfmCaTvFrWhxKw9_uXnBCrCtusFhY0M074a0CmirZ8B_ROk5/exec';
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyQHojhiXl7xpB1ZqIOA4Lc_PPuth0e36GGHHTtYDdqZEiSKYzHPNLODYrqghqwQh2o/exec';
 
     const [msg, setMsg] = useState('');
     const [loading, setLoading] = useState(false);
