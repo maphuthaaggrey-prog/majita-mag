@@ -95,7 +95,7 @@ const Header = () => {
                             </button>
                         </li>
                         <li onClick={toggleMenu}><Link to="/majitamonday">Majita Monday</Link></li>
-                        <li onClick={toggleMenu}><Link to="/womencrushwednesday">WCW</Link></li>
+                        <li onClick={toggleMenu}><Link to="/womencrushwednesday" aria-label='Women Crush Wednesday' >WCW</Link></li>
                         <li onClick={toggleMenu}><Link to="/updates">Updates</Link></li>
                         <li onClick={toggleMenu}><Link to="/about">About</Link></li>
                         <li onClick={handleClick} className="contactButton">Contact</li>
