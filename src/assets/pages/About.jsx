@@ -3,7 +3,7 @@ const About = () => {
     return (  
 <>
         <Helmet>
-            <title>Search</title> 
+            <title>About</title> 
         </Helmet>
 
      
