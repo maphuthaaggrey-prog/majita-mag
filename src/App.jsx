@@ -12,7 +12,6 @@ import Search from "./components/Search";
 import './index.css';
 import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import ScrollToTop from "./components/ScrollToTop";
-import { HelmetProvider } from 'react-helmet-async';
 
 function AppContent() {
   const location = useLocation();
@@ -42,11 +41,11 @@ function AppContent() {
 
 function App() {
   return (
-    <HelmetProvider>    
+  
         <Router>
           <AppContent />
         </Router>
-    </HelmetProvider>
+
 
   );
 }

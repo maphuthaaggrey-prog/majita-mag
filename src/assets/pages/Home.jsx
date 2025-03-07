@@ -17,7 +17,7 @@ const Home = () => {
     
         const metaImage = document.createElement('meta');
         metaImage.setAttribute('property', 'og:image');
-        metaImage.setAttribute('content', 'https://maphuthaaggrey-prog.github.io/majita-mag/assets/icons/majitamag.jpg');
+        metaImage.setAttribute('content', 'https://maphuthaaggrey-prog.github.io/majita-mag/src/assets/icons/majitamag.jpg');
         document.head.appendChild(metaImage);
     
         const metaURL = document.createElement('meta');
