@@ -2,40 +2,17 @@ import Hero from '../../components/Hero';
 import LatestTopics from '../../components/LatestTopics';
 import MusicNews from "../../components/MusicNews";
 import EventsComponent from "../../components/EventsComponent";
-import { useEffect } from 'react';
-
+import { Helmet } from 'react-helmet-async';
 
 const Home = () => {
-
-    useEffect(() => {
-        // Update meta tags
-        document.title = "Majita Mag";
-        const metaDescription = document.createElement('meta');
-        metaDescription.setAttribute('property', 'og:description');
-        metaDescription.setAttribute('content', 'This is a dynamic description.');
-        document.head.appendChild(metaDescription);
-    
-        const metaImage = document.createElement('meta');
-        metaImage.setAttribute('property', 'og:image');
-        metaImage.setAttribute('content', 'https://maphuthaaggrey-prog.github.io/majita-mag/src/assets/icons/majitamag.jpg');
-        document.head.appendChild(metaImage);
-    
-        const metaURL = document.createElement('meta');
-        metaURL.property = 'og:url';
-        metaURL.content = 'https://maphuthaaggrey-prog.github.io/majita-mag/';
-        document.head.appendChild(metaURL);
-    
-        // Cleanup function to remove meta tags when the component unmounts
-        return () => {
-          document.head.removeChild(metaDescription);
-          document.head.removeChild(metaImage);
-          document.head.removeChild(metaURL);
-        };
-      }, []);
   return (
 <>
 
-
+      <Helmet>
+        <title>Majita Mag</title>
+        <meta property="og:description" content="Your backstage pass to what’s happening around you! Get the latest on local news, upcoming events, and the hottest music spots, plus exclusive features on the artists shaping our scene." />
+        <meta property="og:image" content="https://maphuthaaggrey-prog.github.io/majita-mag/assets/icons/majitamag.jpg" />
+      </Helmet>
       <div className="wrap">
         <div className="home-container">
           <Hero />
