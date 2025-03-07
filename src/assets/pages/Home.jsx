@@ -12,7 +12,7 @@ const Home = () => {
         document.title = "Majita Mag";
         const metaDescription = document.createElement('meta');
         metaDescription.setAttribute = 'property', 'og:description';
-        metaDescription.setAttribute = 'This is a dynamic description.';
+        metaDescription.setAttribute = 'content', 'This is a dynamic description.';
         document.head.appendChild(metaDescription);
     
         const metaImage = document.createElement('meta');
