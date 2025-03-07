@@ -2,7 +2,7 @@ import { majitas } from '../assets/data/majitas';
 import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import { Helmet, } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import Share from '../components/Share';
 
 const Update = () => {

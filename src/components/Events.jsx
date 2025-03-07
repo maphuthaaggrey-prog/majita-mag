@@ -3,7 +3,7 @@ import { majitas } from '../assets/data/majitas';
 import LatestEvents from '../components/LatestEvents';
 import React from 'react';
 import Share from '../components/Share';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 const Events = () => {
     const { slug } = useParams();

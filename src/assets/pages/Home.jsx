@@ -2,14 +2,14 @@ import Hero from '../../components/Hero';
 import LatestTopics from '../../components/LatestTopics';
 import MusicNews from "../../components/MusicNews";
 import EventsComponent from "../../components/EventsComponent";
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { Helmet } from 'react-helmet-async';
 
 const Home = () => {
   return (
-    <HelmetProvider>
+<>
       <Helmet>
         <title>Majita Mag</title>
-        <meta property="og:description" content="The ultimate showcase for forward-thinking creatives! Each issue is packed with inspiring stories, stunning visuals, and expert insights from the most talented minds in the industry." />
+        <meta property="og:description" content="Your backstage pass to what’s happening around you! Get the latest on local news, upcoming events, and the hottest music spots, plus exclusive features on the artists shaping our scene." />
         <meta property="og:image" content="https://maphuthaaggrey-prog.github.io/majita-mag/assets/icons/majitamag.jpg" />
       </Helmet>
       <div className="wrap">
@@ -20,7 +20,7 @@ const Home = () => {
         <MusicNews />
         <EventsComponent />
       </div>
-    </HelmetProvider>
+      </>
   );
 };
 
