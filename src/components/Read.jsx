@@ -2,7 +2,7 @@ import { majitas } from '../assets/data/majitas';
 import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import { Helmet } from 'react-helmet';
+import { Helmet, } from 'react-helmet';
 import Share from '../components/Share';
 
 const Update = () => {
@@ -28,11 +28,11 @@ const Update = () => {
     <>
         <Helmet>
             <title>{majita.name} | Majita Mag</title>
-            <meta property="og:title" content={majita.name} />
-            <meta property="og:type" content={majita.type} />
-            <meta property="og:url" content={window.location.href} />
-            <meta property="og:image" content={majita.image} />
-            <meta property="og:description" content={majita.content} />
+            <meta name="title" content={majita.name} />
+            <meta name="type" content={majita.type} />
+            <meta name="url" content={window.location.href} />
+            <meta name="image" content={majita.image} />
+            <meta name="description" content={majita.content} />
        </Helmet>
 
       <div id="container">
