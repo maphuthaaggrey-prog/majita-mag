@@ -334,7 +334,7 @@ a {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, var(--background) 90%);
 }
 .majita-info {
-  margin-top: -12em;
+  margin-top: -13.6em;
   margin-left: 16px;
   z-index: 2;
   position: sticky;
