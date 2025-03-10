@@ -397,16 +397,12 @@ export const majitas = [
      author: "Majita Mag",
      date: "Mar 10 2025",
      content: [
-              `The 4th Annual 1060 Youth Day Walk is back! This special event continues to bring hope and support to the young people of Ga Masemola and nearby areas. After the great success of last year, we’re excited to gather again to honor Youth Day with purpose, unity, and a focus on building a better future.` ,
+              `The 4th Annual 1060 Youth Day Walk is back, bringing hope and support to the young people of Ga Masemola and nearby areas on Monday, 16 June 2025, at 07:00, at Masemola High Sports Ground, with the theme School Uniform or Black and White, to honor Youth Day with unity and a focus on building a better future.` ,
               `During the 3rd Annual 1060 Youth Day Walk, we saw the strength of coming together as young people met to remember the 1976 Soweto Uprising. While many celebrate Youth Day in different ways, the 1060 Youth Day Walk stood out as a respectful tribute to the past and a step toward a better future. The event was filled with motivating speeches, fun workshops, and powerful lessons.` , 
               { image: youthday3 }, 
               { image: youthday4 }, 
               `Jasonsual Masemola, the founder of the 1060 Youth Day Walk, continues to lead the charge for youth empowerment with this annual event. His vision and dedication have made the 1060 Youth Day Walk a platform for positive change in the community, encouraging young people to walk toward a brighter future. This year, as we gather for the 4th Annual 1060 Youth Day Walk, we celebrate his ongoing efforts to inspire and uplift the youth.`,
-              `Event Theme: School Uniform or Black and White`,
-              `Date: Monday, 16 June 2025, 07h00`,
-              `Venue: Masemola High Sports Ground`,
               `Powered by: Activate Your Voice NPC`,
-              `For More Info: 076 777 2494 / 072 873 1871`,
               `Looking forward to seeing everyone there!`,
               { image: Annual1060YouthDayWalk}, 
 
