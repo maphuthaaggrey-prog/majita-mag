@@ -379,11 +379,10 @@ a {
   color: rgb(161, 161, 161);
   font-size: 12px;
   overflow: hidden;
-  height: 37px; 
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
 }
 .latest-info {
@@ -536,7 +535,7 @@ a {
 .content {
   overflow: hidden;
   width: 100%;
-  height: 60px; /* adjust height as needed */
+
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 3;
