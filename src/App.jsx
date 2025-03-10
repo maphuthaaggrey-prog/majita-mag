@@ -10,7 +10,7 @@ import Music from './components/Music';
 import Events from './components/Events'
 import Search from "./components/Search";
 import './index.css';
-import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import ScrollToTop from "./components/ScrollToTop";
 import { HelmetProvider } from "react-helmet-async";
 
