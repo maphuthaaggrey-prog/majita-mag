@@ -26,7 +26,7 @@ const Update = () => {
   return (
     <>
         <Helmet>
-            <title>{majita.name} | Majita Mag</title>
+            <title>{majita.name} • Majita Mag</title>
             <meta name="title" content={majita.name} />
             <meta name="type" content={majita.type} />
             <meta name="url" content={window.location.href} />
