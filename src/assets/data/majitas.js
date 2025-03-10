@@ -395,7 +395,7 @@ export const majitas = [
      slug: "4th-annual-1060-youth-day-walk",
      type: "Event",
      author: "Majita Mag",
-     date: "Mar 03 2025",
+     date: "Mar 10 2025",
      content: [
               `The 4th Annual 1060 Youth Day Walk is back! This special event continues to bring hope and support to the young people of Ga Masemola and nearby areas. After the great success of last year, we’re excited to gather again to honor Youth Day with purpose, unity, and a focus on building a better future.` ,
               `During the 3rd Annual 1060 Youth Day Walk, we saw the strength of coming together as young people met to remember the 1976 Soweto Uprising. While many celebrate Youth Day in different ways, the 1060 Youth Day Walk stood out as a respectful tribute to the past and a step toward a better future. The event was filled with motivating speeches, fun workshops, and powerful lessons.` , 
