@@ -1,4 +1,4 @@
-import { useParams} from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { majitas } from '../assets/data/majitas';
 import LatestEvents from '../components/LatestEvents';
 import React from 'react';
@@ -13,18 +13,23 @@ const Events = () => {
         return <div>Update not found</div>;
     }
 
+    // Prepare description and image URL
+    const description = Array.isArray(update.content) ? update.content.join(' ') : update.content;
+    const truncatedDescription = description.length > 160 ? `${description.substring(0, 160)}...` : description;
+    const fullImageUrl = update.image.startsWith('http') ? update.image : `https://www.majitamag.co.za/assets/updates${update.image}`;
 
     return (
         <>
-
             <Helmet>
                 <title>{update.title} | Majita Mag</title>
+                <meta name="description" content={truncatedDescription} />
                 <meta property="og:title" content={update.title} />
                 <meta property="og:type" content={update.type} />
                 <meta property="og:url" content={window.location.href} />
-                <meta property="og:image" content={update.image} />
-                <meta property="og:description" content={Array.isArray(update.content) ? update.content.join(' ') : update.content} />
+                <meta property="og:image" content={fullImageUrl} />
+                <meta property="og:description" content={truncatedDescription} />
             </Helmet>
+
             <div className="hero-section">
                 <div className="majitas-grid">
                     <div className="updates-container">
@@ -39,39 +44,38 @@ const Events = () => {
                                 {Array.isArray(update.content) ? (
                                     update.content.map((contentItem, index) => (
                                         typeof contentItem === "string" ? (
-                                            // Check if the content is a Spotify link and embed it
                                             contentItem.startsWith("https://open.spotify.com") ? (
-                                                <iframe style={{ marginTop: "2em" }}
+                                                <iframe
                                                     key={index}
                                                     src={contentItem.replace('/album/', '/embed/album/')}
                                                     frameBorder="0"
                                                     allow="encrypted-media"
                                                     allowTransparency="true"
                                                     title={`Spotify embed ${index}`}
+                                                    style={{ marginTop: "2em" }}
                                                 ></iframe>
                                             ) : (
                                                 <p id="updates-content" key={index}>{contentItem}</p>
                                             )
                                         ) : contentItem.image ? (
-                                          
-                                                <img className='media'
-                                                    key={index}
-                                                    src={contentItem.image}
-                                                    alt="visual"
-                                                    style={{borderRadius: '2px', height: 'auto' }}
-                                                />
-                                        
+                                            <img
+                                                className='media'
+                                                key={index}
+                                                src={contentItem.image}
+                                                alt="visual"
+                                                style={{ borderRadius: '2px', height: 'auto' }}
+                                            />
                                         ) : null
                                     ))
                                 ) : (
                                     <p id="updates-content">{update.content}</p>
                                 )}
                             </div>
-                           <Share />
+                            <Share />
                         </div>
 
                         <div>
-                                <LatestEvents />
+                            <LatestEvents />
                         </div>
                     </div>
                 </div>

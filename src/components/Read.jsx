@@ -25,14 +25,15 @@ const Update = () => {
 
   return (
     <>
-        <Helmet>
-            <title>{majita.name} • Majita Mag</title>
-            <meta name="title" content={majita.name} />
-            <meta name="type" content={majita.type} />
-            <meta name="url" content={window.location.href} />
-            <meta name="image" content={majita.image} />
-            <meta name="description" content={majita.content} />
-       </Helmet>
+      <Helmet>
+        <title>{majita.name} • Majita Mag</title>
+        <meta name="description" content={majita.content} />
+        <meta property="og:title" content={majita.name} />
+        <meta property="og:type" content={majita.type} />
+        <meta property="og:url" content={window.location.href} />
+        <meta property="og:image" content={majita.image} />
+        <meta property="og:description" content={majita.content} />
+      </Helmet>
 
       <div id="container">
         <div id="creative-details">

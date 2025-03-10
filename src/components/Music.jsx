@@ -12,18 +12,22 @@ const Music = () => {
     if (!update) {
         return <div>Update not found</div>;
     }
+    const description = Array.isArray(update.content) ? update.content.join(' ') : update.content;
+    const truncatedDescription = description.length > 160 ? `${description.substring(0, 160)}...` : description;
+    const fullImageUrl = update.image.startsWith('http') ? update.image : `https://www.majitamag.co.za/assets/updates${update.image}`;
 
     return (
         <>
 
-        <Helmet>
-            <title>{update.title} | Majita Mag</title>
-            <meta property="og:title" content={update.title} />
-            <meta property="og:type" content={update.type} />
-            <meta property="og:url" content={window.location.href} />
-            <meta property="og:image" content={update.image} />
-            <meta property="og:description" content={update.content} />
-       </Helmet>
+            <Helmet>
+                <title>{update.title} | Majita Mag</title>
+                <meta name="description" content={truncatedDescription} />
+                <meta property="og:title" content={update.title} />
+                <meta property="og:type" content={update.type} />
+                <meta property="og:url" content={window.location.href} />
+                <meta property="og:image" content={fullImageUrl} />
+                <meta property="og:description" content={truncatedDescription} />
+            </Helmet>
             <div className="hero-section">
                 <div className="majitas-grid">
                     <div className="updates-container">
