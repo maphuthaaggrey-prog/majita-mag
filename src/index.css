@@ -361,7 +361,6 @@ a {
     line-height: 20px;
     width: 85%;
     overflow: hidden;
-    height: 57px; 
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 3;
