@@ -71,7 +71,7 @@ const Events = () => {
                         </div>
 
                         <div>
-                       
+                                <LatestEvents />
                         </div>
                     </div>
                 </div>
