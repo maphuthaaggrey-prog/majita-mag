@@ -20,7 +20,7 @@ const MusicNews = () => {
             </div>
             <div className="music-grid-items">
                 {sortedMusicUpdates.length === 0 ? (
-                    <p>No music updates found.</p>
+                    <p style={{display: 'none'}}>No music updates found.</p>
                 ) : (
                     sortedMusicUpdates.map((music) => (
                         <Link to={`/music/${music.slug}`} key={music.id} className="majita-link">
