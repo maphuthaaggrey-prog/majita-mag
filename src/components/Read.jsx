@@ -21,7 +21,6 @@ const Update = () => {
     setSortedMajitas(sorted);
   }, []);
 
-  // Filter out the currently displayed majita from the sortedMajitas list
   const filteredMajitas = sortedMajitas.filter((item) => item.slug !== slug);
 
   return (
@@ -78,7 +77,7 @@ const Update = () => {
         </div>
 
         <div id="more-stories">
-          {/* Display other majitas except the currently viewed one */}
+
           {filteredMajitas.slice(0, 4).map((majita) => (
             <Link to={`/majitamonday/${majita.slug}`} key={majita.id}>
               <img
