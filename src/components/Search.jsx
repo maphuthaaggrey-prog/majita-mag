@@ -80,7 +80,7 @@ const Search = () => {
         </button>
       </div>
 
-      <div id="creative-details" style={{ marginTop: '2em', }}>
+      <div id="creative-details" style={{ marginTop: '2em' }}>
       <div id="se-image">
         {searchResults.length > 0 ? (
           searchResults.map((result, index) => (

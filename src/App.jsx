@@ -13,6 +13,7 @@ import './index.css';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import ScrollToTop from "./components/ScrollToTop";
 import { HelmetProvider } from "react-helmet-async";
+import NotFound from "./components/NotFound";
 
 function AppContent() {
   const location = useLocation();
@@ -33,6 +34,7 @@ function AppContent() {
         <Route path="/majitamonday/:slug" element={<Read />} />
         <Route path="/music/:slug" element={<Music />} />
         <Route path="/events/:slug" element={<Events />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
 
       {!pathsWithoutFooter.includes(location.pathname) && <Footer />}
