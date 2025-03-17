@@ -507,9 +507,9 @@ a {
 }
 
 .media {
-    width: 47%;
+    width: 48%;
     aspect-ratio: 1 / 1; 
-    margin-right: .4em;
+    margin-right: .5em;
     object-fit: cover;
     object-position: top;
     transition: object-position 0.8s ease-in-out;
@@ -1043,7 +1043,10 @@ margin-top: 3px;
     font-size: 15px;
     font-weight: 800;
 }
-
+.media:last-of-type {
+    width: 100%;
+    aspect-ratio: unset;
+}
 
   @media (min-width: 384px) and (max-height: 500px){
     .hero {
@@ -1074,6 +1077,7 @@ margin-top: 3px;
         margin-left: 7%;
         text-align: start;
     }
+
     h4 {
         width: 60%;
         text-align: start;
@@ -1104,6 +1108,9 @@ margin-top: 3px;
 
     .navbar {
         justify-content: unset;
+    }
+    .media:last-of-type {
+        width: 70%;
     }
     .navbar nav ul {
         display: flex;
@@ -1394,6 +1401,9 @@ margin-top: 3px;
     .wrap {
       width: 80%;
       margin: auto;
+    }
+    .media {
+        width: 34.6%;
     }
     .content {
       overflow: hidden;

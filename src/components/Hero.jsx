@@ -30,7 +30,7 @@ const Hero = () => {
                             </div>
                             <div className="majita-info">
                                 <p className="majita-date">{majita.date} • Majita Mag</p>
-                                <p className="majita-name">{majita.name || "Majita"} Monday</p>
+                                <p className="majita-name">{majita.name || "Majita"}</p>
                                 <div className="desc">
                                     {Array.isArray(majita.content) ? (
                                         majita.content.map((contentItem, index) => {

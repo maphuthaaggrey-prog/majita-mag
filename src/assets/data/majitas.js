@@ -17,6 +17,7 @@ import scar from '../images/SCAR MONDAY P1.1.jpg'
 import somethingTallFavPicture from '../images/something fav.jpg'
 import coreyPic from '../images/COREYPIC.jpg'
 import shane_Kabza from '../images/Shane_Kabza.jpg'
+import coolx from '../images/coolx.jpg'
 
 
 
@@ -317,7 +318,7 @@ export const majitas = [
         slug: "unkel-tk",
         title: "Majita Monday",
         image: unkelTK,
-        content:["Meet Unkel TK, a self-taught DJ and music producer from Ga Masemola Village who mixes House and Amapiano tunes. He started out as a deejay, working with crowds, and then moved on to producing his own beats with real heart."],
+        content:["Meet Unkel TK, a self-taught DJ and music producer from Ga Masemola Village who mixes House and Amapiano tunes. "],
         type: "Majita Monday",
         date: "Feb 3 2025",
         questions: [
@@ -360,7 +361,7 @@ export const majitas = [
         author: "Majita Mag",
         date: "Feb 14 2025",
         content: [
-            `Kraws Bohnz is back, delivering his latest EP, "A Gift From Me To Ya’ll" ,  a vibrant collection of tracks that solidifies his place as one of the most versatile artists in the game. The EP features seven standout tracks, each showcasing Kraws Bohnz’s signature style and artistic depth:`,
+            `Kraws Bohnz is back, delivering his latest EP, "A Gift From Me To Ya’ll" ,  a vibrant collection of tracks that solidifies his place as one of the most versatile artists in the game. The EP features seven standout tracks, each showcasing Kraws Bohnz’s signature style and artistic depth with two features from Razor McPablo & Killey:`,
 
             `He last dropped in 2023 with a single titled "Bra Kop (Produced by Veteran Beatx)", which further cemented his reputation as a dynamic and innovative artist.`,
         
@@ -371,20 +372,20 @@ export const majitas = [
     },
     {
      id:19,
-     title:  `Boiketlo Cafe: Kelvin Momo and Shandes`,
+     title:  `Boiketlo Cafe: Kelvin Momo and Shandesh`,
      image: boiketlo,
      slug: "boiketlo-cafe-easter",
      type: "Event",
      author: "Majita Mag",
      date: "Mar 03 2025",
      content: [
-              `Get ready for an exciting night at Boiketlo Cafe on Easter Saturday, 19th April, Ga Masemola featuring Kelvin Momo and Shandes!` ,
-              `Our favorite DJs, Levandal, Real Mronza SA, Sir Oscar, and more, will be playing a variety of genres, from new songs to old favorites.` , 
-              ` R50 General, R150 VIP`,
-              `See you there!`,
-              { image: boiketlo }, 
+              `Get ready for an exciting night at Boiketlo Cafe! This Easter Saturday, 19th April 2024, Boiketlo will be the place to be as two of South Africa's hottest talents, Kelvin Momo and Shandesh, take the stage.` ,
+              `Shandesh posted a video confirming she'll be at Boiketlo on the 19th April. Also our favorite DJs, Levandal, Real Mronza SA, Sir Oscar, and more, will be playing a variety of genres, from new songs to old favorites.` , 
               { image: siroscar },  
-              { image: levandal }, 
+              { image: levandal },
+              `Make sure you pull up with cash for a ticket - just R50 for a general ticket or R150 for VIP - and enjoy your Easter Saturday with happy people!`,
+              `See you there!`,
+              { image: boiketlo },  
             ],
      link: "",
     },
@@ -409,5 +410,21 @@ export const majitas = [
             ],
      link: "",
     },
-
+  /*  {
+        id: 21,
+        name: "Decoolxteekay", 
+        slug: "decoolxteekay",
+        title: "Majita Monday",
+        content: "Meet Tokollo, an upcoming YouTuber from Ga-Marishane. Inspired by IShowSpeed and KaiCenat in 2023 with a dreams of becoming a streamer.",
+        image: corey,
+        type: "Majita Monday",
+        date: "Mar 17 2025",
+        questions: [
+        {question: "Who is Decoolxteekay", answer: " My name is Tokollo Ngwato Mosehle(Decoolxteekay). I'm an upcoming YouTuber from a village called Ga-Marishane, aka 1064. The mode for me was to become a streamer because I became inspired by the likes of IShowSpeed & KaiCenat back in 2023. I couldn't  become a streamer due to financial situations, but obviously I have my phone - so in the meantime I'm pushing content on YouTube. I am very diverse because I want to work on two things, being a full time YouTuber plus a streamer. Either way I knew I was still going to become one of the two , one of them is going to pave the way for my career."},
+        {question: "What is your most exciting part of your work?", answer: `The most exciting part of my work is planning content and meeting new people to collaborate with. I enjoy creating content and working with others. I think my success comes from being a people's person. I'm good at connecting with others, which makes my interviews and videos more interesting and enjoyable.`},
+        {question: "As a man how do you navigate your emotions and mental health, especially in a society where it's often seen as taboo? ", answer: ["I take care of my emotions and mental health by praying and being creative. I make content for my audience and sometimes I just listen to music and freestyle. This helps me stay calm and focused."] },
+        {question: "What impact do you hope to leave in your industry or community?", answer: ["My goal is to show people from villages like mine that they can be successful too. I want to inspire others to believe in themselves, work hard, and put their faith first. I hope to be a good example and help others achieve their dreams I first saw my influence when my first video got more views than I expected. As a new YouTuber, this was surprising. Every time I upload a new video, I get a few more subscribers, which shows me that people are interested in what I'm creating."] },
+        {question: "What's a fun fact about you that people don't usually know?", answer: ["People may not know that I'm a kind and funny person. I just don't like it when people take advantage of my kindness. My advice to the next generation is to put God first, always try to improve yourself, and focus on what you want to achieve. Surround yourself with people who can teach you new things and support you. In the near future, my audience can expect a consistent stream of high-quality content, as well as the introduction of live streaming sessions. I'm excited to engage with my viewers in real-time and share my passion with them. Get ready to experience an immersive and entertaining journey, as I strive to take my content to the next level and build a stronger connection with my community." ] }
+        ]
+       }, */
 ]
