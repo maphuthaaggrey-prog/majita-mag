@@ -72,7 +72,7 @@ const Music = () => {
                                     <p id="updates-content">{update.content}</p>
                                 )}
                             </div>
-                            <p id="updates-content">Stay up-to-date with the latest event news, updates, and behind-the-scene insights by following us on social media:</p>
+                            <p id="updates-content">Stay up-to-date with the latest music news, updates, and behind-the-scene insights by following us on social media:</p>
                             <div className="footer-icons" style={{display: 'unset'}} >
                                 <a href="https://www.facebook.com/profile.php?id=61572469034879" target='_blank' rel="noopener noreferrer" ><img src={facebook} alt="Facebook" style={{opacity: '20%', marginRight: '1em'}} /></a>
                                 <a href="https://www.instagram.com/majitamag/"target='_blank' rel="noopener noreferrer"  ><img src={instagram} alt="Instagram" style={{opacity: '20%'}}  /></a>
