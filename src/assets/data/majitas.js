@@ -28,9 +28,12 @@ import pianoElite from '../updates/pianoElite.jpg'
 import levandal from '../updates/levandal.jpg'
 import siroscar from '../updates/siroscar.jpg'
 import Annual1060YouthDayWalk from '../updates/4th Annual 1060 Youth Day Walk.jpg'
-
+import ttlifestyle from '../updates/tt-lifestyle.jpg'
+import ttposter from '../updates/poster.jpg'
 import youthday3 from '../updates/youthday3.jpg'
 import youthday4 from '../updates/youthday4.jpg'
+import tt1 from '../updates/tt1.jpg'
+import tt3 from '../updates/tt3.jpg'
 
 export const majitas = [
     {
@@ -406,6 +409,25 @@ export const majitas = [
               `Powered by: Activate Your Voice NPC`,
               `Looking forward to seeing everyone there!`,
               { image: Annual1060YouthDayWalk}, 
+
+            ],
+     link: "",
+    },
+    {
+     id:21,
+     title:  `TT LIFESTYLE Presents: All Black Experience`,
+     image: ttlifestyle,
+     slug: "tt-lifestyle-all-black-experience",
+     type: "Event",
+     author: "Majita Mag",
+     date: "Mar 19 2025",
+     content: [
+              `Get ready for the most exclusive lifestyle event brought to you by TT LIFESTYLE! This highly anticipated event is about to light up the scene on 20 April with an unforgettable All Black Experience like never before. The dress code is All Black, and VIP tickets are available for just R200. Make sure your outfits are on point and get ready to vibe with us!` ,
+              { image: tt1}, 
+              { image: tt3}, 
+              `The event will feature top performances by some of the biggest names in the industry, including Kelvin Momo, Oscar Mbo, and Sun-El Musician, along with surprise acts that will keep you vibing all night long. The energy is set to be unmatched, so don’t miss out!`,  
+              { image: ttposter},
+              ` Don’t miss out – get your tickets, dress up, and come through for a night full of good vibes and great music. Let’s make memories together!`, 
 
             ],
      link: "",
