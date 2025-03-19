@@ -14,13 +14,13 @@ const Music = () => {
     if (!update) {
         return <div>Update not found</div>;
     }
+
     const description = Array.isArray(update.content) ? update.content.join(' ') : update.content;
     const truncatedDescription = description.length > 160 ? `${description.substring(0, 160)}...` : description;
     const fullImageUrl = update.image.startsWith('http') ? update.image : `https://www.majitamag.co.za/assets/updates${update.image}`;
 
     return (
         <>
-
             <Helmet>
                 <title>{update.title} | Majita Mag</title>
                 <meta name="description" content={truncatedDescription} />
@@ -46,7 +46,8 @@ const Music = () => {
                                         typeof contentItem === "string" ? (
                                             // Check if the content is a Spotify link and embed it
                                             contentItem.startsWith("https://open.spotify.com") ? (
-                                                <iframe style={{ marginTop: "2em" }}
+                                                <iframe
+                                                    style={{ marginTop: "2em" }}
                                                     key={index}
                                                     src={contentItem.replace('/album/', '/embed/album/')}
                                                     frameBorder="0"
@@ -54,18 +55,29 @@ const Music = () => {
                                                     allowTransparency="true"
                                                     title={`Spotify embed ${index}`}
                                                 ></iframe>
+                                            ) : contentItem.startsWith("https://www.youtube.com") || contentItem.startsWith("https://youtu.be") ? (
+                                                // Check if the content is a YouTube link and embed it
+                                                <iframe
+                                                    style={{ marginTop: "2em" }}
+                                                    key={index}
+                                                    className='youtubeiframe'
+                                                    src={`https://www.youtube.com/embed/${contentItem.split('v=')[1]?.split('&')[0] || contentItem.split('youtu.be/')[1]}`}
+                                                    frameBorder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowFullScreen
+                                                    title={`YouTube embed ${index}`}
+                                                ></iframe>
                                             ) : (
                                                 <p id="updates-content" key={index}>{contentItem}</p>
                                             )
                                         ) : contentItem.image ? (
-                                          
-                                                <img className='media'
-                                                    key={index}
-                                                    src={contentItem.image}
-                                                    alt="visual"
-                                                    style={{borderRadius: '2px', height: 'auto', marginTop: '20px' }}
-                                                />
-                                        
+                                            <img
+                                                className='media'
+                                                key={index}
+                                                src={contentItem.image}
+                                                alt="visual"
+                                                style={{ borderRadius: '2px', height: 'auto', marginTop: '20px' }}
+                                            />
                                         ) : null
                                     ))
                                 ) : (
@@ -73,13 +85,17 @@ const Music = () => {
                                 )}
                             </div>
                             <p id="updates-content">Stay up-to-date with the latest music news, updates, and behind-the-scene insights by following us on social media:</p>
-                            <div className="footer-icons" style={{display: 'unset'}} >
-                                <a href="https://www.facebook.com/profile.php?id=61572469034879" target='_blank' rel="noopener noreferrer" ><img src={facebook} alt="Facebook" style={{opacity: '20%', marginRight: '1em'}} /></a>
-                                <a href="https://www.instagram.com/majitamag/"target='_blank' rel="noopener noreferrer"  ><img src={instagram} alt="Instagram" style={{opacity: '20%'}}  /></a>
+                            <div className="footer-icons" style={{ display: 'unset' }}>
+                                <a href="https://www.facebook.com/profile.php?id=61572469034879" target='_blank' rel="noopener noreferrer">
+                                    <img src={facebook} alt="Facebook" style={{ opacity: '20%', marginRight: '1em' }} />
+                                </a>
+                                <a href="https://www.instagram.com/majitamag/" target='_blank' rel="noopener noreferrer">
+                                    <img src={instagram} alt="Instagram" style={{ opacity: '20%' }} />
+                                </a>
                             </div>
                             <Share />
                         </div>
-                        
+
                         <div>
                             <LatestMusic />
                         </div>

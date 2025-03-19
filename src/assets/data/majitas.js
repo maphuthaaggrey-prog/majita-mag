@@ -34,6 +34,7 @@ import youthday3 from '../updates/youthday3.jpg'
 import youthday4 from '../updates/youthday4.jpg'
 import tt1 from '../updates/tt1.jpg'
 import tt3 from '../updates/tt3.jpg'
+import unkeltkAfroMix from '../updates/unkeltkmixtape.jpg'
 
 export const majitas = [
     {
@@ -431,6 +432,22 @@ export const majitas = [
 
             ],
      link: "",
+    },
+    {
+        id: 22,
+        title: `Unkel TK Releases First Afro-Tech Mix`,
+        image: unkeltkAfroMix,
+        slug: "unkel-tk-afro-tech-mix",
+        type: "Music",
+        author: "Majita Mag",
+        date: "Mar 19 2025",
+        content: [
+            `Unkel TK has just released his first Afro-tech mixtape, Spirit Tuner Afro Tech Plug 01. This mixtape blends African rhythms with electronic beats, creating a unique and exciting sound. Unkel TK says, "I’m really happy to share this mix with everyone. It shows my love for African music and electronic beats. I want listeners to enjoy the mix and feel the energy."`, 
+            `https://www.youtube.com/watch?v=ZmW4PoB-JmA`,
+            `While Unkel TK is more into Amapiano, he enjoys trying new things, and this mix takes listeners on a journey through deep Afro-tech sounds and upbeat rhythms.`,
+           
+        ],
+        link: "",
     },
   /*  {
         id: 21,
