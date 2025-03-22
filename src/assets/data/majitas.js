@@ -458,7 +458,7 @@ export const majitas = [
         slug: "mr-shane-100%-production-mix",
         type: "Music",
         author: "Majita Mag",
-        date: "Mar 24 2025",
+        date: "Mar 22 2025",
         content: [
             `Mr. Shane SA has returned to the spotlight with his latest release, "Rhythm Forge (100% Production Mix)." This mix is an absolute banger, crafted entirely by Mr. Shane SA himself, showcasing his unique sound and unmatched production skills. Known for his captivating beats and smooth transitions, Mr. Shane SA brings an electrifying energy to the world of house music, taking listeners on a rhythmic journey they won't soon forget.`, 
             `https://youtu.be/X069XHzYZ8E?si=lXUHUNtO5cgXJQUr`,
