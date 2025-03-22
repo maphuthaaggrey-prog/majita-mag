@@ -455,7 +455,7 @@ export const majitas = [
         id: 23,
         title: `100% Production Mix by Mr. Shane SA!`,
         image: mrshaneRythmforce,
-        slug: "mr-shane-100%-production-mix",
+        slug: "mr-shane-rythm-forge",
         type: "Music",
         author: "Majita Mag",
         date: "Mar 22 2025",
