@@ -7,7 +7,7 @@ const Hero = () => {
 
     useEffect(() => {
         const sorted = [...majitas]
-            .filter(update => update.type === 'Majita Monday')
+            .filter(update => update.type === 'Majita Monday' || update.type === 'Women Crush Wednesday')
             .sort((a, b) => new Date(b.date) - new Date(a.date));
         setSortedMajitas(sorted);
     }, []);
@@ -19,7 +19,14 @@ const Hero = () => {
                     <p>No Majita Monday content found.</p>
                 ) : (
                     sortedMajitas.slice(0, 1).map((majita) => (
-                        <Link to={`/majitamonday/${majita.slug}`} key={majita.id} className="majita-link">
+                        <Link
+                        to={
+                            majita.type === "Majita Monday"
+                                ? `/majitamonday/${majita.slug}`
+                                : majita.type === "Women Crush Wednesday"
+                                ? `/womencrushwednesday/${majita.slug}`
+                                : "/"
+                        } className="majita-link">
                             <div className="image-container">
                                 <img
                                     src={majita.image}

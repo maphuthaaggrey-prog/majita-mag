@@ -16,10 +16,11 @@ const Update = () => {
   const [sortedMajitas, setSortedMajitas] = useState([]);
   useEffect(() => {
     const sorted = [...majitas]
-      .filter((update) => update.type === 'Majita Monday')
+      .filter((update) => update.type === 'Majita Monday' && update.type !== 'Women Crush Wednesday')
       .sort((a, b) => new Date(b.date) - new Date(a.date));
     setSortedMajitas(sorted);
   }, []);
+
 
   const filteredMajitas = sortedMajitas.filter((item) => item.slug !== slug);
 

@@ -32,6 +32,7 @@ function AppContent() {
         <Route path="/updates" element={<Updates />} />
         <Route path="/Search" element={<Search />} />
         <Route path="/majitamonday/:slug" element={<Read />} />
+        <Route path="/womencrushwednesday/:slug" element={<Read />} />
         <Route path="/music/:slug" element={<Music />} />
         <Route path="/events/:slug" element={<Events />} />
         <Route path="*" element={<NotFound />} />

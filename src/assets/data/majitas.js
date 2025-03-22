@@ -17,6 +17,7 @@ import scar from '../images/SCAR MONDAY P1.1.jpg'
 import somethingTallFavPicture from '../images/something fav.jpg'
 import coreyPic from '../images/COREYPIC.jpg'
 import shane_Kabza from '../images/Shane_Kabza.jpg'
+import tshegofatso from '../wcw/Tshegofatso Wednesday.jpg'
 import coolx from '../images/coolx.jpg'
 
 
@@ -35,6 +36,7 @@ import youthday4 from '../updates/youthday4.jpg'
 import tt1 from '../updates/tt1.jpg'
 import tt3 from '../updates/tt3.jpg'
 import unkeltkAfroMix from '../updates/unkeltkmixtape.jpg'
+import mrshaneRythmforce from '../updates/mrshane-rythmforce.jpg'
 
 export const majitas = [
     {
@@ -449,7 +451,104 @@ export const majitas = [
         ],
         link: "",
     },
+    {
+        id: 23,
+        title: `100% Production Mix by Mr. Shane SA!`,
+        image: mrshaneRythmforce,
+        slug: "mr-shane-100%-production-mix",
+        type: "Music",
+        author: "Majita Mag",
+        date: "Mar 24 2025",
+        content: [
+            `Mr. Shane SA has returned to the spotlight with his latest release, "Rhythm Forge (100% Production Mix)." This mix is an absolute banger, crafted entirely by Mr. Shane SA himself, showcasing his unique sound and unmatched production skills. Known for his captivating beats and smooth transitions, Mr. Shane SA brings an electrifying energy to the world of house music, taking listeners on a rhythmic journey they won't soon forget.`, 
+            `https://youtu.be/X069XHzYZ8E?si=lXUHUNtO5cgXJQUr`,
+            `Follow Mr. Shane SA on social media to stay updated on his latest drops and exclusive content. You can find him on Facebook, Instagram, and Twitter (@MrShaneSA). Make sure to check out more from Mr 1060 Sounds!`,
+           
+        ],
+        link: "",
+    },
+
+
   /*  {
+        id: 23,
+        name: "Tshegofatso Motloutsi",
+        slug: "tshegofatso-motloutsi",
+        content: "Tshegofatso Motloutsi, a content creator and event promoter from Pretoria, is known for her energetic personality and love for capturing memorable moments.",
+        title: "WCW",
+        image: tshegofatso,
+        type: "Women Crush Wednesday",
+        date: "Mar 26 2025",
+        questions: [
+        { question: "Introduce yourself and tell us a bit about your background and upbringing", answer: `I am Tshegofatso Motloutsi, born and raised in Pretoria, both my parents are from
+                                            Limpopo, and I am a Pedi girl. I grew up in a 2-parent household, a daddy's little
+                                            princess and my mother's best friend. Growing up I have always been an experimental
+                                            person, and my parents always supported everything I showed interest in. I have
+                                            always been outgoing, energetic, and socially active.`},   
+        { question: "What inspired you to dive into both of these exciting fields?", answer: `My love for content creation and social events inspired my dive into being a content
+                                            creator and event/club promoter. I am always the friend who never forgets to take out
+                                            her camera and take some memorable videos and pictures. I did this because I believe
+                                            in looking back on those videos and just having memories, but my friends always saw
+                                            more potential for content creation and promotion videos from me and they always
+                                            helped me with creating content and engaging with all the work I put out on social
+                                            media`},   
+        { question: "How do you come up with fresh ideas for content that truly connects with your audience?", answer: `I always make sure I am up to date with the latest trends, this ensures that I always
+                                            produce content that relates to what most people are currently into. I also always focus
+                                            on analytics of my content and how well my different videos and posts are doing to
+                                            help me see what my audience enjoys seeing and focus on creating more of that
+                                            content. And because the majority of my audience consists of students, because I am
+                                            a student, it is easy for me to create content I know students will engage with because
+                                            I create content I know I also enjoy watching`},   
+        { question: "What challenges have you faced as a woman in the digital and nightlife scene, and how have you overcome them?", answer: `Difficulties I have experienced in the digital space mainly all relate to the fact that the
+                                               majority of us as women create similar content, especially student women creators,
+                                               this people get tired of seeing the same type of content from all the creators which
+                                               sometimes may result in less engagement on my videos, but I learned that staying true
+                                               to who I am and not trying to steal other people's aesthetic or creation styles ensures
+                                               that my content reaches people who enjoy my unique style of content and my energy
+                                               in my videos. Within the nightlife scene the biggest challenge is dealing with the
+                                               different stigmas that are associated with women who work within the nightlife scene,
+                                               from being accused of being gold-diggers or being pimps, the list goes on. And in all
+                                               honesty, these are stigmas that will be around for a while, my best is to just ignore all
+                                               the noise and focus on my hustle.`},             
+        { question: "How do you balance the creative side of content creation with the practical aspects of club promotion?", answer: `I try to combine both aspects of my life into one, I use my creation platforms to promote
+                                                        my club life, a lot of people like seeing the content of people being out and enjoying
+                                                        their lives, so I share my experience on social media as a club/event promoter gives
+                                                        the audience what they want but also increases views and engagement on my social
+                                                        media platforms, it’s a win-win`},
+        { question: "What advice would you give to other women looking to break into these creative fields?", answer:[ `My advice My advice? DON’T GIVE UP, I know everyone says this but it's true, content
+                                                    creation and club promotion are not the type of industries where you just win easily,
+                                                    they require a lot of hard work, commitment, and consistency. But always be a social
+                                                    being, and go to social gatherings and events, these are the places where you will
+                                                    meet different people who are also in the different industries that you are in, and you
+                                                    will make connections that will help you grow and reach your goals.` ]},
+        { question: "How do you manage juggling your studies with your creative and promotional work?", answer: [`It all comes to having a schedule and sticking to it. I also have 2 calendars one being
+                                                for school and the other being for everything else I do on the side. Having the calendars
+                                                printed and displayed on my wall helps me see what I must do when and helps me
+                                                ensure that I overwork myself.`]},
+        { question: "Has being a student influenced the type of content you create or the way you promote events?", answer: [`Definitely, being a student is the no.1 influence of my content, I create content that
+                                                relates to students because my day-to-day life is all about being a student, and the
+                                                majority of my audience being students automatically means my content must relate
+                                                to students. And when it comes to club/event promoting, engaging with students on
+                                                campus is my no.1 promotion strategy.`]},
+        { question: "Have your studies helped you improve your work as a content creator and promoter in any way?", answer: [`Funny enough my studies and what I do on the side a just two opposite things, my
+                                                studies do not relate to my content creation and nightlife life, so my studies have never
+                                                had any type of influence.`]},
+        { question: "Being a student and working in nightlife can be demanding—how do you take care of your mental health?", answer: [`I have never had any problems with my mental health, but when it comes to my health
+                                                in general I ALWAYS LISTEN TO MY BODY, if my body is exhausted, I take a break
+                                                from everything and give myself some self-care, weather its sleeping or going to the
+                                                spa, I just make sure I take care of myself, I always make sure my health is in tip-top
+                                                shape`]},
+                                                { question: "As a woman working in the nightlife industry, how do you navigate safety concerns at events?", answer: [` I carry self-defence tools, pocket knife, pepper spray, and a tazer, CAN NEVER BE TOO SAFE!`]},
+        { question: "What message would you give to young women who struggle with confidence and self-worth in a world that demands perfection?", answer: [`My message would be to learn to love yourself first, a lot of women want to be loved
+                                                by the world before they even love themselves and that’s why their confidence and
+                                                self-esteem are always low. Take the time of social media, disconnect from the world
+                                                and channel your inner love, learn more about yourself, what makes you happy and
+                                                fuels your energy, learning these different things about yourself will help you love
+                                                yourself more and once you love yourself fully, there is nothing the world can say to
+                                                you that will faze you.`]},
+
+        ]
+       },
+    {
         id: 21,
         name: "Decoolxteekay", 
         slug: "decoolxteekay",

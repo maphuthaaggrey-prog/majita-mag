@@ -1,13 +1,5 @@
-import { Helmet } from "react-helmet";
-
 const WomenCrushWednesday = () => {
     return ( 
-
-        <>
-            <Helmet>
-                <title>WCW</title> 
-            </Helmet>
-
         <div id="creative-details">
         <div className="highlighted-creatives">
             <p className="heading" style={{marginTop: '1em'}}></p>
@@ -24,7 +16,7 @@ const WomenCrushWednesday = () => {
     </div> 
     </div> 
 
-    </>
+    
 
 
      );

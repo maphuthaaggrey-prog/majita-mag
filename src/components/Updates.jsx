@@ -8,7 +8,7 @@ const Updates = () => {
 
     useEffect(() => {
         const mergedUpdates = [...majitas]
-            .filter(update => update.type !== 'Majita Monday') // Filter out "Majita Monday"
+            .filter(update => update.type !== 'Majita Monday' && update.type !== 'Women Crush Wednesday') // Filter out "Majita Monday"
             .sort((a, b) => new Date(b.date) - new Date(a.date)); // Sort by date
         setAllUpdates(mergedUpdates);
     }, []);
