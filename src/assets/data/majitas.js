@@ -324,7 +324,7 @@ export const majitas = [
         slug: "unkel-tk",
         title: "Majita Monday",
         image: unkelTK,
-        content:["Meet Unkel TK, a self-taught DJ and music producer from Ga Masemola Village who mixes House and Amapiano tunes. "],
+        content:["Meet Unkel TK, a self-taught DJ and music producer from Ga Masemola Village who mixes House and Amapiano tunes. He puts his heart and soul into making sure he is heard loud and clear. "],
         type: "Majita Monday",
         date: "Feb 3 2025",
         questions: [
