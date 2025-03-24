@@ -470,7 +470,7 @@ export const majitas = [
 
 
   /*  {
-        id: 23,
+        id: 24,
         name: "Tshegofatso Motloutsi",
         slug: "tshegofatso-motloutsi",
         content: "Tshegofatso Motloutsi, a content creator and event promoter from Pretoria, is known for her energetic personality and love for capturing memorable moments.",
@@ -548,15 +548,16 @@ export const majitas = [
 
         ]
        },
+       */
     {
-        id: 21,
+        id: 23,
         name: "Decoolxteekay", 
         slug: "decoolxteekay",
         title: "Majita Monday",
-        content: "Meet Tokollo, an upcoming YouTuber from Ga-Marishane. Inspired by IShowSpeed and KaiCenat in 2023 with a dreams of becoming a streamer.",
-        image: corey,
+        content: ["Meet Tokollo Ngwato Mosehle, better known as Decoolxteekay, an aspiring YouTuber from the village of Ga-Marishane, aka 1064. His journey into content creation began in 2023."],
+        image: coolx,
         type: "Majita Monday",
-        date: "Mar 17 2025",
+        date: "Mar 24 2025",
         questions: [
         {question: "Who is Decoolxteekay", answer: " My name is Tokollo Ngwato Mosehle(Decoolxteekay). I'm an upcoming YouTuber from a village called Ga-Marishane, aka 1064. The mode for me was to become a streamer because I became inspired by the likes of IShowSpeed & KaiCenat back in 2023. I couldn't  become a streamer due to financial situations, but obviously I have my phone - so in the meantime I'm pushing content on YouTube. I am very diverse because I want to work on two things, being a full time YouTuber plus a streamer. Either way I knew I was still going to become one of the two , one of them is going to pave the way for my career."},
         {question: "What is your most exciting part of your work?", answer: `The most exciting part of my work is planning content and meeting new people to collaborate with. I enjoy creating content and working with others. I think my success comes from being a people's person. I'm good at connecting with others, which makes my interviews and videos more interesting and enjoyable.`},
@@ -564,5 +565,5 @@ export const majitas = [
         {question: "What impact do you hope to leave in your industry or community?", answer: ["My goal is to show people from villages like mine that they can be successful too. I want to inspire others to believe in themselves, work hard, and put their faith first. I hope to be a good example and help others achieve their dreams I first saw my influence when my first video got more views than I expected. As a new YouTuber, this was surprising. Every time I upload a new video, I get a few more subscribers, which shows me that people are interested in what I'm creating."] },
         {question: "What's a fun fact about you that people don't usually know?", answer: ["People may not know that I'm a kind and funny person. I just don't like it when people take advantage of my kindness. My advice to the next generation is to put God first, always try to improve yourself, and focus on what you want to achieve. Surround yourself with people who can teach you new things and support you. In the near future, my audience can expect a consistent stream of high-quality content, as well as the introduction of live streaming sessions. I'm excited to engage with my viewers in real-time and share my passion with them. Get ready to experience an immersive and entertaining journey, as I strive to take my content to the next level and build a stronger connection with my community." ] }
         ]
-       }, */
+       }, 
 ]
