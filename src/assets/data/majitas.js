@@ -550,7 +550,7 @@ export const majitas = [
        },
        */
     {
-        id: 23,
+        id: 24,
         name: "Decoolxteekay", 
         slug: "decoolxteekay",
         title: "Majita Monday",
