@@ -23,8 +23,6 @@ const WCW = () => {
         <div id="creative-details">
         <div className="highlighted-creatives">
             <p className="heading" style={{marginTop: '5em'}}>Women Crush Wednesday</p>
-            <p className="home-text">Inspiring female creatives who are truly "Crushing it" in their fields</p>
-            
         <div className="search-bar">
             <Link to="/Search" className="search-anchor">
                 <button id="search-input">Search... </button>
