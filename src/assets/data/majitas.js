@@ -473,7 +473,7 @@ export const majitas = [
         id: 25,
         name: "Tshegofatso Motloutsi",
         slug: "tshegofatso-motloutsi",
-        content: "Tshegofatso Motloutsi, a content creator and event promoter from Pretoria, is known for her energetic personality and love for capturing memorable moments.",
+        content: ["Tshegofatso Motloutsi, a content creator and event promoter from Pretoria, is known for her energetic personality and love for capturing memorable moments."],
         title: "WCW",
         image: tshegofatso,
         type: "Women Crush Wednesday",
