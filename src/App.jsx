@@ -6,6 +6,7 @@ import About from "./assets/pages/About";
 import WomenCrushWednesday from "./components/WomenCrushWednesday";
 import Updates from "./components/Updates";
 import Read from "./components/Read";
+import ReadWCW from "./components/ReadWCW";
 import Music from './components/Music';
 import Events from './components/Events'
 import Search from "./components/Search";
@@ -32,7 +33,7 @@ function AppContent() {
         <Route path="/updates" element={<Updates />} />
         <Route path="/Search" element={<Search />} />
         <Route path="/majitamonday/:slug" element={<Read />} />
-        <Route path="/womencrushwednesday/:slug" element={<Read />} />
+        <Route path="/womencrushwednesday/:slug" element={<ReadWCW />} />
         <Route path="/music/:slug" element={<Music />} />
         <Route path="/events/:slug" element={<Events />} />
         <Route path="*" element={<NotFound />} />

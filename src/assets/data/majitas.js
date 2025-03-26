@@ -469,8 +469,8 @@ export const majitas = [
     },
 
 
-  /*  {
-        id: 24,
+    {
+        id: 25,
         name: "Tshegofatso Motloutsi",
         slug: "tshegofatso-motloutsi",
         content: "Tshegofatso Motloutsi, a content creator and event promoter from Pretoria, is known for her energetic personality and love for capturing memorable moments.",
@@ -548,7 +548,7 @@ export const majitas = [
 
         ]
        },
-       */
+       
     {
         id: 24,
         name: "Decoolxteekay", 

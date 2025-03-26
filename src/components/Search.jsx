@@ -25,7 +25,7 @@ const Search = () => {
     if (inputValue.trim() !== '') {
       const searchTerm = inputValue.toLowerCase();
       const results = majitas.filter(item => 
-        item.type === "Majita Monday" && 
+        (item.type === "Majita Monday" || item.type === "Women Crush Wednesday") && 
         item.name.toLowerCase().includes(searchTerm)
       );
       setSearchResults(results);

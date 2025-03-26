@@ -1,23 +1,9 @@
+import WCW from '../components/WCW'
 const WomenCrushWednesday = () => {
     return ( 
-        <div id="creative-details">
-        <div className="highlighted-creatives">
-            <p className="heading" style={{marginTop: '1em'}}></p>
-            <p className="home-text"></p>
-            
-            
-        </div>
-        <div className="creative-box">  
-        <div id="creatives">
-            <div id="highlighted-image">
-                    <p style={{display: 'flex', alignItems: 'center', height: '80svh'}}>Content Coming Soon!</p>
-            </div>
-        </div>
-    </div> 
-    </div> 
-
-    
-
+<>
+<WCW />
+</>
 
      );
 }
