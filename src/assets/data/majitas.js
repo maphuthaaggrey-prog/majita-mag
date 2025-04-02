@@ -37,6 +37,7 @@ import tt1 from '../updates/tt1.jpg'
 import tt3 from '../updates/tt3.jpg'
 import unkeltkAfroMix from '../updates/unkeltkmixtape.jpg'
 import mrshaneRythmforce from '../updates/mrshane-rythmforce.jpg'
+import soulfulKgorong from '../updates/Soulful Cookout Sessions Kgorong.jpg'
 
 export const majitas = [
     {
@@ -566,4 +567,23 @@ export const majitas = [
         {question: "What's a fun fact about you that people don't usually know?", answer: ["People may not know that I'm a kind and funny person. I just don't like it when people take advantage of my kindness. My advice to the next generation is to put God first, always try to improve yourself, and focus on what you want to achieve. Surround yourself with people who can teach you new things and support you. In the near future, my audience can expect a consistent stream of high-quality content, as well as the introduction of live streaming sessions. I'm excited to engage with my viewers in real-time and share my passion with them. Get ready to experience an immersive and entertaining journey, as I strive to take my content to the next level and build a stronger connection with my community." ] }
         ]
        }, 
+       {
+        id:21,
+        title:  `Soulful Cookout Sessions – The Music, The Meal & The Vibe!`,
+        image: soulfulKgorong,
+        slug: "soulful-cookout-sessions",
+        type: "Event",
+        author: "Majita Mag",
+        date: "Apr 04 2025",
+        content: [
+                 `Get ready for a Sunday filled with soulful vibes, great food, and amazing company! 1060 Vibes presents the Soulful Cookout Sessions, happening on Sunday, April 6th, at Kgorong Tarven, Thabampshe – Ga-Masemola, starting from 12:00 PM.` ,
+                 `This is more than just an event—it’s a gathering of music lovers, foodies, and vibe seekers. The lineup is open for anyone looking to showcase their talent, making it the perfect opportunity to experience fresh local sounds while indulging in some delicious meals.`,  
+                 { image: soulfulKgorong},
+                 `🔸 Bring your own camp chair and Potjiekos pots `, 
+                 `🔸 Expect soulful tunes, great energy, and an unforgettable experience.`, 
+                 `Let’s cook, vibe, and groove together. Don’t miss out on the ultimate cookout experience! 🔥`, 
+   
+               ],
+        link: "",
+       },
 ]
