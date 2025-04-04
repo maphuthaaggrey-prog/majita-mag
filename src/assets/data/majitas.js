@@ -607,7 +607,7 @@ export const majitas = [
         id: 28,
         title: `Artwork Sounds Collaborates with Mr. Shane SA on Back to Basics Vol. 2`,
         image: artworksounds,
-        slug: "artwork-sounds-collaborates-with-mr-shane-sa-on-back-to-basics-vol-two",
+        slug: "artwork-sounds-collaborate-with-mr-shane-sa-on-back-to-basics-vol-two",
         type: "Music",
         author: "Majita Mag",
         date: "Apr 04 2025",
