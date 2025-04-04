@@ -576,7 +576,7 @@ export const majitas = [
         slug: "soulful-cookout-sessions",
         type: "Event",
         author: "Majita Mag",
-        date: "Apr 04 2025",
+        date: "Apr 02 2025",
         content: [
                  `Get ready for a Sunday filled with soulful vibes, great food, and amazing company! 1060 Vibes presents the Soulful Cookout Sessions, happening on Sunday, April 6th, at Kgorong Tarven, Thabampshe – Ga-Masemola, starting from 12:00 PM.` ,
                  `This is more than just an event—it’s a gathering of music lovers, foodies, and vibe seekers. The lineup is open for anyone looking to showcase their talent, making it the perfect opportunity to experience fresh local sounds while indulging in some delicious meals.`,  
