@@ -29,7 +29,7 @@ const Updates = () => {
 
         <div className="wrap">
             <div className="music-grid">
-                <div className="latest-grid-head" style={{ marginTop: '6em' }}>
+                <div className="latest-grid-head" style={{ marginTop: '3em' }}>
                     <div><p className="header">Updates</p></div>
                     <p id="line"></p>
                 </div>
