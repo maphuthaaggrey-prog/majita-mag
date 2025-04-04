@@ -439,6 +439,20 @@ a {
 .big-latest  {
     margin-left: 16px;
 }
+.filter-buttons button {
+    border-radius: var(--border-radius);
+    height: 28px;
+    border: none;
+    border-radius: 100px;
+    margin-right: 1em;
+    margin-top: .5em;
+    width: 90px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    margin-bottom: 2em;
+}
+
 .latest-on .latest-image{
     width: 300px;
     height: auto;
