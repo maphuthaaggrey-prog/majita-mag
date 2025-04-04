@@ -27,7 +27,7 @@ const LatestMusic = () => {
             <p className="header big-latest" style={{ marginTop: '2em', fontSize: '20px', marginBottom: "1em" }}>
                 Latest on Music
             </p>
-            {filteredMusic.map((item) => (
+            {filteredMusic.slice(0, 4).map((item) => (
                 <Link
     key={item.id} // Add a unique key
     to={

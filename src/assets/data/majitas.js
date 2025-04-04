@@ -38,6 +38,8 @@ import tt3 from '../updates/tt3.jpg'
 import unkeltkAfroMix from '../updates/unkeltkmixtape.jpg'
 import mrshaneRythmforce from '../updates/mrshane-rythmforce.jpg'
 import soulfulKgorong from '../updates/Soulful Cookout Sessions Kgorong.jpg'
+import lesholentweng from '../updates/lesholentweng.jpg'
+import artworksounds from '../updates/artworksounds.jpg'
 
 export const majitas = [
     {
@@ -568,7 +570,7 @@ export const majitas = [
         ]
        }, 
        {
-        id:21,
+        id:26,
         title:  `Soulful Cookout Sessions – The Music, The Meal & The Vibe!`,
         image: soulfulKgorong,
         slug: "soulful-cookout-sessions",
@@ -584,6 +586,38 @@ export const majitas = [
                  `Let’s cook, vibe, and groove together. Don’t miss out on the ultimate cookout experience! 🔥`, 
    
                ],
-        link: "",
        },
+       {
+        id: 27,
+        title: `Maleboo Drops New Album "Lesole Ntweng"`,
+        image: lesholentweng,
+        slug: "maleboo-drops-new-album-lesole-ntweng",
+        type: "Music",
+        author: "Majita Mag",
+        date: "Apr 04 2025",
+        content: [
+            `Maleboo has just released his latest album, Lesole Ntweng, a powerful 15-track project showcasing his lyrical skills and passion for music. This album features some of the names in the game, including Tribby Wadi Bhoza, Shibu Molomo, Flash T, and Sannere.`, 
+            `The entire album was mixed and mastered by Maleboo, while the beats were crafted by Flash T, Sgivho Beats, Cull Mobb, and our very own 1060 producer Veteran Beatx, ensuring a high-quality sound from start to finish.`, 
+            `https://open.spotify.com/album/2CwkatoF4JgVwFjWMcigv3?si=1b0mkyr6RSaqaiBCozxyDQ`,
+            `Maleboo’s Lesole Ntweng is now available on all major streaming platforms. Be sure to check it out and let us know which track is your favorite!`,
+           
+        ],
+    },
+       {
+        id: 28,
+        title: `Artwork Sounds Collaborate with Mr. Shane SA on Back to Basics Vol. 2`,
+        image: artworksounds,
+        slug: "artwork-sounds-collaborate-with-mr-shane-sa-on-back-to-basics-vol-two",
+        type: "Music",
+        author: "Majita Mag",
+        date: "Apr 04 2025",
+        content: [
+            `Artwork Sounds unleashes Back to Basics Vol. 2 with Mr Shane, a project that promises to take listeners on a deep musical journey. Known for their smooth, soulful, and immersive sound, the duo continues to push the boundaries of deep house.`, 
+            `The project features an impressive lineup of collaborators, including DJ Kent, Poizen, Ntomusic, Hypaphonik, Decency, Deep Essentials, Solo Thato, and Section Five. Each artist brings a unique energy to the project, blending seamlessly with Artwork Sounds and Mr. Shane SA’s signature style.`, 
+            `https://open.spotify.com/album/7BhsjAjp5a9Kx0WvpPeBHf?si=W87FltuxQbSYlxM7pX3Itw`,
+            `Whether you’re a deep house fanatic or just love good music, Back to Basics Vol. 2 is a must-listen. Now streaming on all major platforms!`,
+           
+        ],
+    },
+
 ]
