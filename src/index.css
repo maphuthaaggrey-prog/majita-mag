@@ -40,6 +40,32 @@ input, textarea, button, a {
 a:focus, a:visited, a:active {
     outline: none;
 }
+
+/* For the entire page */
+::-webkit-scrollbar {
+    width: 9px; /* Width of the scrollbar */
+  }
+  
+  /* Track (the background) */
+  ::-webkit-scrollbar-track {
+    background: #303030;
+  }
+  
+  /* Handle (the draggable part) */
+  ::-webkit-scrollbar-thumb {
+    background: #6d6d6d;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #464646;
+  }
+  ::-webkit-scrollbar-button {
+    background-color: rgb(97, 97, 97);
+    height: 3px;
+    display: block;
+  }
 @keyframes opacity {
     from {
         transform: translateY(-1%);
