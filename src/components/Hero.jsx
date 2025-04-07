@@ -16,7 +16,9 @@ const Hero = () => {
         <div className="hero-section">
             <div className="majitas-grid">
                 {sortedMajitas.length === 0 ? (
-                    <p>No Majita Monday content found.</p>
+                    <div style={{textAlign: 'center', margin: '15em auto'}}>
+                    <img src="https://i.imgur.com/llF5iyg.gif" alt="Loading" style={{width: '30px', height: '30px'}} />
+                    </div>
                 ) : (
                     sortedMajitas.slice(0, 1).map((majita) => (
                         <Link
