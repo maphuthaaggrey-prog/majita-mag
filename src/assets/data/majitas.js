@@ -19,6 +19,7 @@ import coreyPic from '../images/COREYPIC.jpg'
 import shane_Kabza from '../images/Shane_Kabza.jpg'
 import tshegofatso from '../wcw/Tshegofatso Wednesday.jpg'
 import coolx from '../images/coolx.jpg'
+import sourkay from '../images/Sour Kay April.jpg'
 
 
 
@@ -619,5 +620,35 @@ export const majitas = [
            
         ],
     },
+    {
+        id: 29,
+        name: "Sour Kay Marks", 
+        slug: "sourkaymarks",
+        title: "Majita Monday",
+        content: ["Sour Kay Marks, a versatile artist blending modern styles like Amapiano, Afro-pop, and Hip-hop with touches of folk and R&B. His music reflects his roots and emotions, creating a sound that is both fresh and authentic."],
+        image: sourkay,
+        type: "Majita Monday",
+        date: "Apr 07 2025",
+        questions: [
+        {question: "How would you define your sound, and what genres do you explore the most? ", answer: "My sound is a fusion of traditional South African rhythms with modern styles, blending the old with the new. I explore genres like Amapiano, Afro-pop, and Hip-hop, often incorporating elements of folk and R&B. My music is a reflection of my roots and experiences, with a focus on storytelling and emotional depth. I aim to create a unique sound that's both authentic and innovative, pushing the boundaries of what's possible in South African music."},
+        {question: "What was the turning point that made you realize music was your path, and how has that journey shaped the artist you are today?", answer: `For me, the turning point was a moment of raw emotion and vulnerability. I was going through a tough time, and music became my escape, my confidant, and my voice. I remember writing a song during that period, and it was like the words just flowed out of me, tapping into a deep well of feelings and experiences. When I shared that song with others, their reactions were overwhelming – they connected with it on a level that resonated deeply.
+
+                    That moment made me realize that music wasn't just something I did; it was a part of who I am. It was a way to express myself, to tell stories that needed to be told, and to connect with others on a fundamental level. From then on, I dedicated myself to honing my craft, experimenting with different sounds, and pushing myself to grow as an artist.
+
+                    That journey has shaped me into the artist I am today by teaching me the importance of authenticity, resilience, and connection. I've learned to stay true to myself, to take risks, and to trust my instincts. The ups and downs, the triumphs and setbacks – they've all contributed to my growth and my unique perspective. Today, I'm driven by a passion to create music that not only reflects my own experiences but also resonates with others, leaving a lasting impact.`},
+        {question: "What's the most unexpected genre or style you've experimented with?", answer: ["Lekompo, cos is taking over now"] },
+        {question: "How do you ensure that your music stays authentic while adapting to different sounds and trends? ", answer: [`For me, authenticity is key. I focus on staying true to my core values, emotions, and experiences.
+                    Here's how I approach it: 
+                    I draw inspiration from my upbringing, culture, and personal experiences. This helps me stay grounded and authentic, even when exploring new sounds. 
+                    I experiment with new styles and trends, but within boundaries that feel true to my artistic vision. This way, I can innovate without compromising my authenticity or losing my unique voice.`] },
+        {question: "Do you have a dream collaboration that would challenge your versatility even further? ", answer: ["Yes Drake, it will help because I've always wanted to be recognised globally " ] },
+        {question: "How do you balance being an artist and being relatable to your audience?", answer: [`You know, as an artist, I'm always looking for ways to express myself and connect with my audience on a deeper level. Music is a huge part of that, but I've also been inspired by the idea of sharing my life experiences, passions, and interests with my fans.` ] },
+        {question: "Do you think lifestyle content is a natural extension of your music or is it its own separate creative space? ", answer: [`For me, lifestyle content is a natural extension of my music. It's a way to share the other sides of my personality and creativity, whether that's through fashion, travel, food, or just everyday life. I think it's really helped me build a stronger connection with my fans and give them a more well-rounded view of who I am as an artist.
+
+Plus, exploring lifestyle content has allowed me to tap into my curiosity and creativity in new ways. It's been really fun to experiment with different formats and styles, and to see how I can use lifestyle content to enhance my music and vice versa.
+
+Ultimately, I think it's all about sharing my authentic self with my audience and giving them a reason to engage with me on a deeper level. Whether it's through my music or my lifestyle content, I want to inspire and connect with people in a meaningful way.`] }
+        ]
+       }, 
 
 ]

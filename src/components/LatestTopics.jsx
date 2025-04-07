@@ -8,7 +8,7 @@ const LatestTopics = () => {
     useEffect(() => {
         const mergeAndSortUpdates = () => {
             const combinedUpdates = [...majitas]
-                .filter(update => update.type === 'Music' || update.type === 'Majita Monday' || update.type === 'Event')
+                .filter(update => update.type === 'Music' || update.type === 'Majita Monday' || update.type === 'Event' || update.type === 'Women Crush Wednesday')
                 .sort((a, b) => new Date(b.date) - new Date(a.date));
             setAllUpdates(combinedUpdates);
         };
@@ -22,7 +22,7 @@ const LatestTopics = () => {
                 <p className="header">Latest Issues</p>
                 <p id="line"></p>
             </div>
-            {allUpdates.slice(0, 3).map((item) => (
+            {allUpdates.slice(1, 4).map((item) => (
                 <Link
                     to={
                         item.type === "Majita Monday"
