@@ -20,6 +20,7 @@ import shane_Kabza from '../images/Shane_Kabza.jpg'
 import tshegofatso from '../wcw/Tshegofatso Wednesday.jpg'
 import coolx from '../images/coolx.jpg'
 import sourkay from '../images/Sour Kay April.jpg'
+import bohlale from '../images/Bohlale Mokalapa Wednesday.jpg'
 
 
 
@@ -649,6 +650,24 @@ Plus, exploring lifestyle content has allowed me to tap into my curiosity and cr
 
 Ultimately, I think it's all about sharing my authentic self with my audience and giving them a reason to engage with me on a deeper level. Whether it's through my music or my lifestyle content, I want to inspire and connect with people in a meaningful way.`] }
         ]
+       }, 
+    {
+        id: 30,
+        name: "Bohlale Mokalapa", 
+        slug: "bohlalemokalapa",
+        title: "Women Crush Wednesday",
+        content: ["Bohlale Mokalapa, a passionate female DJ from Ga Masemola, Limpopo, currently based in Embalenhle, Mpumalanga. She’s an optimistic, goal-oriented go-getter who is deeply committed to giving back to her community."],
+        image: bohlale,
+        type: "Women Crush Wednesday",
+        date: "Apr 23 2025",
+        questions: [
+        {question: "Who are you?", answer: "I am Bohlale Mokalapa.A Female DJ from Limpopo (Ga Masemola).Currently situated at Mpumalanga (Embalenhle). I am an optimistic girl ,A go getter and a very goal oriented person. I am girl that loves giving back to the community."},
+        {question: "What inspired you to start being a DJ?", answer: `What inspired me is the love and passion I have for music.The ability to inspire women in a man dominated world.To show every little girl out there that their dreams are valid and everything is possible.`},
+        {question: "Take us back to your first gig how did it feel stepping behind the decks?", answer: ["It felt amazing,I still remember it like it happened yesterday.It was an ecstatic moment for me because I felt that I am now stepping into the women I dreamt to be ."] },
+        {question: "What challenges have you faced as a woman in the DJ industry and how did you push through?", answer: [`The challenges i have faced is being undermined and criticized for choosing the path of being a DJ .Reason being is that I am a women . I was able to to overcome them by working hard and being the best DJ in my area,and the first female DJ in my area .People started to love me for what I do.`] },
+        {question: "If I could share a stage with any artist or DJ who would it be?", answer: ["Judy Jay Because I believe I could learn lot from her." ] },
+        {question: "Why do I think it’s important to see more women behind the decks?", answer: [`Because it is inspiring and it shows other women that they are capable of doing whatever they put their minds to.Because it shows little girls who are looking on them that their dreams are valid` ] },
+       ]
        }, 
 
 ]
