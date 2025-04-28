@@ -6,8 +6,16 @@ import Share from '../components/Share';
 import facebook from '../assets/icons/Facebook_white.svg';
 import instagram from '../assets/icons/Instagram_white.svg';
 import { Helmet } from 'react-helmet-async';
-
+import { useState } from 'react';
 const Events = () => {
+    const [selectedImage, setSelectedImage] = useState(null);
+    const handleImageClick = (image) => {
+        setSelectedImage(image);
+      };
+    
+      const handleClose = () => {
+        setSelectedImage(null);
+      };
     const { slug } = useParams();
     const update = majitas.find((update) => update.slug === slug);
 
@@ -65,6 +73,7 @@ const Events = () => {
                                                 key={index}
                                                 src={contentItem.image}
                                                 alt="visual"
+                                                onClick={() => handleImageClick(contentItem.image)}
                                                 style={{ borderRadius: '2px', height: 'auto' }}
                                             />
                                         ) : null
@@ -79,6 +88,8 @@ const Events = () => {
                                 <a href="https://www.instagram.com/majitamag/"target='_blank' rel="noopener noreferrer"  ><img src={instagram} alt="Instagram" style={{opacity: '20%'}}  /></a>
                             </div>
                             <Share />
+                                                        
+
                         </div>
 
                         <div>
@@ -86,6 +97,13 @@ const Events = () => {
                         </div>
                     </div>
                 </div>
+                {selectedImage && (
+                                    <div className="modal" onClick={handleClose}>
+                                    <img src={selectedImage} alt="Full Size Poster" className="modal-image"  />
+
+                                    </div>
+
+                                )}
             </div>
         </>
     );

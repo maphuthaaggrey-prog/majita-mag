@@ -41,23 +41,22 @@ a:focus, a:visited, a:active {
     outline: none;
 }
 
-/* For the entire page */
 ::-webkit-scrollbar {
-    width: 9px; /* Width of the scrollbar */
+    width: 9px; 
   }
   
-  /* Track (the background) */
+
   ::-webkit-scrollbar-track {
     background: #303030;
   }
   
-  /* Handle (the draggable part) */
+
   ::-webkit-scrollbar-thumb {
     background: #6d6d6d;
     border-radius: 10px;
   }
   
-  /* Handle on hover */
+
   ::-webkit-scrollbar-thumb:hover {
     background: #464646;
   }
@@ -111,9 +110,9 @@ section {
 
 .image-wrapper {
     position: relative;
-    width: 100%; /* adjust as needed */
+    width: 100%; 
     height: 0;
-    padding-bottom: 56.25%; /* Aspect ratio, adjust for different ratios */
+    padding-bottom: 56.25%; 
   }
   
   .skeleton-loader {
@@ -154,13 +153,6 @@ section {
     display: none;
   }
   
-
-
-
-
-
-
-
 
 .menu-icon {
     margin-right: 3em;
@@ -272,6 +264,31 @@ a {
     text-decoration: none;
 
 }
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(14px);
+    background: rgba(12, 12, 12, 0.8); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .modal-image {
+
+    max-width: 100%;
+    transition: all .3s ease-in-out;
+    max-height: 100%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  }
+img:hover {
+    cursor: pointer;
+  }
 #se-image a{
     text-align: center;
 }
@@ -311,9 +328,7 @@ a {
   height: 456px;
   object-fit: cover;
   object-position: top;
-
 }
-
 .image-container {
   position: relative;
   width: 100%;
@@ -376,7 +391,6 @@ a {
     font-weight: 700;
     width: 90%;
     margin-bottom: 8px;
-
 }
 .majita-type {
     color: rgb(148, 148, 148);
@@ -393,13 +407,10 @@ a {
     line-clamp: 2;
     -webkit-box-orient: vertical;
 }
-
 .latest-container {
   width: 36%;
   line-height: 0;
-
 }
-
 .latest-desc {
   color: rgb(161, 161, 161);
   font-size: 12px;
@@ -414,16 +425,12 @@ a {
     width: 60%;
     padding-left: 1em;
     padding-top: 7px;
-    
-
 }
 .music-info {
     width: 53%;
     padding-left: 1em;
     margin-top: 7px;
-
 }
-
 .latest-grid, .music-grid {
   padding:0 1em;
 }
@@ -472,9 +479,12 @@ a {
     border-radius: 100px;
     margin-right: 1em;
     margin-top: .5em;
-    width: 90px;
-    background-color: white;
-    color: black;
+    width: 70px;
+    outline: none;
+    text-align: left;
+    font-size: 14px;
+    background-color: transparent;
+    color: white;
     cursor: pointer;
     margin-bottom: 2em;
 }
@@ -545,7 +555,6 @@ a {
   padding-left: 0;
   flex-grow: 1;
 }
-
 .media {
     width: 48%;
     aspect-ratio: 1 / 1; 
@@ -566,7 +575,6 @@ a {
   object-position: top;
   overflow: hidden;
   transition: object-position 0.8s ease-in-out, transform .02s ease-in-out;
-
 }
 #more-stories .majita-date {
     margin-bottom: 13px;
@@ -574,7 +582,6 @@ a {
 .content {
   overflow: hidden;
   width: 100%;
-
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -582,20 +589,15 @@ a {
   -webkit-box-orient: vertical;
   color:#afafaf;
   font-size: 13px;
-
 }
-
 .latest-image:hover {
   object-position: bottom;
 }
-
 .search-bar #search-input{
     width: 70%;
     height: 36px;
-    
     border-bottom: 1px solid rgb(124, 124, 124);
     cursor: pointer;
-
     background-color: var(--background);
     outline: none;
     color: White;
@@ -746,7 +748,6 @@ h4 {
     display: flex;
     justify-content: center;
     margin:0 2em;
- 
     text-decoration: none;
 
 }
@@ -1542,4 +1543,11 @@ margin-top: 3px;
 
         margin-bottom: -3em;
     }
+    .modal-image {
+        max-width: 750px;
+        transition: all .3s ease-in-out;
+        max-height: 85%;
+        border-radius: 2px;
+      
+      }
 }
