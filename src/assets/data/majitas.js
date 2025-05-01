@@ -43,6 +43,24 @@ import soulfulKgorong from '../updates/Soulful Cookout Sessions Kgorong.jpg'
 import lesholentweng from '../updates/lesholentweng.jpg'
 import artworksounds from '../updates/artworksounds.jpg'
 
+import boiketloEasterHighlights2025 from '../updates/boiketlo/IMG-20250430-WA0045.jpg'
+import boiketloEasterHighlights20251 from '../updates/boiketlo/IMG-20250430-WA0032.jpg'
+import boiketloEasterHighlights20252 from '../updates/boiketlo/IMG-20250430-WA0048.jpg'
+import boiketloEasterHighlights20253 from '../updates/boiketlo/IMG-20250430-WA0049.jpg'
+import boiketloEasterHighlights20254 from '../updates/boiketlo/IMG-20250430-WA0025.jpg'
+import boiketloEasterHighlights20255 from '../updates/boiketlo/IMG-20250430-WA0007.jpg'
+import boiketloEasterHighlights20256 from '../updates/boiketlo/IMG-20250430-WA0038.jpg'
+import boiketloEasterHighlights20257 from '../updates/boiketlo/IMG-20250430-WA0024.jpg'
+import boiketloEasterHighlights20258 from '../updates/boiketlo/IMG-20250430-WA0035.jpg'
+import boiketloEasterHighlights20259 from '../updates/boiketlo/IMG-20250430-WA0016.jpg'
+import boiketloEasterHighlights202510 from '../updates/boiketlo/IMG-20250430-WA0033.jpg'
+import boiketloEasterHighlights202511 from '../updates/boiketlo/IMG-20250430-WA0050.jpg'
+import boiketloEasterHighlights202512 from '../updates/boiketlo/IMG-20250430-WA0028.jpg'
+import boiketloEasterHighlights202513 from '../updates/boiketlo/IMG-20250430-WA0050.jpg'
+import boiketloEasterHighlights202514 from '../updates/boiketlo/IMG-20250430-WA0019.jpg'
+import boiketloEasterHighlights202515 from '../updates/boiketlo/IMG-20250430-WA0027.jpg'
+import boiketloEasterHighlights202516 from '../updates/boiketlo/IMG-20250430-WA0045.jpg'
+
 export const majitas = [
     {
      id:1,
@@ -669,5 +687,36 @@ Ultimately, I think it's all about sharing my authentic self with my audience an
         {question: "Why do I think it’s important to see more women behind the decks?", answer: [`Because it is inspiring and it shows other women that they are capable of doing whatever they put their minds to.Because it shows little girls who are looking on them that their dreams are valid` ] },
        ]
        }, 
+       {
+        id:31,
+        title:  `Boiketlo Cafe: Easter Saturday Highlights!`,
+        image: boiketloEasterHighlights20252,
+        slug: "boiketlo-cafe-easter-saturday-highlights",
+        type: "Event",
+        author: "Majita Mag",
+        date: "May 01 2025",
+        content: [
+                 `Boiketlo Cafe promised an unforgettable Easter Saturday with two of Mzansi’s hottest acts—Kelvin Momo and Shandesh. The hype was real, the crowd was ready… but only one of the headliners actually showed up.` ,
+                 { image: boiketloEasterHighlights20252},
+                 { image: boiketloEasterHighlights20254},
+                 `Shandesh stepped up and saved the night. The talented singer kept the crowd entertained with her amazing performance and powerful voice. She connected well with the audience, reminding everyone why she’s such a star. Chipkings, John Kay and all DJs also kept the music flowing, making sure the party didn’t stop until sunrise.`,  
+                 { image: boiketloEasterHighlights20255},
+                 { image: boiketloEasterHighlights20253},
+                 { image: boiketloEasterHighlights20251},
+                 { image: boiketloEasterHighlights20256},
+                 { image: boiketloEasterHighlights20257},
+                 { image: boiketloEasterHighlights20258},
+                 { image: boiketloEasterHighlights20258},
+                 { image: boiketloEasterHighlights20259},
+                 { image: boiketloEasterHighlights202510},
+                 { image: boiketloEasterHighlights202511},
+                 { image: boiketloEasterHighlights202512},
+                 { image: boiketloEasterHighlights202513},
+                 { image: boiketloEasterHighlights202514},
+                 { image: boiketloEasterHighlights202515},
+                 { image: boiketloEasterHighlights202516},
+                 `Despite the Kelvin Momo letdown, the party showed that Boiketlo knows how to create an incredible atmosphere. The crowd's energy never dropped, proving their passion for great music and good times. Moving forward, fans hope Boiketlo will ensure artists show up as promised, while keeping the same exciting vibe that makes these events unforgettable.`,    
+               ],
+       },
 
 ]

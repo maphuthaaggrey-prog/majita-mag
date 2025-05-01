@@ -278,13 +278,46 @@ a {
     align-items: center;
     z-index: 999;
   }
-  
+  .modal-content {
+    position: relative;
+  }
   .modal-image {
 
     max-width: 100%;
     transition: all .3s ease-in-out;
     max-height: 100%;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    z-index: 1000;
+    padding: 8em 2rem;
+  }
+  .arrow.left {
+    left: 0;
+  }
+  
+  .arrow.right {
+    right: 0;
+  }
+  .download-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-weight: normal;
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
   }
 img:hover {
     cursor: pointer;
@@ -479,7 +512,7 @@ img:hover {
     border-radius: 100px;
     margin-right: 1em;
     margin-top: .5em;
-    width: 70px;
+    width: 50px;
     outline: none;
     text-align: left;
     font-size: 14px;
@@ -560,7 +593,7 @@ img:hover {
     aspect-ratio: 1 / 1; 
     margin-right: .5em;
     object-fit: cover;
-    object-position: top;
+    object-position: center;
     transition: object-position 0.8s ease-in-out;
 }
 .media:hover {
@@ -576,8 +609,38 @@ img:hover {
   overflow: hidden;
   transition: object-position 0.8s ease-in-out, transform .02s ease-in-out;
 }
+.see-more-button {
+    background-color: transparent;
+    text-decoration: underline;
+    color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.loading-spinner {
+    text-align: center;
+    padding: 3em;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
 #more-stories .majita-date {
     margin-bottom: 13px;
+}
+.highlights-grid:first-of-type, .highlights-grid:last-of-type {
+    width: 95%;
+    margin: 8em auto 2em ;
+}
+#highlights-content {
+        display: grid;  
+        justify-content: space-between;
+        gap: 5px;
+        grid-template-columns: repeat(auto-fit, minmax(135px, 1fr)); 
+    }
+.highlight-picture {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    cursor: pointer;
 }
 .content {
   overflow: hidden;
@@ -1543,11 +1606,37 @@ margin-top: 3px;
 
         margin-bottom: -3em;
     }
+
     .modal-image {
-        max-width: 750px;
+        max-width: 800px;
         transition: all .3s ease-in-out;
-        max-height: 85%;
+        max-height: 88%;
         border-radius: 2px;
       
       }
+      .arrow.right {
+        width: 0;
+        right: 30px;
+      }
+      .arrow.left {
+        left: 30px; 
+      }
+      .download-button {
+        top: 20px;
+        right: 70px;
+
+      }
+      .highlights-grid {
+        width: 100%;
+        margin: 1em auto;
+    }
+      
+      #highlights-content {
+        display: grid;  
+        justify-content: space-between;
+        gap: 3px;
+        margin: auto;
+        width: 100%;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
+    }
 }

@@ -84,14 +84,10 @@ const Header = () => {
                     <ul className={menuOpen ? "nav ul open" : ""}>
                         <li>
                             <button className="close-btn menu-close" onClick={toggleMenu}>
-                                <svg width="24px" height="24px" viewBox="-0.5 0 25 25" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <g strokeWidth="0"/>
-                                    <g strokeLinecap="round" strokeLinejoin="round"/>
-                                    <g> 
-                                        <path d="M3 21.32L21 3.32001" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" fill="currentColor" /> 
-                                        <path d="M3 3.32001L21 21.32" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" fill="currentColor" /> 
-                                    </g>
-                                </svg>
+                            <svg fill="#FFFFFF" width="30px" height="30px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+                                    <path d="M19.587 16.001l6.096 6.096c0.396 0.396 0.396 1.039 0 1.435l-2.151 2.151c-0.396 0.396-1.038 0.396-1.435 0l-6.097-6.096-6.097 6.096c-0.396 0.396-1.038 0.396-1.434 0l-2.152-2.151c-0.396-0.396-0.396-1.038 0-1.435l6.097-6.096-6.097-6.097c-0.396-0.396-0.396-1.039 0-1.435l2.153-2.151c0.396-0.396 1.038-0.396 1.434 0l6.096 6.097 6.097-6.097c0.396-0.396 1.038-0.396 1.435 0l2.151 2.152c0.396 0.396 0.396 1.038 0 1.435l-6.096 6.096z"></path>
+                                    </svg>
                             </button>
                         </li>
                         <li onClick={toggleMenu}><Link to="/majitamonday">Majita Monday</Link></li>
@@ -103,9 +99,15 @@ const Header = () => {
                 </nav>
                 <div>
                     <button className="menu-icon" onClick={toggleMenu}>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="30px" height="30px">
-                            <path d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z" fill="currentColor" />
-                        </svg>
+                    <svg fill="#d1d0d0" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	                         width="25px" height="25px" viewBox="0 0 24.75 24.75" xml:space="preserve"
+                              >
+                            <g>
+                              <path d="M0,3.875c0-1.104,0.896-2,2-2h20.75c1.104,0,2,0.896,2,2s-0.896,2-2,2H2C0.896,5.875,0,4.979,0,3.875z M22.75,10.375H2
+                                c-1.104,0-2,0.896-2,2c0,1.104,0.896,2,2,2h20.75c1.104,0,2-0.896,2-2C24.75,11.271,23.855,10.375,22.75,10.375z M22.75,18.875H2
+                                c-1.104,0-2,0.896-2,2s0.896,2,2,2h20.75c1.104,0,2-0.896,2-2S23.855,18.875,22.75,18.875z"/>
+                            </g>
+                            </svg>
                     </button>
                 </div>
             </div>

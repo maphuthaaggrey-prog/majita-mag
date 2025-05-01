@@ -15,6 +15,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import ScrollToTop from "./components/ScrollToTop";
 import { HelmetProvider } from "react-helmet-async";
 import NotFound from "./components/NotFound";
+import Highlights from "./components/Highlights";
 
 function AppContent() {
   const location = useLocation();
@@ -32,6 +33,7 @@ function AppContent() {
         <Route path="/womencrushwednesday" element={<WomenCrushWednesday />} />
         <Route path="/updates" element={<Updates />} />
         <Route path="/Search" element={<Search />} />
+        <Route path="/highlights/:slug/:id" element={<Highlights />} />
         <Route path="/majitamonday/:slug" element={<Read />} />
         <Route path="/music/:slug" element={<Music />} />
         <Route path="/events/:slug" element={<Events />} />
