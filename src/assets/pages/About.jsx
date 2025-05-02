@@ -30,7 +30,7 @@ const About = () => {
            and how they maintain their mental wellbeing in a demanding industry. Recognizing 
            that it can be especially challenging for women to have their voices heard in a male-dominated creative space, this segment is designed to serve as a safe haven for sharing authentic stories. We are committed to amplifying their voices, celebrating their resilience, and inspiring a more inclusive future where every creative story is valued.</p>
        <br/>
-        <h5>Team Roles & Responsibilities</h5>
+        <h5>Meet the Team</h5>
 
         <p>
             <strong>Tsheamo</strong>
