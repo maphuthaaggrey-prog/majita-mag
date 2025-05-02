@@ -19,7 +19,10 @@ import NotFound from "./components/NotFound";
 import Highlights from "./components/Highlights";
 import Policies from "./assets/pages/Policies";
 import FAQ from "./assets/pages/FAQ";
+import ReactGA from "react-ga4";
 
+ReactGA.initialize("G-G9VN98YSRW");
+ReactGA.send("pageview");
 function AppContent() {
   const location = useLocation();
 
