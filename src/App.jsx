@@ -3,6 +3,7 @@ import Home from "./assets/pages/Home";
 import Footer from "./components/Footer";
 import MajitaMonday from "./components/MajitaMonday";
 import About from "./assets/pages/About";
+import Terms from './assets/pages/Terms'
 import WomenCrushWednesday from "./components/WomenCrushWednesday";
 import Updates from "./components/Updates";
 import Read from "./components/Read";
@@ -16,6 +17,8 @@ import ScrollToTop from "./components/ScrollToTop";
 import { HelmetProvider } from "react-helmet-async";
 import NotFound from "./components/NotFound";
 import Highlights from "./components/Highlights";
+import Policies from "./assets/pages/Policies";
+import FAQ from "./assets/pages/FAQ";
 
 function AppContent() {
   const location = useLocation();
@@ -37,6 +40,10 @@ function AppContent() {
         <Route path="/majitamonday/:slug" element={<Read />} />
         <Route path="/music/:slug" element={<Music />} />
         <Route path="/events/:slug" element={<Events />} />
+        <Route path="/terms-and-conditions" element={<Terms />} />
+        <Route path="/privacy-and-community-policies" element={<Policies />} />
+        <Route path="/frequently-asked-questions" element={<FAQ />} />
+
         <Route path="*" element={<NotFound />} />
         <Route path="/womencrushwednesday/:slug" element={<ReadWCW />} />
       </Routes>

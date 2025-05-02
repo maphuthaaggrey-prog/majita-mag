@@ -2,6 +2,7 @@ import logo from '../assets/icons/Majita Mag Logo-02 1.svg';
 import facebook from '../assets/icons/Facebook_white.svg';
 import instagram from '../assets/icons/Instagram_white.svg';
 import { useState } from 'react';
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     const scriptURL = 'https://script.google.com/macros/s/AKfycbyQHojhiXl7xpB1ZqIOA4Lc_PPuth0e36GGHHTtYDdqZEiSKYzHPNLODYrqghqwQh2o/exec';
@@ -69,6 +70,11 @@ const Footer = () => {
                         <div className="footer-icons" >
                            <a href="https://www.facebook.com/profile.php?id=61572469034879" target='_blank' rel="noopener noreferrer" ><img src={facebook} alt="Facebook" style={{opacity: '18%'}} /></a>
                            <a href="https://www.instagram.com/majitamag/"target='_blank' rel="noopener noreferrer"  ><img src={instagram} alt="Instagram" style={{opacity: '18%'}}  /></a>
+                        </div>
+                        <div className="terms">
+                            <Link to="/terms-and-conditions"><p>Terms and Conditions</p></Link>
+                            <Link to="/privacy-and-community-policies"><p>Privacy & Community Policies</p></Link>
+                            <Link to="/frequently-asked-questions"><p>Frequently Asked Questions</p></Link>
                         </div>
 
                         </form>  

@@ -1,6 +1,7 @@
 import logo from '../assets/icons/Majita Mag Horizontal Logo.svg';
 import { useState } from 'react';
 import { Link } from 'react-router-dom'
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -92,11 +93,11 @@ const Header = () => {
                                     </svg>
                             </button>
                         </li>
-                        <li onClick={toggleMenu}><Link to="/majitamonday">Majita Monday</Link></li>
-                        <li onClick={toggleMenu}><Link to="/womencrushwednesday" aria-label='Women Crush Wednesday' >WCW</Link></li>
-                        <li onClick={toggleMenu}><Link to="/updates">Updates</Link></li>
-                        <li onClick={toggleMenu}><Link to="/about">About</Link></li>
-                        <li onClick={handleClick} className="contactButton">Contact</li>
+                        <li onClick={toggleMenu}><NavLink to="/majitamonday">Majita Monday</NavLink></li>
+                        <li onClick={toggleMenu}><NavLink to="/womencrushwednesday" aria-label='Women Crush Wednesday' >Women Crush Wednesday</NavLink></li>
+                        <li onClick={toggleMenu}><NavLink to="/updates">Updates</NavLink></li>
+                       <li onClick={toggleMenu}><NavLink to="/about">About</NavLink></li>
+                       <li onClick={handleClick} className="contactButton">Contact</li> 
                     </ul>
                 </nav>
                 <div>

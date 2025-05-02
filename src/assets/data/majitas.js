@@ -42,6 +42,7 @@ import mrshaneRythmforce from '../updates/mrshane-rythmforce.jpg'
 import soulfulKgorong from '../updates/Soulful Cookout Sessions Kgorong.jpg'
 import lesholentweng from '../updates/lesholentweng.jpg'
 import artworksounds from '../updates/artworksounds.jpg'
+import nikePhotoshoot from '../updates/1060nike.jpg'
 
 import boiketloEasterHighlights2025 from '../updates/boiketlo/IMG-20250430-WA0045.jpg'
 import boiketloEasterHighlights20251 from '../updates/boiketlo/IMG-20250430-WA0032.jpg'
@@ -716,6 +717,22 @@ Ultimately, I think it's all about sharing my authentic self with my audience an
                  { image: boiketloEasterHighlights202515},
                  { image: boiketloEasterHighlights202516},
                  `Despite the Kelvin Momo letdown, the party showed that Boiketlo knows how to create an incredible atmosphere. The crowd's energy never dropped, proving their passion for great music and good times. Moving forward, fans hope Boiketlo will ensure artists show up as promised, while keeping the same exciting vibe that makes these events unforgettable.`,    
+               ],
+       },
+       {
+        id:32,
+        title:  `1060 NIKE Photoshoot: A Celebration of Style, Culture & Community`,
+        image: nikePhotoshoot,
+        slug: "nike-photoshoot-a-celebration-of-style-culture-and-community",
+        type: "Event",
+        author: "Majita Mag",
+        date: "May 02 2025",
+        content: [
+                 `On 15 June 2025, Pshiring Murulaneng in Ga Masemola will come alive with energy, creativity, and street fashion as the 1060 NIKE Photoshoot takes center stage. Starting at 14h30, this event isn't just about sneakers — it's about full Nike culture from head to toe.` ,
+                 `From jackets to tracksuits, from hats to kicks, the shoot invites everyone to step in front of the lens and show what style means to them. Whether you’re rocking official Nike gear or just repping the energy and attitude, everyone is welcome. It’s about confidence, culture, and representing where you’re from.`,
+                 { image: nikePhotoshoot},
+                 `This isn't just a photoshoot — it's a movement. A moment to shine, connect, and express yourself through fashion, and community vibes. Expect bold looks, loud energy, and real stories captured in every shot.`,  
+                 `So pull up with your crew, your cleanest outfit, and your spirit. Nike or not, this is your moment.`,    
                ],
        },
 
