@@ -207,14 +207,14 @@ nav ul li a:hover {
 }
 
 .logo {
-    width: 45px;
+    width: 110px;
     position: static;
     margin-left: 3em;
 }
 
 .icons, nav, .searchimg, .logo, .menu-icon {
-    margin-top: 1.4em;
-    margin-bottom: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 2em; 
 }
 .logo, .search, .navbar nav ul li {
     transition: .2s ease-in-out;
@@ -1223,7 +1223,7 @@ margin-top: 3px;
     }
     .navbar nav ul {
         display: flex;
-        top: 2em;
+        top: 1.7em;
         right: 2em;
         color: white;
         opacity: 100%;

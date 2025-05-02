@@ -1,4 +1,4 @@
-import logo from '../assets/icons/Majita Mag Logo-02 1.svg';
+import logo from '../assets/icons/Majita Mag Horizontal Logo.svg';
 import { useState } from 'react';
 import { Link } from 'react-router-dom'
 
@@ -78,7 +78,9 @@ const Header = () => {
         <>
             <div className="navbar">
                 <div>
-                    <a href="https://www.majitamag.co.za/"><img src={logo} className="logo" alt="Logo" /></a>
+                    <Link to="https://www.majitamag.co.za/">
+                          <img src={logo} className="logo" alt="Logo"/>
+                    </Link>
                 </div>
                 <nav >
                     <ul className={menuOpen ? "nav ul open" : ""}>
