@@ -21,6 +21,7 @@ import tshegofatso from '../wcw/Tshegofatso Wednesday.jpg'
 import coolx from '../images/coolx.jpg'
 import sourkay from '../images/Sour Kay April.jpg'
 import bohlale from '../images/Bohlale Mokalapa Wednesday.jpg'
+import qabaka from '../images/Majita Mag May.jpg'
 
 
 
@@ -43,6 +44,7 @@ import soulfulKgorong from '../updates/Soulful Cookout Sessions Kgorong.jpg'
 import lesholentweng from '../updates/lesholentweng.jpg'
 import artworksounds from '../updates/artworksounds.jpg'
 import nikePhotoshoot from '../updates/1060nike.jpg'
+import zap from '../updates/zap.jpg'
 
 import boiketloEasterHighlights2025 from '../updates/boiketlo/IMG-20250430-WA0045.jpg'
 import boiketloEasterHighlights20251 from '../updates/boiketlo/IMG-20250430-WA0032.jpg'
@@ -735,5 +737,52 @@ Ultimately, I think it's all about sharing my authentic self with my audience an
                  `So pull up with your crew, your cleanest outfit, and your spirit. Nike or not, this is your moment.`,    
                ],
        },
+       {
+        id: 33,
+        name: "AYA QABAKA", 
+        slug: "ayaqabaka",
+        title: "Majita Monday",
+        content: ["Ayavuya Qabaka, a 21-year-old lifestyle digital creator hailing from the small town of Dutywa in the Eastern Cape. Proudly Xhosa, Aya brings authenticity and creativity to every piece of content."],
+        image: qabaka,
+        type: "Majita Monday",
+        date: "May 19 2025",
+        questions: [
+        {question: "Can you introduce yourself to our readers? Who is Aya behind the lens and the content?", answer: "Full name is Ayavuya Qabaka, a lifestyle digital creator from the Eastern Cape in a small town called Dutywa, I’m Xhosa and 21 years of age."},
+        {question: "How did your journey in photography and content creation begin?", answer: `It all started in 2022 when I was consuming a lot of YouTube content from creators like Thato Rampedi, so it went from “I enjoy watching content” to “I want to create this kind of content” and on some day in 2023 after I got my first phone with a good camera quality, I just decided let me shoot and from there, I’ve been at it. `},
+        {question: "What style of photography do you gravitate towards and why?", answer: ["The kind of photography that I enjoy wholeheartedly is Landscape/nature photography but the one that I gravitate towards the most is portrait photography because it’s much easier to generate income from it, in comparison to landscape/nature photography. "] },
+        {question: "Can you describe one of your most memorable shoots?", answer: [`My most memorable shoots was nerve wrecking, I was at the verge of refunding my client because I thought the pictures were not good enough. It was my first ever payed graduation shoot, so I was doubting myself a lot. I decided to send the pictures to my client and surprisingly, she was very much happy with them. `] },
+        {question: "How do you balance creativity with client expectations?", answer: ["The balance between my creativity and client expectations is the hardest thing about photography because you never know if you’re being too creative or what. How I balance the two, I make sure to send samples to my client to try give them the freedom of deciding what they would like as the final product." ] },
+        {question: "Do you prefer shooting events, portraits or lifestyle content and what draws you to it?", answer: [`I prefer lifestyle content over every thing because it’s a ‘lifestyle ‘ it feels natural.` ] },
+        {question: "What's one thing people misunderstand about being a photographer?", answer: [`People always expect you to have good pictures of yourself because you’re a photographer and you’re expected to be photogenic. `] },
+        {question: "How do you come up with content ideas that resonate with your audience?", answer: [`I believe I shoot relatable content. If I’m struggling with school, I shoot that. If I’m sick, I  shoot that. That’s what most of my audience relate and so much more. `] },
+        {question: "How do you stay consistent without burning out creatively?", answer: [`Consistency is something that I’m still struggling with in my journey but I’m working on it. How I’m working on it is, I edit while I shoot so that I am able to drop videos on time because usually, the reason why I can’t drop is because I never find time to edit because there is school going on. `] },
+        {question: "As a male in the creative space, what challenges have you faced, if any?", answer: [`Not much honestly but the society is sometimes judgemental when as a man you show how you take good care of yourself in your vlogs. For instance ,you might receive backlash for having skin care in your morning routine. It never got to me though, but it’s the closest thing to challenges I face as a man in the creative space. `] },
+        {question: "Do you think male creatives are represented enough in the industry?", answer: [`There isn’t a lot of men in the space but I do think they are coming in. The representation is picking up.`] },
+        {question: "What do you think the industry needs more of, especially when it comes to young men?", answer: [`I don’t think the industry needs to do anything, I think male creatives need to show that they can do anything. The only way for the industry to see something as normal is if it’s done consistently until it becomes a norm. `] },
+        {question: "What does success look like to you as a creative?", answer: [`Finding your niche is what success looks like to me. `] },
+        {question: "Who are your creative inspirations locally or globally?", answer: [`Thato Rampedi locally and  Logan Robles, also know as Lough, internationally. `] },
+        {question: "How do your roots or background influence your work?", answer: [`They help me stay grounded and authentic. They also prevent burnout because there’s a lot of untold stories about where I come from. `] },
+        {question: "What's your ultimate dream project?", answer: [`The ultimate dream project is to shoot a Netflix series. `] },
+        {question: "As a man in the creative industry, do you feel free to express your emotions without being judged?", answer: [`Social media/industry is all nice but I am never comfortable with emotional expression on it. I do believe as a creative you need to have a space for that which does not involve the industry. Have friends/family that you can talk to. People on social media only see what you let them see and not everything and that may influence their biases on your emotions. `] },
+        {question: `Do you feel like there's pressure for men to "have it all figured out"? How do you deal with that?`, answer: [`I do think that pressure will always be there and it is very important. It keeps me on my toes but also I know when to draw the line because I don’t want to find myself in situations where I’m overwhelmed because I want to have everything figured because that is what the society expects. `] },
+        {question: "What's a truth you've had to accept about yourself in order to grow creatively and personally?", answer: [`The truth I’ve had to accept is that there’s nothing new under the sun, so I never have to crack my head trying to come up with something ‘new’. I just find inspiration from something that’s already there and creating my interpretation of it.`] }
+        ]
+       },
+       {
+        id: 34,
+        title: `ZAP Drops Smooth R&B/Hip-Hop Mixtape with Drone Masters`,
+        image: zap,
+        slug: "zap-drops-smooth-rnb-hip-hop-mixtape-with-drone-masters",
+        type: "Music",
+        author: "Majita Mag",
+        date: "May 17 2025",
+        content: [
+            `ZAP has just released a brand-new R&B/Hip-Hop mixtape in collaboration with Drone Masters. The mix brings a perfect balance of old school classics and new school flavor, giving listeners the best of both worlds.`, 
+            `https://www.youtube.com/watch?v=sVInjZqTSOk`,
+            `ZAP continues to represent 1060 with style and passion. This mixtape brings fresh energy and a vibe that’s perfect for chilling, cruising, or turning up with friends. With help from Drone Masters, the sound is sharp and well-produced from start to finish.`,
+           
+        ],
+        link: "",
+    },
 
 ]
