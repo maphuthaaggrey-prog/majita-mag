@@ -75,6 +75,7 @@ const Footer = () => {
                             <Link to="/terms-and-conditions"><p>Terms and Conditions</p></Link>
                             <Link to="/privacy-and-community-policies"><p>Privacy & Community Policies</p></Link>
                             <Link to="/frequently-asked-questions"><p>Frequently Asked Questions</p></Link>
+                            <a href="https://www.aavenagency.co.za/" target='_blank'><p>Aaven Agency</p></a>
                         </div>
 
                         </form>  
