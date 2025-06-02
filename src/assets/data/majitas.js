@@ -790,7 +790,7 @@ Ultimately, I think it's all about sharing my authentic self with my audience an
         name: "Dovakxng", 
         slug: "dovakxng",
         title: "Majita Monday",
-        content: ["Ayavuya Qabaka, a 21-year-old lifestyle digital creator hailing from the small town of Dutywa in the Eastern Cape. Proudly Xhosa, Aya brings authenticity and creativity to every piece of content."],
+        content: ["Meet Dovakxng, a hip hop artist from Mamelodi East, inspired by the game Skyrim, where the name was given to those whose voices hold power."],
         image: dovaking,
         type: "Majita Monday",
         date: "June 02 2025",
