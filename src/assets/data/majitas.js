@@ -22,6 +22,7 @@ import coolx from '../images/coolx.jpg'
 import sourkay from '../images/Sour Kay April.jpg'
 import bohlale from '../images/Bohlale Mokalapa Wednesday.jpg'
 import qabaka from '../images/Majita Mag May.jpg'
+import dovaking from '../images/June Majita Mag.jpg'
 
 
 
@@ -784,5 +785,24 @@ Ultimately, I think it's all about sharing my authentic self with my audience an
         ],
         link: "",
     },
+    {
+        id: 35,
+        name: "Dovakxng", 
+        slug: "dovakxng",
+        title: "Majita Monday",
+        content: ["Ayavuya Qabaka, a 21-year-old lifestyle digital creator hailing from the small town of Dutywa in the Eastern Cape. Proudly Xhosa, Aya brings authenticity and creativity to every piece of content."],
+        image: dovaking,
+        type: "Majita Monday",
+        date: "June 02 2025",
+        questions: [
+        {question: "Can you tell us about the moment you realized hip hop was your calling? ", answer: "Hip hop has been my calling since I first understood the beauty in lyricism, I found it interesting how meanings can be layered through rhythm and rhyme"},
+        {question: "Where did your stage name come from, and what does it represent? ", answer: `My stage name Dovakxng was inspired by a game called Skyrim where the name was given to those who's voices hold power, so that related to me because I believe my voice could hold that power too, in context of  music `},
+        {question: "How did your upbringing influence your sound and storytelling?", answer: ["Growing up I've been always drawn to Eminem, songs like Stan and mockingbird stood out to me cos of the way he told stories, so I would say that has been the foundation of my influence"] },
+        {question: "Whats your creative process like from beat selection to final lyrics ", answer: [`First off, finding an instrumental that really speaks to me is the first step, sometimes I'm given these instrumentals or I lease them. My writing process is long but is t is also my favorite, I start by figuring out a concept to write about and finding a flow then I start writing, I feel most comfortable writing when I'm on my own in my room, it could take weeks to get a whole verse done depending on the density in it. `] },
+        {question: "Do you write your own lyrics and how important is authenticity in your music? ", answer: ["Yes! I write my own lyrics cos I feel like that pushes me to be the more authentic, authenticity is important cos it gives my music identity and not just another clone of the rappers that are already in the industry " ] },
+        {question: "Which song of yours means the most to you and why? ", answer: [`The song that means the most to me is one that is calldd Holy communion, cos that  explains the central theme of my EP blood sweat and tears, it speaks about how much I put into my music even though I'm not sure if I'll ever get to eat the fruits of my labour ` ] },
+        {question: "How do you choose the producers and collaborators you work with? ", answer: [`Choosing the people I work with depends on the instrumental, I'm first given the instrumental by other producers at school or I lease them, after that I decide who would be best to be on a song with me, I usually look for someone who can add something different from me and make the song more enjoyable.`] },
+        ]
+       },
 
 ]
