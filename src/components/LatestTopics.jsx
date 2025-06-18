@@ -21,7 +21,7 @@ const LatestTopics = () => {
                 <p className="header">Latest Issues</p>
                 <p id="line"></p>
             </div>
-            {allUpdates.slice(1, 4).map((item) => (
+            {allUpdates.slice(0, 3).map((item) => (
                 <Link
                     to={
                         item.type === "Majita Monday"

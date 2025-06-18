@@ -80,10 +80,10 @@ const Events = () => {
                             </div>
 
                             {imageContents.length > 3 && (
-                                <Link to={`/highlights/${update.slug}/${update.id}`}>
-                                             <button className="see-more-button">View Highlights</button>
+                                <Link to={`/highlights/${update.slug}`}>
+                                    <button className="see-more-button">View Highlights</button>
                                 </Link>
-                            )}
+                                )}
 
                             <p id="updates-content">Stay up-to-date with the latest event news by following us on social media:</p>
                             <div className="footer-icons" style={{ display: 'unset' }}>
