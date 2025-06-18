@@ -992,7 +992,7 @@ Ultimately, I think it's all about sharing my authentic self with my audience an
                  { image: nikePhotoshootHighlight7},
                  { image: nikePhotoshootHighlight2},
                  `It wasn’t just about taking pictures. It was about having fun, expressing yourself, and showing love for the community. The outfits were cool, the mood was chill, and every photo captured something real.`,  
-                 { image: nikePhotoshootHighlight1},
+                 { image: nikePhotoshootHighlight245},
                  { image: nikePhotoshootHighlight3},
                  { image: nikePhotoshootHighlight4},
                  { image: nikePhotoshootHighlight5},
