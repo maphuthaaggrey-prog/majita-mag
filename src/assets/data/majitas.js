@@ -988,10 +988,10 @@ Ultimately, I think it's all about sharing my authentic self with my audience an
         author: "Majita Mag",
         date: "June 18 2025",
         content: [
-                 `Boiketlo Cafe promised an unforgettable Easter Saturday with two of Mzansi’s hottest acts—Kelvin Momo and Shandesh. The hype was real, the crowd was ready… but only one of the headliners actually showed up.` ,
+                 `On 15 June 2025, the 1060 NIKE Photoshoot took place in Pshiring Murulaneng, Ga Masemola. The shoot was all about Nike fashion—from jackets and tracksuits to hats and sneakers. Some wore real Nike, and others just matched the energy and look. It didn’t matter what you wore, as long as you showed confidence.` ,
                  { image: nikePhotoshootHighlight7},
                  { image: nikePhotoshootHighlight2},
-                 `Shandesh stepped up and saved the night. The talented singer kept the crowd entertained with her amazing performance and powerful voice. She connected well with the audience, reminding everyone why she’s such a star. Chipkings, John Kay and all DJs also kept the music flowing, making sure the party didn’t stop until sunrise.`,  
+                 `It wasn’t just about taking pictures. It was about having fun, expressing yourself, and showing love for the community. The outfits were cool, the mood was chill, and every photo captured something real.`,  
                  { image: nikePhotoshootHighlight1},
                  { image: nikePhotoshootHighlight3},
                  { image: nikePhotoshootHighlight4},
@@ -1236,7 +1236,7 @@ Ultimately, I think it's all about sharing my authentic self with my audience an
                  { image: nikePhotoshootHighlight255},
 
 
-                 `Despite the Kelvin Momo letdown, the party showed that Boiketlo knows how to create an incredible atmosphere. The crowd's energy never dropped, proving their passion for great music and good times. Moving forward, fans hope Boiketlo will ensure artists show up as promised, while keeping the same exciting vibe that makes these events unforgettable.`,    
+                 `The 1060 NIKE Photoshoot reminded us that style, confidence, and good vibes always stand out. The photos speak for themselves—a moment to remember.`,    
                ],
        },
        {
