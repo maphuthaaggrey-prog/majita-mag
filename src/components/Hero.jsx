@@ -24,8 +24,8 @@ const Hero = () => {
 
     if (isLoading) {
         return (
-            <div style={{ textAlign: 'center', margin: '15em auto' }}>
-                <img src="https://i.imgur.com/llF5iyg.gif" alt="Loading" style={{ width: '30px', height: '30px' }} />
+            <div style={{ textAlign: 'center', margin: '24em auto' }}>
+                <img src="https://i.imgur.com/llF5iyg.gif" alt="Loading" style={{ width: '33px', height: '33px' }} />
             </div>
         );
     }
