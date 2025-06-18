@@ -638,6 +638,7 @@ img:hover {
     }
 .highlight-picture {
     width: 100%;
+    background-color:  rgb(41, 41, 41);
     aspect-ratio: 1 / 1;
     object-fit: cover;
     cursor: pointer;
