@@ -23,6 +23,7 @@ import sourkay from '../images/Sour Kay April.jpg'
 import bohlale from '../images/Bohlale Mokalapa Wednesday.jpg'
 import qabaka from '../images/Majita Mag May.jpg'
 import dovaking from '../images/June Majita Mag.jpg'
+import tsheamor from '../images/Majita Mag July.jpg'
 
 
 
@@ -1329,6 +1330,27 @@ Ultimately, I think it's all about sharing my authentic self with my audience an
         {question: "Do you write your own lyrics and how important is authenticity in your music? ", answer: ["Yes! I write my own lyrics cos I feel like that pushes me to be the more authentic, authenticity is important cos it gives my music identity and not just another clone of the rappers that are already in the industry " ] },
         {question: "Which song of yours means the most to you and why? ", answer: [`The song that means the most to me is one that is calldd Holy communion, cos that  explains the central theme of my EP blood sweat and tears, it speaks about how much I put into my music even though I'm not sure if I'll ever get to eat the fruits of my labour ` ] },
         {question: "How do you choose the producers and collaborators you work with? ", answer: [`Choosing the people I work with depends on the instrumental, I'm first given the instrumental by other producers at school or I lease them, after that I decide who would be best to be on a song with me, I usually look for someone who can add something different from me and make the song more enjoyable.`] },
+        ]
+       },
+    {
+        id: 37,
+        name: "Tsheamor", 
+        slug: "tsheamor",
+        title: "Majita Monday",
+        content: ["Meet Tsheamor, a graphic designer who grew up surrounded by creatives, sparking his passion for art. He started experimenting with design in high school, creating his first logo in Microsoft Paint."],
+        image: tsheamor,
+        type: "Majita Monday",
+        date: "July 07 2025",
+        questions: [
+        {question: "Intro & Background", answer: "My name is Tsheamo Kau, and I grew up in 1060. I was surrounded by creatives  almost all my friends were into some form of art  and that environment made me fall deeper in love with creativity. The idea of creating something out of nothing has always fascinated me. My journey into graphic design started back in high school, just experimenting with designs on my phone and later using my brother’s computer. One of my first real projects was designing a logo for a friend who was a DJ  I used Microsoft Paint at the time. That moment, along with the influence of my brother who was a music producer, opened up a world of creative tools and ideas for me. While he focused on music, I found my own lane in visual art and design. I now work across different areas like branding, motion graphics, and packaging  constantly learning and growing"},
+        {question: "Creative Process & Style", answer: `My design style is a mix of old and new. I love finding old artwork and taking inspiration or samples from it  there’s something powerful about reviving vintage aesthetics in a modern way. Most of the time, I don’t plan too much. I just start designing, and ideas begin to flow on their own until I end up with a final piece, sometimes without even realizing it. I try not to overthink or compare my work to others, because that can block creativity. I draw inspiration from everything  music, culture, people, conversations, and random moments. It all plays a role in how I create. My go-to tools are Adobe Photoshop and Adobe Illustrator, I honestly see them as therapy. They’re part of my everyday process and I can’t imagine designing without them`},
+        {question: "Thoughts & Challenges", answer: ["One of the most challenging areas I’ve worked in is corporate branding. It’s not just about the design  it’s the pressure, constant updates, meetings, and the level of professionalism required. When I hit a creative block, I don’t force it. I simply take a break from my laptop and let the ideas come naturally. I definitely feel misunderstood at times, especially when working with clients who don’t fully get the design process. Many feel the need to add something just to feel involved, even if it compromises the vision."] },
+        {question: "Design Mindset", answer: [`For me, the key is keeping things simple. If the design delivers the message clearly, then it’s doing its job. I’ve always leaned toward minimalism.
+My favorite part of creating posters is just being in the moment. When I’m designing, time moves fast. I don’t overthink  it’s like therapy, and the best part is I get paid to do what I love.
+I draw inspiration from past artworks. There are many designers I admire, even if I can’t name all of them off the top of my head. But names like Screezus, Karabo Poppy, and Malepa definitely stand out for me.`] },
+        {question: "Collaboration & Culture", answer: ["Being part of Matjita Mag means a lot to me. We’re building something that uplifts the hood and inspires upcoming creatives. It shows others that they can do it too. What satisfies me most is giving upcoming creators a platform to tell their own stories. That alone makes the work worth it. Design plays a huge role in storytelling. You don’t always need words to express something. A strong visual can often say more than a sentence ever could. That’s why we have billboards and posters they speak to people fast and powerfully." ] },
+        {question: "Goals & Vision", answer: [`One of my dream projects is to create a gallery studio where I can explore ideas freely without any limitations. A space where I can turn creative concepts into things people can connect with whether that’s through clothing or other forms of design.` ] },
+        {question: "Bonus: Just for Fun", answer: [`Something people don’t always realize about graphic designers is that we constantly feel like we don’t know enough. There’s always this urge to keep learning, improving, and evolving.`] },
         ]
        },
 
