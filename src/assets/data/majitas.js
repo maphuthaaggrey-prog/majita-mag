@@ -323,6 +323,66 @@ import nikePhotoshootHighlight253 from '../updates/nike_highlights/IMG_7441.jpg'
 import nikePhotoshootHighlight254 from '../updates/nike_highlights/IMG_7443.jpg'
 import nikePhotoshootHighlight255 from '../updates/nike_highlights/IMG_7447.jpg'
 
+
+import potohighlight from '../updates/potohighlights/DSC_9489.jpg'
+import potohighlight1 from '../updates/potohighlights/DSC_9497.jpg'
+import potohighlight2 from '../updates/potohighlights/DSC_9498.jpg'
+import potohighlight3 from '../updates/potohighlights/DSC_9510.jpg'
+import potohighlight4 from '../updates/potohighlights/DSC_9512.jpg'
+import potohighlight5 from '../updates/potohighlights/DSC_9513.jpg'
+import potohighlight6 from '../updates/potohighlights/DSC_9515.jpg'
+import potohighlight7 from '../updates/potohighlights/DSC_9523.jpg'
+import potohighlight8 from '../updates/potohighlights/DSC_9526.jpg'
+import potohighlight9 from '../updates/potohighlights/DSC_9531.jpg'
+import potohighlight10 from '../updates/potohighlights/DSC_9533.jpg'
+import potohighlight11 from '../updates/potohighlights/DSC_9537.jpg'
+import potohighlight12 from '../updates/potohighlights/DSC_9539.jpg'
+import potohighlight13 from '../updates/potohighlights/DSC_9548.jpg'
+import potohighlight14 from '../updates/potohighlights/DSC_9552.jpg'
+import potohighlight15 from '../updates/potohighlights/DSC_9553.jpg'
+import potohighlight16 from '../updates/potohighlights/DSC_9555.jpg'
+import potohighlight17 from '../updates/potohighlights/DSC_9556.jpg'
+import potohighlight18 from '../updates/potohighlights/DSC_9557.jpg'
+import potohighlight19 from '../updates/potohighlights/DSC_9558.jpg'
+import potohighlight20 from '../updates/potohighlights/DSC_9573.jpg'
+import potohighlight21 from '../updates/potohighlights/DSC_9578.jpg'
+import potohighlight22 from '../updates/potohighlights/DSC_9582.jpg'
+import potohighlight23 from '../updates/potohighlights/DSC_9592.jpg'
+import potohighlight24 from '../updates/potohighlights/DSC_9604.jpg'
+import potohighlight25 from '../updates/potohighlights/DSC_9608.jpg'
+import potohighlight26 from '../updates/potohighlights/DSC_9613.jpg'
+import potohighlight27 from '../updates/potohighlights/DSC_9619.jpg'
+import potohighlight28 from '../updates/potohighlights/DSC_9620.jpg'
+import potohighlight29 from '../updates/potohighlights/DSC_9621.jpg'
+import potohighlight30 from '../updates/potohighlights/DSC_9622.jpg'
+import potohighlight31 from '../updates/potohighlights/DSC_9626.jpg'
+import potohighlight32 from '../updates/potohighlights/DSC_9641.jpg'
+import potohighlight33 from '../updates/potohighlights/DSC_9644.jpg'
+import potohighlight34 from '../updates/potohighlights/DSC_9656.jpg'
+import potohighlight35 from '../updates/potohighlights/DSC_9660.jpg'
+import potohighlight36 from '../updates/potohighlights/DSC_9663.jpg'
+import potohighlight37 from '../updates/potohighlights/DSC_9664.jpg'
+import potohighlight38 from '../updates/potohighlights/DSC_9666.jpg'
+import potohighlight39 from '../updates/potohighlights/DSC_9667.jpg'
+import potohighlight40 from '../updates/potohighlights/DSC_9668.jpg'
+import potohighlight41 from '../updates/potohighlights/DSC_9669.jpg'
+import potohighlight42 from '../updates/potohighlights/DSC_9671.jpg'
+import potohighlight43 from '../updates/potohighlights/DSC_9672.jpg'
+import potohighlight44 from '../updates/potohighlights/DSC_9673.jpg'
+import potohighlight45 from '../updates/potohighlights/DSC_9674.jpg'
+import potohighlight46 from '../updates/potohighlights/DSC_9675.jpg'
+import potohighlight47 from '../updates/potohighlights/DSC_9677.jpg'
+import potohighlight48 from '../updates/potohighlights/DSC_9678.jpg'
+import potohighlight49 from '../updates/potohighlights/DSC_9679.jpg'
+import potohighlight50 from '../updates/potohighlights/DSC_9682.jpg'
+import potohighlight51 from '../updates/potohighlights/DSC_9692.jpg'
+import potohighlight52 from '../updates/potohighlights/DSC_9695.jpg'
+import potohighlight53 from '../updates/potohighlights/DSC_9697.jpg'
+import potohighlight54 from '../updates/potohighlights/DSC_9699.jpg'
+import potohighlight55 from '../updates/potohighlights/DSC_9700.jpg'
+import potohighlight56 from '../updates/potohighlights/DSC_9701.jpg'
+import potohighlight57 from '../updates/potohighlights/DSC_9704.jpg'
+
 export const majitas = [
     {
      id:1,
@@ -1352,6 +1412,80 @@ I draw inspiration from past artworks. There are many designers I admire, even i
         {question: "Goals & Vision", answer: [`One of my dream projects is to create a gallery studio where I can explore ideas freely without any limitations. A space where I can turn creative concepts into things people can connect with whether that’s through clothing or other forms of design.` ] },
         {question: "Bonus: Just for Fun", answer: [`Something people don’t always realize about graphic designers is that we constantly feel like we don’t know enough. There’s always this urge to keep learning, improving, and evolving.`] },
         ]
+       },
+       {
+        id:38,
+        title:  `POTO Monday Present: Vibes, Music & Pure Freedom in 1060`,
+        image: potohighlight,
+        slug: "poto-monday-present-highlights",
+        type: "Event",
+        author: "Majita Mag",
+        date: "July 16 2025",
+        content: [
+                 `For the past two Mondays, Ga Masemola (1060) has been the place to be as POTO Monday Present turned ordinary Mondays into unforgettable party moments` ,
+                 `From the jump, it’s all about good times. People pull up with their own drinks, ready to enjoy the open energy and let the music take control. The atmosphere? Pure street culture — no pressure, just joy, laughter, dancing, and pure 1060 flavor.`,
+                 { image: potohighlight},
+                 { image: potohighlight1},
+                 `Local DJs like Pontsho de Deejay, Mlevo, and more have been lighting up the sound with non-stop fire, making sure no one stands still for too long. Backed by NeoCafe Sound Equipment, the quality of the music hits just right — clean, loud, and unforgettable.`,  
+                 { image: potohighlight37},
+                 { image: potohighlight3},
+                 { image: potohighlight4},
+                 { image: potohighlight5},
+                 { image: potohighlight6},
+                 { image: potohighlight7},
+                 { image: potohighlight8},
+                 { image: potohighlight9},
+                 { image: potohighlight10},
+                 { image: potohighlight11},
+                 { image: potohighlight12},
+                 { image: potohighlight13},
+                 { image: potohighlight14},
+                 { image: potohighlight15},
+                 { image: potohighlight16},
+                 { image: potohighlight17},
+                 { image: potohighlight18},
+                 { image: potohighlight19},
+                 { image: potohighlight20},
+                 { image: potohighlight21},
+                 { image: potohighlight22},
+                 { image: potohighlight23},
+                 { image: potohighlight24},
+                 { image: potohighlight25},
+                 { image: potohighlight26},
+                 { image: potohighlight27},
+                 { image: potohighlight28},
+                 { image: potohighlight29},
+                 { image: potohighlight30},
+                 { image: potohighlight31},
+                 { image: potohighlight32},
+                 { image: potohighlight33},
+                 { image: potohighlight34},
+                 { image: potohighlight35},
+                 { image: potohighlight36},
+                 { image: potohighlight2},
+                 { image: potohighlight38},
+                 { image: potohighlight39},
+                 { image: potohighlight40},
+                 { image: potohighlight41},
+                 { image: potohighlight42},
+                 { image: potohighlight43},
+                 { image: potohighlight44},
+                 { image: potohighlight45},
+                 { image: potohighlight46},
+                 { image: potohighlight47},
+                 { image: potohighlight48},
+                 { image: potohighlight49},
+                 { image: potohighlight50},
+                 { image: potohighlight51},
+                 { image: potohighlight52},
+                 { image: potohighlight53},
+                 { image: potohighlight54},
+                 { image: potohighlight55},
+                 { image: potohighlight56},
+                 { image: potohighlight57},
+                 `The event has also received strong support from local brands and movements including Nagano Entertainment, Orange Festival, and 1060 Supermedia, proving that unity and collaboration are the heartbeat of 1060’s creative scene.`,    
+                 `Whether you came to catch a vibe, support local DJs, or simply enjoy a Monday that feels like a Saturday, POTO Monday Present is exactly what 1060 has been needing — raw, unfiltered celebration in its truest form.`,    
+               ],
        },
 
 
