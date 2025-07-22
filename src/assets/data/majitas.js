@@ -47,6 +47,8 @@ import lesholentweng from '../updates/lesholentweng.jpg'
 import artworksounds from '../updates/artworksounds.jpg'
 import nikePhotoshoot from '../updates/1060nike.jpg'
 import zap from '../updates/zap.jpg'
+import mrshanepic1 from '../updates/mrshanepic.webp'
+import mrshanepic2 from '../updates/mrshane soul to soul ii.jpg'
 
 import boiketloEasterHighlights2025 from '../updates/boiketlo/IMG-20250430-WA0045.jpg'
 import boiketloEasterHighlights20251 from '../updates/boiketlo/IMG-20250430-WA0032.jpg'
@@ -1487,6 +1489,51 @@ I draw inspiration from past artworks. There are many designers I admire, even i
                  `Whether you came to catch a vibe, support local DJs, or simply enjoy a Monday that feels like a Saturday, POTO Monday Present is exactly what 1060 has been needing — raw, unfiltered celebration in its truest form.`,    
                ],
        },
+ //          {
+ //       id: 39,
+ //       name: "Angelina Leopeng", 
+  //      slug: "angelina-leopeng",
+  //      title: "Women Crush Wednesday",
+  //      content: ["Meet Angelina, a 25-year-old creative powerhouse from Glen Cowie, now based in Middelburg — she's a model, business owner, makeup artist, hairstylist, and podcast host."],
+ //       image: bohlale,
+  //      type: "Women Crush Wednesday",
+ //       date: "July 23 2025",
+  //      questions: [
+ //       {question: "For those meeting you for the first time — who is Angelina?", answer: `I am a 25 year old young lady named Mmatau Angelina Leopeng. I was born and bred in the streets of Glen Cowie in Limpopo. I am a model, business owner, makeup artist, hairstylist and a host on a podcast called 5 minutes on the streets. I am currently residing in Middelburg`},
+  //      {question: `Lioness Beauty is such a powerful name. Where did the idea come from, and what does it represent for you? Also what services or products do you offer under this brand?`, answer: `My first name is Mmatau which means “Mother lion” the queen of the jungle. Lioness Beauty is for our gorgeous queens. We currently offer makeup, wig installation services and wig revamp services. We are hoping to introduce more services as we grow`},
+ //       {question:  `Did you always know you wanted to be in the beauty and creative space, or did you discover it along the way?`, answer: [`Like any other kid growing up, I wanted to be a doctor or a teacher or any of these careers that were deemed to be the best. During my matric, 2018, I discovered that I want to be a model and I already loved anything that had to do with the beauty industry (be it nails, makeup, hair etc) so that’s how I ended up going to a beauty school.`] },
+ //       {question: `You’re a business owner, presenter, makeup artist, and model, how do you navigate all those roles without losing yourself in the process?`, answer: [`Time management is key, I’m a planner and  I always ensure to keep track of where I need to be and what I need to do while ensuring that I don’t neglect other parts of my life. `] },
+ //       {question: "Take us behind the scenes, what’s the reality of running your own business as a young woman in today’s world?", answer: ["It’s hard but when have we ever not had it hard? You deal with clients that failed to take proper care of the services you did on them and they blame you, you have to fix and understand that a customer is always right. Seasonal changes affects sales, the economy is also working against us in terms of pricing so it’s a lot especially for someone who is starting their business alone with no financial assistance." ] },
+ //       {question: `What inspired you to step into the modelling space, and how has it shaped the way you see yourself today?`, answer: [`Modelling is a tough industry, from getting recognised to bookings and to its own rules but one thing it did for me was to help build my confidence, you learn to love and appreciate yourself more and more.` ] },
+   //     {question: `Modelling often comes with pressure and public perception, how do you stay true to yourself in front of the camera?⁠`, answer: [`Confidence is key always. My favourite motto is “you’re perfect in your imperfections” and that alone has made me love myself beyond the things that I never loved. ` ] },
+   //     {question: `Let’s talk about the podcast, how did 5 Minutes on the Street come into your life, and what made you say yes to it?`, answer: [`I was approached by Farry, the founder of 5 minutes on the streets. He pitched the idea to me and I liked the vision behind it, I felt like it aligned well with who I am and what I am trying to achieve so I said yes! ` ] },
+   //     {question: `Out of all the episodes you’ve done so far, which one left a lasting impact on you?`, answer: [`Dosline’s interview was the best episode we’ve done for me so far. It really hit hard when he passed because he was that one person who opened opportunities for us here in Middelburg. It taught me that life is too short to worry about things we have no control over so we must live while we’re still alive. May his precious soul rest in peace. ` ] },
+     //   {question: `When you’re doing someone’s makeup or styling their hair, what’s your intention beyond just the final look?`, answer: [`The intention always depends on what the clients want and my job is to execute their ideas as best as I could. ` ] },
+ //       {question: `As a makeup artist and hairstylist, you’re constantly helping people feel their best. What does beauty mean to you personally?`, answer: [`Makeup and hairstyling for me is a form of art, self expression and therapy not just for me as a stylist but for the clients as well. ` ] },
+   //    {question: `Being in creative industries can be draining. Where do you go, or what do you do, to refill your cup and stay inspired?`, answer: [`Social media is always the best place for me to find inspiration especially with the work that I do. For my wellbeing and to refill my cup, going out with people close to me, be it over lunch or just a night out really helps.` ] },
+    //   {question: `What’s something about your journey people don’t see on social media, but that’s shaped who you are?`, answer: [`Hard times, life after matric was never kind to me. I found myself dropping out of beauty college due to financial difficulties caused by covid while I was also going through an abusive relationship. I ended up studying engineering which I never loved, got a job and faced emotional abuse at the workplace. All that contributed into building my resilient character.` ] },
+      //  {question: ` And finally, when people look back on your work, your voice, and your impact, what do you hope they remember most?`, answer: [`My mindset, I hope people remember me as someone who believed in trying because failure is also a reward. Knock on every door, one will eventually open. I hope people will remember me and take from me my spirit of resilience and confidence.` ] },
+     //   {question: `What challenges have you faced running a beauty business, and how have you overcome them?`, answer: [`Start-up for me was the major challenge. I’d run out of products and have to make sure I work smart by taking every money I made from the clients I received and invest in the business by buying more products, investing in equipment that I need and making sure I set my priorities straight. It’s very important to differentiate between needs and luxury. I work with what I have while making sure I’m working towards what will make the business and my work better` ] },
+    //    {question: `What’s the ultimate dream for Lioness Beauty?`, answer: [`The ultimate dream since Lioness Beauty was only a thought was for it to be a beauty spa. When God blesses me, that’s the first thing I want to do.` ] },
+     //  ]
+      // }, 
+       {
+        id: 40,
+        title: `Mr Shane is set to drop an Album “Soul To Soul II” `,
+        image: mrshanepic1,
+        slug: "mr-shane-is-set-to-drop-an-album",
+        type: "Music",
+        author: "Majita Mag",
+        date: "July 22 2025",
+        content: [
+            `Mr Shane is set to drop his much-awaited follow-up Album “Soul To Soul II” on July 25, 2025. This is the follow-up to his last project, “Soul To Soul,” which came out on December 13, 2024. That album had 8 soulful house tracks and featured big names like Artwork Sounds, Soultronixx, George Lesley, Poizen, SGVO, Judy Jay, Enosoul, Deep Essentials, and King Deetoy. `, 
+            { image: mrshanepic2 },
+            `Now with “Soul To Soul II,” Mr Shane is bringing more soulful sounds. Two songs from the EP — one featuring Nto Musica and the other with Black Desciple — were already released last week on July 18, and they’re getting great feedback. You can pre-order the full Album`,
+           
+        ],
+        link: "",
+    },
+
 
 
 ]
