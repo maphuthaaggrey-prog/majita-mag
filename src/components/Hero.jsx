@@ -18,9 +18,9 @@ const Hero = () => {
             const img = new Image();
             img.src = sortedMajitas[0].image;
             img.onload = () => setIsLoading(false);
-            img.onerror = () => setIsLoading(false); // In case the image fails to load
+            img.onerror = () => setIsLoading(false); 
         }
-    }, [sortedMajitas]);
+    }, [sortedMajitas]); 
 
     if (isLoading) {
         return (
