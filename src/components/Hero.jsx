@@ -8,10 +8,12 @@ const Hero = () => {
 
     useEffect(() => {
         const sorted = [...majitas]
-            .filter(update => update.type === 'Majita Monday' || update.type === 'Women Crush Wednesday')
-            .sort((a, b) => new Date(b.date) - new Date(a.date));
+          .filter(update => update.type === 'Majita Monday' || update.type === 'Women Crush Wednesday')
+          .sort((a, b) => new Date(b.date) - new Date(a.date));
         setSortedMajitas(sorted);
-    }, []);
+        setIsLoading(false); 
+      }, []);
+      
 
     useEffect(() => {
         if (sortedMajitas.length > 0) {
@@ -69,6 +71,7 @@ const Hero = () => {
                                                     alt="Visual content"
                                                     className="content-image"
                                                     loading="lazy"
+                                                     decoding="async"
                                                     style={{ borderRadius: '2px', height: 'auto', marginTop: '20px' }}
                                                 />
                                             );

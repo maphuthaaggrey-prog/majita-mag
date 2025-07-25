@@ -1533,6 +1533,22 @@ I draw inspiration from past artworks. There are many designers I admire, even i
         ],
         link: "",
     },
+       {
+        id: 41,
+        title: `Mr Shane drops an Album “Soul To Soul II” `,
+        image: mrshanepic2,
+        slug: "mr-shane-drops-soul-to-soul-ll",
+        type: "Music",
+        author: "Majita Mag",
+        date: "July 25 2025",
+        content: [
+            `Mr Shane SA has officially released his brand-new Album, Soul To Soul II, and it’s finally out on all platforms!  Staying true to his unique sound, known as “1060 Sounds,”.` , 
+            `https://open.spotify.com/album/4hZZzL1rwQYgXEXpW41goK`,
+            `This time around, Mr Shane SA teams up with a fresh lineup of talented artists, creating a powerful collection of tracks that speak to the soul. The Album features: Kali Mija, George Lesley, Earful Soul ZA, Soultronixx, Deep Essentials ,Ac Musiq, NtoMusica Sibeko, KINGDeetoy, Macanny, Black Desciple, and KeaH`,
+           
+        ],
+        link: "",
+    },
 
 
 
