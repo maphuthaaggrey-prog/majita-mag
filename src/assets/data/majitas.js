@@ -1555,7 +1555,7 @@ I draw inspiration from past artworks. There are many designers I admire, even i
                
                  { image: scorpionkinguj},
                  { image: scorpionkinguj35 },
-                 { image: scorpionkinguj32 },
+                 { image: scorpionkinguj11 },
                  { image: scorpionkinguj3 },
                  { image: scorpionkinguj4 },
                  { image: scorpionkinguj5 },
@@ -1564,7 +1564,7 @@ I draw inspiration from past artworks. There are many designers I admire, even i
                  { image: scorpionkinguj8 },
                  { image: scorpionkinguj9 },
                  { image: scorpionkinguj10 },
-                 { image: scorpionkinguj11 },
+                 { image: scorpionkinguj32 },
                  { image: scorpionkinguj12 },
                  { image: scorpionkinguj13 },
                  { image: scorpionkinguj14 },
