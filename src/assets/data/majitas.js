@@ -1543,9 +1543,9 @@ I draw inspiration from past artworks. There are many designers I admire, even i
     },
     {
         id:42,
-        title:  `Scorpion King with Friends Activation at UJ`,
+        title:  `Scorpion Kings with Friends Activation at UJ`,
         image: scorpionkinguj34,
-        slug: "scorpion-king-with-friends-activation-at-uj",
+        slug: "scorpion-kings-with-friends-activation-at-uj",
         type: "Event",
         author: "Majita Mag",
         date: "July 28 2025",
