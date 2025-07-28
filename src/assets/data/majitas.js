@@ -68,6 +68,50 @@ import boiketloEasterHighlights202514 from '../updates/boiketlo/IMG-20250430-WA0
 import boiketloEasterHighlights202515 from '../updates/boiketlo/IMG-20250430-WA0027.jpg'
 import boiketloEasterHighlights202516 from '../updates/boiketlo/IMG-20250430-WA0045.jpg'
 
+import scorpionkinguj from '../updates/scorpionking/IMG-20250728-WA0016.jpg'
+import scorpionkinguj1 from '../updates/scorpionking/IMG-20250728-WA0002.jpg'
+import scorpionkinguj2 from '../updates/scorpionking/IMG-20250728-WA0003.jpg'
+import scorpionkinguj3 from '../updates/scorpionking/IMG-20250728-WA0004.jpg'
+import scorpionkinguj4 from '../updates/scorpionking/IMG-20250728-WA0005.jpg'
+import scorpionkinguj5 from '../updates/scorpionking/IMG-20250728-WA0006.jpg'
+import scorpionkinguj6 from '../updates/scorpionking/IMG-20250728-WA0007.jpg'
+import scorpionkinguj7 from '../updates/scorpionking/IMG-20250728-WA0008.jpg'
+import scorpionkinguj8 from '../updates/scorpionking/IMG-20250728-WA0009.jpg'
+import scorpionkinguj9 from '../updates/scorpionking/IMG-20250728-WA0010.jpg'
+import scorpionkinguj10 from '../updates/scorpionking/IMG-20250728-WA0011.jpg'
+import scorpionkinguj11 from '../updates/scorpionking/IMG-20250728-WA0012.jpg'
+import scorpionkinguj12 from '../updates/scorpionking/IMG-20250728-WA0013.jpg'
+import scorpionkinguj13 from '../updates/scorpionking/IMG-20250728-WA0014.jpg'
+import scorpionkinguj14 from '../updates/scorpionking/IMG-20250728-WA0015.jpg'
+import scorpionkinguj15 from '../updates/scorpionking/IMG-20250728-WA0017.jpg'
+import scorpionkinguj16 from '../updates/scorpionking/IMG-20250728-WA0018.jpg'
+import scorpionkinguj17 from '../updates/scorpionking/IMG-20250728-WA0019.jpg'
+import scorpionkinguj18 from '../updates/scorpionking/IMG-20250728-WA0020.jpg'
+import scorpionkinguj19 from '../updates/scorpionking/IMG-20250728-WA0021.jpg'
+import scorpionkinguj20 from '../updates/scorpionking/IMG-20250728-WA0022.jpg'
+import scorpionkinguj21 from '../updates/scorpionking/IMG-20250728-WA0023.jpg'
+import scorpionkinguj22 from '../updates/scorpionking/IMG-20250728-WA0024.jpg'
+import scorpionkinguj23 from '../updates/scorpionking/IMG-20250728-WA0025.jpg'
+import scorpionkinguj24 from '../updates/scorpionking/IMG-20250728-WA0026.jpg'
+import scorpionkinguj35 from '../updates/scorpionking/IMG-20250728-WA0027.jpg'
+import scorpionkinguj25 from '../updates/scorpionking/IMG-20250728-WA0028.jpg'
+import scorpionkinguj26 from '../updates/scorpionking/IMG-20250728-WA0029.jpg'
+import scorpionkinguj27 from '../updates/scorpionking/IMG-20250728-WA0030.jpg'
+import scorpionkinguj28 from '../updates/scorpionking/IMG-20250728-WA0031.jpg'
+import scorpionkinguj29 from '../updates/scorpionking/IMG-20250728-WA0032.jpg'
+import scorpionkinguj30 from '../updates/scorpionking/IMG-20250728-WA0033.jpg'
+import scorpionkinguj31 from '../updates/scorpionking/IMG-20250728-WA0034.jpg'
+import scorpionkinguj32 from '../updates/scorpionking/IMG-20250728-WA0035.jpg'
+import scorpionkinguj33 from '../updates/scorpionking/IMG-20250728-WA0036.jpg'
+import scorpionkinguj34 from '../updates/scorpionking/IMG-20250727-WA0002.jpg'
+import scorpionkinguj36 from '../updates/scorpionking/IMG-20250727-WA0003.jpg'
+import scorpionkinguj37 from '../updates/scorpionking/IMG-20250727-WA0004.jpg'
+import scorpionkinguj38 from '../updates/scorpionking/IMG-20250727-WA0005.jpg'
+import scorpionkinguj39 from '../updates/scorpionking/IMG-20250727-WA0006.jpg'
+import scorpionkinguj40 from '../updates/scorpionking/IMG-20250727-WA0007.jpg'
+import scorpionkinguj41 from '../updates/scorpionking/IMG-20250727-WA0008.jpg'
+
+
 
 import nikePhotoshootHighlight from '../updates/nike_highlights/IMG_7083.jpg'
 import nikePhotoshootHighlight1 from '../updates/nike_highlights/IMG_6447.jpg'
@@ -1114,17 +1158,6 @@ Ultimately, I think it's all about sharing my authentic self with my audience an
                  { image: nikePhotoshootHighlight59},
                  { image: nikePhotoshootHighlight60},
                  { image: nikePhotoshootHighlight62},
-                 { image: nikePhotoshootHighlight61},
-                 { image: nikePhotoshootHighlight63},
-                 { image: nikePhotoshootHighlight64},
-                 { image: nikePhotoshootHighlight65},
-                 { image: nikePhotoshootHighlight66},
-                 { image: nikePhotoshootHighlight67},
-                 { image: nikePhotoshootHighlight68},
-                 { image: nikePhotoshootHighlight69},
-                    { image: nikePhotoshootHighlight70},
-                 { image: nikePhotoshootHighlight71},
-                 { image: nikePhotoshootHighlight72},
                  { image: nikePhotoshootHighlight73},
                  { image: nikePhotoshootHighlight74},
                  { image: nikePhotoshootHighlight75},
@@ -1235,47 +1268,6 @@ Ultimately, I think it's all about sharing my authentic self with my audience an
                  { image: nikePhotoshootHighlight180},
                  { image: nikePhotoshootHighlight181},
                  { image: nikePhotoshootHighlight182},
-                 { image: nikePhotoshootHighlight183},
-                 { image: nikePhotoshootHighlight184},
-                 { image: nikePhotoshootHighlight185},
-                 { image: nikePhotoshootHighlight186},
-                 { image: nikePhotoshootHighlight187},
-                 { image: nikePhotoshootHighlight188},
-                 { image: nikePhotoshootHighlight189},
-                 { image: nikePhotoshootHighlight190},
-                 { image: nikePhotoshootHighlight191},
-                 { image: nikePhotoshootHighlight192},
-                 { image: nikePhotoshootHighlight193},
-                 { image: nikePhotoshootHighlight194},
-                 { image: nikePhotoshootHighlight195},
-                 { image: nikePhotoshootHighlight196},
-                 { image: nikePhotoshootHighlight197},
-                 { image: nikePhotoshootHighlight198},
-                 { image: nikePhotoshootHighlight199},
-                 { image: nikePhotoshootHighlight200},
-                 { image: nikePhotoshootHighlight201},
-                 { image: nikePhotoshootHighlight202},
-                 { image: nikePhotoshootHighlight203},
-                 { image: nikePhotoshootHighlight204},
-                 { image: nikePhotoshootHighlight205},
-                 { image: nikePhotoshootHighlight206},
-                 { image: nikePhotoshootHighlight207},
-                 { image: nikePhotoshootHighlight208},
-                 { image: nikePhotoshootHighlight209},
-                 { image: nikePhotoshootHighlight210},
-                 { image: nikePhotoshootHighlight211},
-                 { image: nikePhotoshootHighlight212},
-                 { image: nikePhotoshootHighlight213},
-                 { image: nikePhotoshootHighlight214},
-                 { image: nikePhotoshootHighlight215},
-                 { image: nikePhotoshootHighlight216},
-                 { image: nikePhotoshootHighlight217},
-                 { image: nikePhotoshootHighlight218},
-                 { image: nikePhotoshootHighlight219},
-                 { image: nikePhotoshootHighlight220},
-                 { image: nikePhotoshootHighlight222},
-                 { image: nikePhotoshootHighlight223},
-                 { image: nikePhotoshootHighlight224},
                  { image: nikePhotoshootHighlight225},
                  { image: nikePhotoshootHighlight226},
                  { image: nikePhotoshootHighlight227},
@@ -1549,6 +1541,64 @@ I draw inspiration from past artworks. There are many designers I admire, even i
         ],
         link: "",
     },
+    {
+        id:42,
+        title:  `Scorpion King with Friends Activation at UJ`,
+        image: scorpionkinguj,
+        slug: "scorpion-king-with-friends-activation-at-uj",
+        type: "Event",
+        author: "Majita Mag",
+        date: "July 28 2025",
+        content: [
+                 `Scorpion Kings Live with Friends Activation Event held on Friday, 25 July 2025, at the UJ, ongoing from 12PM to 3PM at the UJ Bunting Road campus. It was designed to promote the upcoming 29 August 2025 Loftus Stadium concert and drive ticket sales.` ,
+                 `Several artists and personalities attended and performed, including Kabza De Small and Mdu a.k.a TRP, among others, bringing live energy straight to the UJ campus.`,
+               
+                 { image: scorpionkinguj},
+                 { image: scorpionkinguj35 },
+                 { image: scorpionkinguj32 },
+                 { image: scorpionkinguj3 },
+                 { image: scorpionkinguj4 },
+                 { image: scorpionkinguj5 },
+                 { image: scorpionkinguj6 },
+                 { image: scorpionkinguj7 },
+                 { image: scorpionkinguj8 },
+                 { image: scorpionkinguj9 },
+                 { image: scorpionkinguj10 },
+                 { image: scorpionkinguj11 },
+                 { image: scorpionkinguj12 },
+                 { image: scorpionkinguj13 },
+                 { image: scorpionkinguj14 },
+                 { image: scorpionkinguj15 },
+                 { image: scorpionkinguj16 },
+                 { image: scorpionkinguj17 },
+                 { image: scorpionkinguj18 },
+                 { image: scorpionkinguj19 },
+                 { image: scorpionkinguj20 },
+                 { image: scorpionkinguj21 },
+                 { image: scorpionkinguj22 },
+                 { image: scorpionkinguj23 },
+                 { image: scorpionkinguj24 },
+                 { image: scorpionkinguj1 },
+                 { image: scorpionkinguj25 },
+                 { image: scorpionkinguj26 },
+                 { image: scorpionkinguj27 },
+                 { image: scorpionkinguj28 },
+                 { image: scorpionkinguj29 },
+                 { image: scorpionkinguj30 },
+                 { image: scorpionkinguj31 },
+                 { image: scorpionkinguj2 },
+                 { image: scorpionkinguj33 },
+                 { image: scorpionkinguj34 },
+                 { image: scorpionkinguj36 },
+                 { image: scorpionkinguj37 },
+                 { image: scorpionkinguj38 },
+                 { image: scorpionkinguj39 },
+                 { image: scorpionkinguj40 },
+                 { image: scorpionkinguj41 },
+                 `The unforgettable moments from the Scorpion Kings Live with Friends Activation at UJ were beautifully documented by our very own Kimmo. From crowd energy to iconic DJ sets, he made sure nothing was missed.`,
+
+          ],
+       },
 
 
 
