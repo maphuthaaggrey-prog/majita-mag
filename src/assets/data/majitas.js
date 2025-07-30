@@ -1490,7 +1490,7 @@ I draw inspiration from past artworks. There are many designers I admire, even i
       content: ["Meet Angelina, a 25-year-old creative powerhouse from Glen Cowie, now based in Middelburg — she's a model, business owner, makeup artist, hairstylist, and podcast host."],
        image: angelina,
         type: "Women Crush Wednesday",
-       date: "July 23 2025",
+       date: "July 30 2025",
         questions: [
        {question: "For those meeting you for the first time — who is Angelina?", answer: `I am a 25 year old young lady named Mmatau Angelina Leopeng. I was born and bred in the streets of Glen Cowie in Limpopo. I am a model, business owner, makeup artist, hairstylist and a host on a podcast called 5 minutes on the streets. I am currently residing in Middelburg`},
         {question: `Lioness Beauty is such a powerful name. Where did the idea come from, and what does it represent for you? Also what services or products do you offer under this brand?`, answer: `My first name is Mmatau which means “Mother lion” the queen of the jungle. Lioness Beauty is for our gorgeous queens. We currently offer makeup, wig installation services and wig revamp services. We are hoping to introduce more services as we grow`},
