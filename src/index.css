@@ -773,7 +773,9 @@ h4 {
  }
 
 #image {
-    width: 75%;
+    width: 320px;
+    height: 452px;
+    background-color: rgb(26, 26, 26);
     border-radius: 12px;
     margin: 2em .8em;
 }
@@ -1229,6 +1231,12 @@ margin-top: 3px;
 }
 
 
+@media (max-width: 336px) {
+ #image {
+    width: 80%;
+    height: auto;
+ }
+}
 @media (min-width: 836px) {
 
 
@@ -1319,6 +1327,7 @@ margin-top: 3px;
      }
      #image, #high-image, #results-container img {
         width: 250px;
+        height: 354px;
     }
     .search-bar input[type="search"] {
         width: 60%;
