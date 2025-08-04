@@ -458,6 +458,7 @@ img:hover {
 .latest-info {
     width: 60%;
     padding-left: 1em;
+    padding-right: 1em;
     padding-top: 7px;
 }
 .music-info {
