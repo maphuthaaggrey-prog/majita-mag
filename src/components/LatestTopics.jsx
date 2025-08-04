@@ -29,6 +29,8 @@ const LatestTopics = () => {
                             ? `/majitamonday/${item.slug}`
                             : item.type === "Music"
                             ? `/music/${item.slug}`
+                            : item.type === "Women Crush Wednesday"
+                            ? `/womencrushwednesday/${item.slug}`
                             : item.type === "Event"
                             ? `/events/${item.slug}`
                             : "/"

@@ -429,6 +429,9 @@ img:hover {
     color: rgb(148, 148, 148);
     font-size: 15px;
     font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .desc {
     line-height: 20px;
