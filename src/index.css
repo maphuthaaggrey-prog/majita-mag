@@ -390,12 +390,12 @@ img:hover {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, var(--background) 100%);
   }
 .music-image {
-    width: 140px;
-    height: 140px;
+    width: 155px;
+    height: 155px;
     border-radius: 7px 0 0 7px;
 }
 .music-grid-items .majita-link .latest-image {
-    width: 140px;
+    width: 155px;
     border-radius: 7px 0 0 7px;
 }
 
@@ -462,8 +462,9 @@ img:hover {
     padding-top: 7px;
 }
 .music-info {
-    width: 53%;
+    width: 57%;
     padding-left: 1em;
+    padding-right: 1em;
     margin-top: 7px;
 }
 .latest-grid, .music-grid {
