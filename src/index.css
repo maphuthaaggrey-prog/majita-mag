@@ -441,13 +441,14 @@ img:hover {
     -webkit-box-orient: vertical;
 }
 .latest-container {
-  width: 36%;
+  width: 37.5%;
   line-height: 0;
 }
 .latest-desc {
   color: rgb(161, 161, 161);
   font-size: 12px;
   overflow: hidden;
+  margin-bottom: 1em;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 3;

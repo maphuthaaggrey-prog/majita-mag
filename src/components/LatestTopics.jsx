@@ -8,7 +8,7 @@ const LatestTopics = () => {
     useEffect(() => {
         const mergeAndSortUpdates = () => {
             const combinedUpdates = [...majitas]
-            .filter(update => update.type !== 'Women Crush Wednesday') 
+            .filter(update => update.type !== 'Majita Monday') 
                 .sort((a, b) => new Date(b.date) - new Date(a.date));
             setAllUpdates(combinedUpdates);
         };
