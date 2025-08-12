@@ -65,6 +65,14 @@ const Reactions = ({ slug }) => {
           👎 Dislike ({reactions.dislike})
         </button>
       </div>
+      <li onClick={toggleMenu}><NavLink to="/majitamonday">Majita Monday</NavLink></li>
+                        <li onClick={toggleMenu}><NavLink to="/womencrushwednesday" aria-label='Women Crush Wednesday' >Women Crush Wednesday</NavLink></li>
+                        <li onClick={toggleMenu}><NavLink to="/updates">Majita Highlights</NavLink></li>
+                        <li onClick={toggleMenu}><NavLink to="/updates">Majita Blomas</NavLink></li>
+                        <li onClick={toggleMenu}><NavLink to="/updates">Majita Live Sessions</NavLink></li>
+                        <li onClick={toggleMenu}><NavLink to="/about">About Us</NavLink></li>
+                        <li onClick={handleClick} className="contactButton">Contact</li> 
+
     </div>
   );
 };

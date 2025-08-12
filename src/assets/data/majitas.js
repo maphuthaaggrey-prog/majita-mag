@@ -28,6 +28,8 @@ import angelina from '../images/Angelina Wednesday.jpg'
 import blacktears from '../images/Majita Mag August.jpg'
 import blacktearsimage from '../images/IMG-20220817-WA0000.jpg'
 import blacktearsimage1 from '../images/IMG-20210731-WA0026.jpg'
+import boikanyo from '../images/Boikanyo WCW August.jpg'
+import boikanyo1 from '../images/WhatsApp Image 2025-08-12 at 08.21.15_5dea305b.jpg'
 
 
 
@@ -302,45 +304,6 @@ import nikePhotoshootHighlight179 from '../updates/nike_highlights/IMG_6983.jpg'
 import nikePhotoshootHighlight180 from '../updates/nike_highlights/IMG_6984.jpg'
 import nikePhotoshootHighlight181 from '../updates/nike_highlights/IMG_6985.jpg'
 import nikePhotoshootHighlight182 from '../updates/nike_highlights/IMG_6986.jpg'
-import nikePhotoshootHighlight183 from '../updates/nike_highlights/IMG_6992.jpg'
-import nikePhotoshootHighlight184 from '../updates/nike_highlights/IMG_6999.jpg'
-import nikePhotoshootHighlight185 from '../updates/nike_highlights/IMG_7000.jpg'
-import nikePhotoshootHighlight186 from '../updates/nike_highlights/IMG_7002.jpg'
-import nikePhotoshootHighlight187 from '../updates/nike_highlights/IMG_7010.jpg'
-import nikePhotoshootHighlight188 from '../updates/nike_highlights/IMG_7015.jpg'
-import nikePhotoshootHighlight189 from '../updates/nike_highlights/IMG_7022.jpg'
-import nikePhotoshootHighlight190 from '../updates/nike_highlights/IMG_7023.jpg'
-import nikePhotoshootHighlight191 from '../updates/nike_highlights/IMG_7025.jpg'
-import nikePhotoshootHighlight192 from '../updates/nike_highlights/IMG_7036.jpg'
-import nikePhotoshootHighlight193 from '../updates/nike_highlights/IMG_7037.jpg'
-import nikePhotoshootHighlight194 from '../updates/nike_highlights/IMG_7051.jpg'
-import nikePhotoshootHighlight195 from '../updates/nike_highlights/IMG_7054.jpg'
-import nikePhotoshootHighlight196 from '../updates/nike_highlights/IMG_7055.jpg'
-import nikePhotoshootHighlight197 from '../updates/nike_highlights/IMG_7062.jpg'
-import nikePhotoshootHighlight198 from '../updates/nike_highlights/IMG_7063.jpg'
-import nikePhotoshootHighlight199 from '../updates/nike_highlights/IMG_7066.jpg'
-import nikePhotoshootHighlight200 from '../updates/nike_highlights/IMG_7067.jpg'
-import nikePhotoshootHighlight203 from '../updates/nike_highlights/IMG_7068.jpg'
-import nikePhotoshootHighlight204 from '../updates/nike_highlights/IMG_7069.jpg'
-import nikePhotoshootHighlight205 from '../updates/nike_highlights/IMG_7071.jpg'
-import nikePhotoshootHighlight206 from '../updates/nike_highlights/IMG_7076.jpg'
-import nikePhotoshootHighlight207 from '../updates/nike_highlights/IMG_7086.jpg'
-import nikePhotoshootHighlight208 from '../updates/nike_highlights/IMG_7094.jpg'
-import nikePhotoshootHighlight209 from '../updates/nike_highlights/IMG_7095.jpg'
-import nikePhotoshootHighlight210 from '../updates/nike_highlights/IMG_7096.jpg'
-import nikePhotoshootHighlight211 from '../updates/nike_highlights/IMG_7110.jpg'
-import nikePhotoshootHighlight212 from '../updates/nike_highlights/IMG_7125.jpg'
-import nikePhotoshootHighlight213 from '../updates/nike_highlights/IMG_7139.jpg'
-import nikePhotoshootHighlight214 from '../updates/nike_highlights/IMG_7141.jpg'
-import nikePhotoshootHighlight215 from '../updates/nike_highlights/IMG_7142.jpg'
-import nikePhotoshootHighlight216 from '../updates/nike_highlights/IMG_7154.jpg'
-import nikePhotoshootHighlight217 from '../updates/nike_highlights/IMG_7159.jpg'
-import nikePhotoshootHighlight218 from '../updates/nike_highlights/IMG_7167.jpg'
-import nikePhotoshootHighlight219 from '../updates/nike_highlights/IMG_7212.jpg'
-import nikePhotoshootHighlight220 from '../updates/nike_highlights/IMG_7219.jpg'
-import nikePhotoshootHighlight222 from '../updates/nike_highlights/IMG_7223.jpg'
-import nikePhotoshootHighlight223 from '../updates/nike_highlights/IMG_7224.jpg'
-import nikePhotoshootHighlight224 from '../updates/nike_highlights/IMG_7231.jpg'
 import nikePhotoshootHighlight225 from '../updates/nike_highlights/IMG_7235.jpg'
 import nikePhotoshootHighlight226 from '../updates/nike_highlights/IMG_7236.jpg'
 import nikePhotoshootHighlight227 from '../updates/nike_highlights/IMG_7240.jpg'
@@ -1624,6 +1587,33 @@ I draw inspiration from past artworks. There are many designers I admire, even i
         {question: `Who are your dream collaborations  both locally and globally?`, answer: [`There are so many artists I admire, both at home and internationally. Locally, I’d love to work with Nasty C, Maglera Doe Boy, Sjava, and Saudi .. they each bring a unique sound and energy that really inspires me. On the global side, Future, Chris Brown , Young M.A, Bia, Kehlani, Tory lanez and of course, Kanye West are at the top of my list. Each of them has carved out their own lane creatively, and I feel like those collaborations would push me to new levels as a producer. I’m always excited by artists who take risks and bring something fresh to the table  ... that’s the kind of energy I’m drawn to.` , { image:blacktearsimage} ] },
         {question: `What challenges have you faced in the game, and how have you pushed through them?`, answer: [`I’ve faced a lot on this journey and sacrificed just as much for the love of the game. The road hasn’t always been easy, but what’s carried me through every challenge and setback is simply showing up every day, staying consistent, and trusting in God. That faith has done miracles in my life. Even in the moments when things felt uncertain or overwhelming, I kept my head down and kept building. Over time, all those small steps added up  and looking back, I’m grateful for every obstacle, because it shaped who I am today.` ] },
         {question: `For any young, upcoming producers out there grinding, what’s one piece of advice you’d give them?`, answer: [`Stay locked in and stay consistent. Master your craft, but also take time to really learn the music business.. that knowledge will protect your art. Keep your production clean and impactful. Find a talented singer or rapper from your city and build something real together.. a sound, a movement, a story people can feel. Push it with everything you’ve got. If you stay focused and execute each part right, trust me ... you’ll stand out, and the rewards will come.` ] },
+       ]
+       }, 
+       {
+       id: 45,
+       name: "Boikanyo Montjane", 
+       slug: "boikanyo-montjane",
+       title: "Majita Monday",
+       content: ["Meet Boikanyo Montjane, a 23-year-old model, content creator, and youth empowerment advocate from Ga-Mphahlele, Limpopo."],
+       image: boikanyo,
+       type: "Women Crush Wednesday",
+       date: "Aug 13 2025",
+        questions: [
+        {question: `Can you tell us about yourself?` , answer: `I am a 23-year-old vibrant and purpose-driven woman from the beautiful village of Ga-Mphahlele in Limpopo. I am a model, content creator, and passionate youth empowerment advocate. I believe in using my voice and influence to inspire others, especially young people from small communities, to believe in their own potential. `},
+        {question: `What inspired you to begin your journey in pageantry, and what keeps you motivated?`, answer: `I entered pageantry because I saw it as a platform to tell my story, represent my community, and empower others. What keeps me motivated is knowing that every step I take opens doors for young girls who may think their dreams are too big for where they come from. `},
+        {question: `Winning Miss Lepelle Public Choice and becoming 1st Princess is a remarkable achievement. How did that moment feel for you?`, answer: `It was a surreal and humbling moment. It wasn’t just a win for me it was a win for every person who believed in me, voted for me, and supported me. It reminded me that hard work, faith, and community support can make anything possible. `, },
+        {question: `From Miss Lepelle to Miss Limpopo Region, what lessons have you learned along the way?`, answer: [`I’ve learned that pageantry is not just about beauty it’s about purpose, resilience, and consistency. I’ve also learned that criticism can be used as a tool for growth, and that staying true to your values is the most important crown you can wear. ` ] },
+        {question: `What inspired you to enter Miss Qhawekazi, and what do you hope to achieve through it?`, answer: [`Miss Qhawekazi is a platform that celebrates strength, grace, and leadership. I entered because I want to use this platform to amplify my advocacy for youth empowerment, create opportunities for young people, and inspire them to see themselves as future leaders. ` ] },
+        {question: `Tell us about the Montjane Boikanyo Foundation. What inspired you to start it?`, answer: [`The Montjane Boikanyo Foundation was born from my deep desire to give back to my community. Growing up, I saw how lack of resources limited young people’s opportunities. I wanted to create a platform that not only addresses immediate needs but also provides tools for longterm change. ` ] },
+        {question: `Poverty reduction is one of your foundation’s major goals. What steps or projects have you implemented to work towards it?`, answer: [`We’ve focused on community outreach programs, school uniform and stationery drives. `] },
+        {question: `What advice would you give to young girls who want to enter pageants but feel they lack the resources or confidence?`, answer: [`Start with what you have. Confidence doesn’t come from perfect circumstances it comes from believing in your worth and working hard to prepare. Use every free resource you can find, practice your walk and speech, and remember that your story is your strongest asset.` , { image:boikanyo1}  ] },
+        {question: `Who are some women that inspire you, and why?`, answer: [`I am inspired by women like Winnie Madikizela-Mandela for her resilience, Zozibini Tunzi for her authenticity, and my own mother for her strength and unconditional love. They remind me that leadership is about courage, compassion, and staying true to yourself.` ] },
+        {question: `Pageantry can be both exciting and stressful. How do you take care of your mental health during competitions?`, answer: [`I make time for prayer and journaling, I surround myself with supportive people, and I allow myself to rest. I also remind myself that my value is not defined by the outcome of a competition. ` ] },
+        {question: `Have you ever faced moments of self-doubt in your journey, and how did you overcome them?`, answer: [`Yes, many times. I overcome them by focusing on my purpose and remembering why I started. I also revisit my past achievements to remind myself that I am capable of more than I sometimes believe.` ] },
+        {question: `If you could give your younger self one piece of advice, what would it be?`, answer: [`I would tell her, “You are enough. Don’t shrink yourself to make others comfortable. Your dreams are valid, and you are worthy of chasing them.”`] },
+        {question: `Where do you see yourself and your foundation in the next five years?`, answer: [`In five years, I see myself as a recognised leader in youth empowerment, with the Montjane Boikanyo Foundation expanding to impact communities across South Africa through education and entrepreneurship programs. ` ] },
+        {question: `Beyond pageantry, what other dreams or goals are you pursuing?`, answer: [`I am working towards building my career in content creation and brand collaborations, while also pursuing my studies in Language Practice to become a professional interpreter.` ] },
+        {question: `How do you want people to remember your reign and your work?`, answer: [`I want people to remember me as a queen who served with purpose, led with compassion, and left a legacy of hope and empowerment that inspired others to dream bigger. ` ] },
        ]
        }, 
 

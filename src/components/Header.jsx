@@ -95,9 +95,11 @@ const Header = () => {
                         </li>
                         <li onClick={toggleMenu}><NavLink to="/majitamonday">Majita Monday</NavLink></li>
                         <li onClick={toggleMenu}><NavLink to="/womencrushwednesday" aria-label='Women Crush Wednesday' >Women Crush Wednesday</NavLink></li>
-                        <li onClick={toggleMenu}><NavLink to="/updates">Updates</NavLink></li>
-                       <li onClick={toggleMenu}><NavLink to="/about">About</NavLink></li>
-                       <li onClick={handleClick} className="contactButton">Contact</li> 
+                        <li onClick={toggleMenu}><NavLink to="/majitahighlights">Majita Highlights</NavLink></li>
+                        <li onClick={toggleMenu}><NavLink to="/majitablomas">Majita Blomas</NavLink></li>
+                        <li onClick={toggleMenu}><NavLink to="/majitalivesessions">Majita Live Sessions</NavLink></li>
+                        <li onClick={handleClick} className="contactButton">Contact Us</li> 
+
                     </ul>
                 </nav>
                 <div>

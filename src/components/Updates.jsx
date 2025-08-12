@@ -24,13 +24,13 @@ const Updates = () => {
     return (
         <>
         <Helmet>
-            <title>Updates</title> 
+            <title>Majita Highlights</title> 
         </Helmet>
 
         <div className="wrap">
             <div className="music-grid">
                 <div className="latest-grid-head" style={{ marginTop: '6em' }}>
-                    <div><p className="header">Updates</p></div>
+                    <div><p className="header">Majita Highlights</p></div>
                     <p id="line"></p>
                 </div>
                 <div className="filter-buttons">

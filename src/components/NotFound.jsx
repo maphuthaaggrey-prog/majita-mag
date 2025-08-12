@@ -16,6 +16,7 @@ function NotFound() {
             <Link to="https://www.majitamag.co.za/"style={{fontWeight: '700', color: 'black', textDecoration: 'none', backgroundColor: 'white', padding: '1em 2em', borderRadius: '100px'}}>Go back to the homepage</Link>
             </div>
       </div>
+      
 </>
 
      );

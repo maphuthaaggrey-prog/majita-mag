@@ -72,9 +72,13 @@ const Footer = () => {
                            <a href="https://www.instagram.com/majitamag/"target='_blank' rel="noopener noreferrer"  ><img src={instagram} alt="Instagram" style={{opacity: '18%'}}  /></a>
                         </div>
                         <div className="terms">
+                            <Link to="/about"><p>About Us</p></Link>
                             <Link to="/terms-and-conditions"><p>Terms and Conditions</p></Link>
                             <Link to="/privacy-and-community-policies"><p>Privacy & Community Policies</p></Link>
                             <Link to="/frequently-asked-questions"><p>Frequently Asked Questions</p></Link>
+                            
+                            <Link to="/frequently-asked-questions"><p>Frequently Asked Questions</p></Link>
+
                             <a href="https://www.aavenagency.co.za/" target='_blank'><p>Aaven Agency</p></a>
                         </div>
 

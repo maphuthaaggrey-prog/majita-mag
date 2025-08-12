@@ -18,8 +18,10 @@ import { HelmetProvider } from "react-helmet-async";
 import NotFound from "./components/NotFound";
 import Highlights from "./components/Highlights";
 import Policies from "./assets/pages/Policies";
+import MajitaBlomas from "./assets/pages/MajitaBlomas";
 import FAQ from "./assets/pages/FAQ";
 import ReactGA from "react-ga4";
+import MajitaLiveSessions from "./assets/pages/MajitaLiveSessions";
 
 ReactGA.initialize("G-G9VN98YSRW");
 ReactGA.send("pageview");
@@ -37,7 +39,7 @@ function AppContent() {
         <Route path="/majitamonday" element={<MajitaMonday />} />
         <Route path="/about" element={<About />} />
         <Route path="/womencrushwednesday" element={<WomenCrushWednesday />} />
-        <Route path="/updates" element={<Updates />} />
+        <Route path="/majitahighlights" element={<Updates />} />
         <Route path="/Search" element={<Search />} />
         <Route path="/highlights/:slug" element={<Highlights />} />
         <Route path="/highlights/:slug/image/:index" element={<Highlights />} />
@@ -47,6 +49,8 @@ function AppContent() {
         <Route path="/terms-and-conditions" element={<Terms />} />
         <Route path="/privacy-and-community-policies" element={<Policies />} />
         <Route path="/frequently-asked-questions" element={<FAQ />} />
+        <Route path="/majitablomas" element={<MajitaBlomas />} />
+        <Route path="/majitalivesessions" element={<MajitaLiveSessions />} />
 
         <Route path="*" element={<NotFound />} />
         <Route path="/womencrushwednesday/:slug" element={<ReadWCW />} />

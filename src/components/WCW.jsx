@@ -23,6 +23,7 @@ const WCW = () => {
         <div id="creative-details">
         <div className="highlighted-creatives">
             <p className="heading" style={{marginTop: '5em'}}>Women Crush Wednesday</p>
+            <p className="home-text">A weekly series published every Wednesday, spotlighting women creatives who are making waves in their industries. WCW offers an empowering space for female voices to be heard, their stories honoured, and their contributions amplified.</p>
         <div className="search-bar">
             <Link to="/Search" className="search-anchor">
                 <button id="search-input">Search... </button>
@@ -48,7 +49,7 @@ const WCW = () => {
                             
                                 <p className="majita-type">{crush.name}</p>
                                 <p className="majita-date">
-                                    {crush.date} • {crush.title}
+                                    {crush.date} • {crush.type}
                                 </p>
                             </Link>
                 ))}

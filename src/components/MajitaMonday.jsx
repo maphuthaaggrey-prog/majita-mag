@@ -23,7 +23,7 @@ const MajitaMonday = () => {
         <div id="creative-details">
         <div className="highlighted-creatives">
             <p className="heading" style={{marginTop: '5em'}}>Majita Monday</p>
-            <p className="home-text">Creatives to inspire and ignite your imagination, Every first Monday of the month!</p>
+            <p className="home-text">Every Monday, we feature male creatives across fashion, music, art, and more, sharing their stories, struggles, wins, and mental wellness journeys. It’s about giving Majita their flowers while they can still smell them.</p>
             
         <div className="search-bar">
             <Link to="/Search" className="search-anchor">
