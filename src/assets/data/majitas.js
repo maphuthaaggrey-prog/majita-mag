@@ -52,6 +52,9 @@ import soulfulKgorong from '../updates/Soulful Cookout Sessions Kgorong.jpg'
 import lesholentweng from '../updates/lesholentweng.jpg'
 import artworksounds from '../updates/artworksounds.jpg'
 import nikePhotoshoot from '../updates/1060nike.jpg'
+import fgtickets from '../updates/fg_garden.jpg'
+import garden1 from '../updates/garden_hello.jpg'
+import garden2 from '../updates/garden_n.jpg'
 import zap from '../updates/zap.jpg'
 import mrshanepic1 from '../updates/mrshanepic.webp'
 import mrshanepic2 from '../updates/mrshane soul to soul ii.jpg'
@@ -1616,6 +1619,27 @@ I draw inspiration from past artworks. There are many designers I admire, even i
         {question: `How do you want people to remember your reign and your work?`, answer: [`I want people to remember me as a queen who served with purpose, led with compassion, and left a legacy of hope and empowerment that inspired others to dream bigger. ` ] },
        ]
        }, 
+       {
+        id:46,
+        title:  `Food Garden 1060 Tickets Are Out!`,
+        image: fgtickets,
+        slug: "food-garden-tickets-are-out",
+        type: "Event",
+        author: "Majita Mag",
+        date: "Sept 02 2025",
+        content: [
+                 `Food Garden 1060 has always been about bringing people together to celebrate food, music, and community. It is well known for its vibrant stalls, festive atmosphere, and the slogan that has carried it from the start: “For the people, by the people!”` ,
+                 { image: garden1},
+                 { image: garden2},
+                 `Tickets for this year’s gathering are now officially on sale. The event will take place on 24 December 2025 at Ga-Masemola, Lepakeng (opposite Magalies Clinic). Ticket prices are set at R80.00 for Early Bird, R100.00 for Rooster, and R120.00 for Ostrich. They are available through Webtickets, both online and in-store at Pick n Pay and Boxer.`,  
+                 { image: fgtickets},
+                 `You can purchase yours directly here:`,
+                 `https://www.webtickets.co.za/v2/event.aspx?itemid=1575215415`,
+                 `Webtickets charges a standard R7.50 booking fee per ticket at checkout. This applies whether you buy online or in-store. Food Garden Events made the switch to Webtickets after challenges with the previous ticketing partner, and this change ensures smoother, safer, and more secure entry for everyone attending.`, 
+                 `Food Garden 1060 is a tradition in Ga-Masemola that happens every year on 24 December. It brings people together in the spirit of community and celebration. The event is proudly presented by Food Garden Events.`, 
+   
+               ],
+       },
 
 
 

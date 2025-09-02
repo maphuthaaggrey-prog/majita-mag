@@ -48,35 +48,51 @@ const Events = () => {
                             <p className="updates-name">{update.title}</p>
                             <h1 className="majita-type">{update.type}</h1>
                             <div id="updates-content">
-                                {Array.isArray(update.content) && update.content.map((contentItem, index) => {
-                                    if (typeof contentItem === 'string') {
-                                        return contentItem.startsWith("https://open.spotify.com") ? (
-                                            <iframe
-                                                key={index}
-                                                src={contentItem.replace('/album/', '/embed/album/')}
-                                                frameBorder="0"
-                                                allow="encrypted-media"
-                                                allowTransparency="true"
-                                                title={`Spotify embed ${index}`}
-                                                style={{ marginTop: "2em" }}
-                                            ></iframe>
-                                        ) : (
-                                            <p id="updates-content" key={index}>{contentItem}</p>
-                                        );
-                                    } else if (contentItem.image && previewImages.includes(contentItem)) {
-                                        return (
-                                            <img
-                                                key={index}
-                                                className="media"
-                                                src={contentItem.image}
-                                                alt="event"
-                                                onClick={() => handleImageClick(contentItem.image)}
-                                                style={{ borderRadius: '2px', height: 'auto' }}
-                                            />
-                                        );
-                                    }
-                                    return null;
-                                })}
+                            {Array.isArray(update.content) && update.content.map((contentItem, index) => {
+    if (typeof contentItem === 'string') {
+        if (contentItem.startsWith("https://open.spotify.com")) {
+            return (
+                <iframe
+                    key={index}
+                    src={contentItem.replace('/album/', '/embed/album/')}
+                    frameBorder="0"
+                    allow="encrypted-media"
+                    allowTransparency="true"
+                    title={`Spotify embed ${index}`}
+                    style={{ marginTop: "2em" }}
+                ></iframe>
+            );
+        } else if (contentItem.startsWith("http")) {
+            return (
+                <p id="updates-content" key={index}>
+                    <a 
+                        href={contentItem} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        style={{ color: "#007bff", textDecoration: "underline" }}
+                    >
+                        {contentItem}
+                    </a>
+                </p>
+            );
+        } else {
+            return <p id="updates-content" key={index}>{contentItem}</p>;
+        }
+    } else if (contentItem.image && previewImages.includes(contentItem)) {
+        return (
+            <img
+                key={index}
+                className="media"
+                src={contentItem.image}
+                alt="event"
+                onClick={() => handleImageClick(contentItem.image)}
+                style={{ borderRadius: '2px', height: 'auto' }}
+            />
+        );
+    }
+    return null;
+})}
+
                             </div>
 
                             {imageContents.length > 3 && (
