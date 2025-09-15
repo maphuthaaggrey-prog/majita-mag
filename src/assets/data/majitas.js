@@ -58,6 +58,9 @@ import garden2 from '../updates/garden_n.jpg'
 import zap from '../updates/zap.jpg'
 import mrshanepic1 from '../updates/mrshanepic.webp'
 import mrshanepic2 from '../updates/mrshane soul to soul ii.jpg'
+import parkAndChill from '../updates/park_and_chill.jpg'
+import parkAndChill1 from '../updates/park_and_chill1.jpg'
+import parkAndChill2 from '../updates/park_and_chill2.jpg'
 
 import boiketloEasterHighlights2025 from '../updates/boiketlo/IMG-20250430-WA0045.jpg'
 import boiketloEasterHighlights20251 from '../updates/boiketlo/IMG-20250430-WA0032.jpg'
@@ -1637,6 +1640,26 @@ I draw inspiration from past artworks. There are many designers I admire, even i
                  `https://www.webtickets.co.za/v2/event.aspx?itemid=1575215415`,
                  `Webtickets charges a standard R7.50 booking fee per ticket at checkout. This applies whether you buy online or in-store. Food Garden Events made the switch to Webtickets after challenges with the previous ticketing partner, and this change ensures smoother, safer, and more secure entry for everyone attending.`, 
                  `Food Garden 1060 is a tradition in Ga-Masemola that happens every year on 24 December. It brings people together in the spirit of community and celebration. The event is proudly presented by Food Garden Events.`, 
+   
+               ],
+       },
+       {
+        id:47,
+        title:  `1060 Park & Chill Returns for Its 3rd Year!`,
+        image: parkAndChill,
+        slug: "park-and-chill-returns-for-its-third-yeer",
+        type: "Event",
+        author: "Majita Mag",
+        date: "Sept 15 2025",
+        content: [
+                 `The wait is finally over — 1060 Park & Chill is officially back for its third year, and it’s set to be bigger and better than ever!` ,
+                 { image: parkAndChill1},
+                 { image: parkAndChill2},
+                 `Taking place on 30 December 2025 in Ga-Masemola, Maroge (Blue Door) near Big Boy Garage, this year’s edition promises to bring the perfect end-of-year celebration, blending music, networking, and a car show that captures the heart of 1060’s culture.`,  
+                 { image: parkAndChill},
+                  `This year, expect an epic mix of local talent, fresh sounds, and unique car culture — all in one space. Whether you’re there for the beats, the cars, or just the good times with friends, Park & Chill is the place to be.`, 
+                 `So mark your calendars, save the date, and get ready because the #1060ParkAndChill energy is about to take over once again.`, 
+                 `#1060ParkAndChill #3YearsStrong`, 
    
                ],
        },
