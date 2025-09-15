@@ -1647,7 +1647,7 @@ I draw inspiration from past artworks. There are many designers I admire, even i
         id:47,
         title:  `1060 Park & Chill Returns for Its 3rd Year!`,
         image: parkAndChill,
-        slug: "park-and-chill-returns-for-its-third-yeer",
+        slug: "park-and-chill-returns-for-its-third-year",
         type: "Event",
         author: "Majita Mag",
         date: "Sept 15 2025",
