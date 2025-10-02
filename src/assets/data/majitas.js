@@ -61,6 +61,7 @@ import mrshanepic2 from '../updates/mrshane soul to soul ii.jpg'
 import parkAndChill from '../updates/park_and_chill.jpg'
 import parkAndChill1 from '../updates/park_and_chill1.jpg'
 import parkAndChill2 from '../updates/park_and_chill2.jpg'
+import thermal from '../updates/thermal.jpg'
 
 import boiketloEasterHighlights2025 from '../updates/boiketlo/IMG-20250430-WA0045.jpg'
 import boiketloEasterHighlights20251 from '../updates/boiketlo/IMG-20250430-WA0032.jpg'
@@ -1663,6 +1664,23 @@ I draw inspiration from past artworks. There are many designers I admire, even i
    
                ],
        },
+       {
+        id: 41,
+        title: `Recky-R Drops New EP “Thermal” Under 1060 Sounds`,
+        image: thermal,
+        slug: "recky-r-drops-new-ep-thermal",
+        type: "Music",
+        author: "Majita Mag",
+        date: "October 02 2025",
+        content: [
+            `Recky-R has just dropped a new EP called Thermal under 1060 Sounds, and it is now out on all digital platforms. The project has 7 songs and runs for a little over 40 minutes.` , 
+            `On Thermal, Recky-R worked with Mr Shane SA, DJ Pancake, Deep Canic, Real Mronza, and Sbu Deep-Intac. Each of them added their own style to the songs, making the project full of different sounds but still keeping Recky-R’s unique touch.`,
+            `https://open.spotify.com/album/6kTCOMhBYjNTXHbsJ0Rp0Z?si=G8zAbGOeSMaiD05GFW3wSA`,
+            `With this release, Recky-R and 1060 Sounds continue to put the spotlight on fresh talent and quality sounds from Ga-Masemola. Thermal is an easy listen from start to finish, perfect for anyone who enjoys local music with a global feel.`,
+           
+        ],
+        link: "",
+    },
 
 
 
