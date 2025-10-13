@@ -30,6 +30,7 @@ import blacktearsimage from '../images/IMG-20220817-WA0000.jpg'
 import blacktearsimage1 from '../images/IMG-20210731-WA0026.jpg'
 import boikanyo from '../images/Boikanyo WCW August.jpg'
 import boikanyo1 from '../images/WhatsApp Image 2025-08-12 at 08.21.15_5dea305b.jpg'
+import mkhululi from '../images/Majita Mag October.jpg'
 
 
 
@@ -1671,7 +1672,7 @@ I draw inspiration from past artworks. There are many designers I admire, even i
         slug: "recky-r-drops-new-ep-thermal",
         type: "Music",
         author: "Majita Mag",
-        date: "October 02 2025",
+        date: "Oct 02 2025",
         content: [
             `Recky-R has just dropped a new EP called Thermal under 1060 Sounds, and it is now out on all digital platforms. The project has 7 songs and runs for a little over 40 minutes.` , 
             `On Thermal, Recky-R worked with Mr Shane SA, DJ Pancake, Deep Canic, Real Mronza, and Sbu Deep-Intac. Each of them added their own style to the songs, making the project full of different sounds but still keeping Recky-R’s unique touch.`,
@@ -1681,6 +1682,48 @@ I draw inspiration from past artworks. There are many designers I admire, even i
         ],
         link: "",
     },
+     {
+       id: 48,
+       name: "Mkhululi Nkelenjane", 
+       slug: "mkhululi-nkelenjane",
+       title: "Majita Monday",
+       content: ["Meet Mkhululi Nkelenjane, a young creative from the Eastern Cape, born and raised in a small village called eCala."],
+       image: mkhululi,
+       type: "Majita Monday",
+       date: "Oct 13 2025",
+        questions: [
+        {question: `Let’s take it back, where did you grow up, and what was life like for you coming up?` , answer: `My name is Mkhululi Nkelenjane, a young creative from the Eastern Cape, born and raised in a small village called eCala. Life there was simple, old-fashioned, and underdeveloped, but it shaped me in ways I’ll never forget. Growing up in a place where not everything was available taught me to be resourceful and creative with whatever I had. It grounded me and gave me a real appreciation for hard work and authenticity.`},
+        {question: `What kind of kid were you more into art, music, or just living in the moment?`, answer: `I was definitely the creative type. Even though I didn’t have much access to art or music at the time, I was always experimenting sketching, styling outfits, or just imagining new ideas. I’d say I was more into creating my own world than just living in the one I was given.`},
+        {question: `Looking at where you are now, what do you think shaped you the most from your upbringing?`, answer: `The biggest thing that shaped me was seeing how people back home, ezilalini made things work with so little. That taught me resilience and pride in what you create.That mindset still drives me today  it’s what pushes me to keep building and creating, no matter what.`, },
+        {question: `When did you realize you wanted to express yourself through art, whether it’s music or fashion?`, answer: [`That realization came when I moved to Johannesburg. The city opened my eyes, the culture, meeting creative people and the freedom of expression. I started experimenting with clothes and music, and it just felt natural.` ] },
+        {question: `Was there a specific moment that made you say, “nah, this is really what I wanna do with my life”?`, answer: [`Honestly, at first I was just having fun with it. I never really thought of music or fashion as something I’d take seriously or build a life around. I was just creating because it felt good. But when people started connecting with what I was doing, when they related to my sound or showed love for my clothing that’s when it hit me. I realized this wasn’t just a hobby anymore; it was something real, something worth committing to.` ] },
+        {question: `What was your family or community’s reaction when you started chasing the dream?`, answer: [`At first, they didn’t really take it seriously, and honestly, neither did I. When I told them I was just having fun with it, they reprimanded me and reminded me to focus on my books while keeping my hobbies on the side. Where I come from, creative careers aren’t seen as stable or realistic, so I understood their concern. But as time went on and they saw how dedicated I was, their perspective started to change. Now they see that I wasn’t just having fun. I was building something real, and that makes them proud.
+            
+            As for the community, it was even harder. When you start doing something creative where I’m from, people often see you as someone trying to be different or too ambitious. Dreaming big isn’t always encouraged if you share your ideas. People might judge you or say things like “uboniswa kakhulu” (you’re showing off) or “those things never happen.” But I’ve learned to use that doubt as motivation. It pushed me to believe in my vision even more.` ] },
+        {question: `Gangrelated is a strong name  what does it stand for beyond the surface?`, answer: [`The name Gangrelated might sound intense, but for me, it’s not about violence or negativity it’s about unity, creativity, and connection. It represents a collective of individuals who share the same energy, ambition, and passion for expression. It’s about being related through creativity. `] },
+        {question: `How did the idea start? Were you always into fashion or did it grow from the streets?`, answer: [`The idea started back in 2021 when I was still in Grade 11. I actually found the name in an LO textbook while flipping through definitions. It just felt like something powerful, something that could carry meaning. I started imagining it as a clothing brand, and I didn’t rush it. When I moved to Johannesburg in 2022, things began to click. Being surrounded by creative people and the city’s fashion culture opened my mind. 
+            
+            It began with a few of us just friends styling ourselves, combining outfits, and doing photoshoots for fun. That’s when we called ourselves Gangrelated because we were genuinely connected through fashion. Over time, that fun turned into a vision  and, eventually, a brand.
+` ] },
+        {question: `What kind of message do you want the brand to send to the youth?`, answer: [`I want Gangrelated to inspire the youth to believe that creativity can come from anywhere even from the smallest village. I want them to know that it’s okay to dream differently and express yourself freely. If they say " uyabaseleka, uyaboniswa", qhubeka uboniswe. Gangrelated is about breaking that mindset.` ] },
+        {question: `How hands-on are you with the designs and creative direction?`, answer: [`I’m involved in everything. From the sketches to the final designs,  I want people to feel the authenticity and meaning behind every item` ] },
+        {question: `What’s been your proudest Gangrelated moment so far?`, answer: [`Definitely creating and releasing the first official design. It started as a simple sample, but seeing people wear it and connect with it was surreal. That moment made me realize that this vision was real and that something I created from scratch could actually impact others.` ] },
+        {question: `Definitely creating and releasing the first official design. It started as a simple sample, but seeing people wear it and connect with it was surreal. That moment made me realize that this vision was real and that something I created from scratch could actually impact others.`, answer: [`Absolutely. I see Gangrelated becoming more than just a clothing brand. I see it growing into a lifestyle movement. I want to branch into events, creative collaborations, and spaces where young people can connect and express themselves. Whether it’s music, fashion, or art, Gangrelated is about building a culture around creativity and confidence.`] },
+        {question: `Congrats on Xhaura! What does the title mean and what inspired the song?`, answer: [`Thank you! The title Xhaura was inspired by a TikTok trend where Xhosa people came up with their own version of the word “aura,” keeping the same meaning. As for the song itself, there wasn’t a specific deep inspiration. My homeboy played the beat, and we just hopped on it and had fun, and that's how the song came up ` ] },
+        {question: `How did you come up with the concept for the visuals  they hit hard.`, answer: [`The visuals came from the vibe of the track and the energy we wanted to show. We played with different ideas until it clicked, and I think the outcome really captured the essence of 'Xhaura'` ] },
+        {question: `What kind of headspace were you in when recording Xhaura?`, answer: [`It was all about having fun and letting the energy flow naturally. I think that’s why the song came out good.` ] },
+        {question: `Would you say your music and your brand feed off each other creatively?`, answer: [`Absolutely. Both my music and Gangrelated are about self-expression, energy, and authenticity. Fashion influences the way I approach music, and music influences the way I envision the brand.` ] },
+        {question: `Who are some artists you’d love to collaborate with, locally or internationally?`, answer: [`Locally, I’d love to work with Qoute T, an artist from the Eastern Cape whose work I really admire. Internationally, I don’t have anyone in mind yet.` ] },
+        {question: `When people listen to your music, what do you want them to take away?`, answer: [`I want people to feel the energy and authenticity in what I do. Whether it’s a vibe, an emotion, or a story, I want them to connect with it in their own way.` ] },
+        {question: `Any upcoming projects, EPs or singles we should be watching for?`, answer: [`Yes I’m currently working on my debut EP. It’s a project that represents my journey, my growth, and my creativity.` ] },
+        {question: `What keeps you motivated on days when things feel heavy or slow?`, answer: [`What keeps you motivated on days when things feel heavy or slow?` ] },
+        {question: `What’s your take on fame and staying real in the industry?`, answer: [`I believe fame doesn’t change who you are, but it changes how you see the world and how you react to it. Staying real means staying true to yourself, your values, and your vision, even when the spotlight comes with pressure and expectations.` ] },
+        {question: `What’s one lesson life has taught you recently?`, answer: [`To keep creating, even when I don’t feel like it. Inspiration isn’t always constant, but discipline and passion push you to keep going. You never know who needs to see or hear your work at that exact moment.` ] },
+        {question: `Who do you do it all for yourself, family, the hood, or something deeper?`, answer: [`I do it for myself. It has always been about me, expressing myself, growing as a creator, and building something meaningful. While family and community are part of my journey, the drive starts with my own purpose and passion.` ] },
+        {question: `If you weren’t doing music or fashion, what do you think you’d be doing right now?`, answer: [`If I weren’t pursuing music or fashion, I’d probably be focused on my studies, which is what I’m doing right now. I took a break from creating the content I used to put out to focus on school, and I’m also experimenting with new ideas trying to find fresh ways to express myself and offer something different from what I’ve shared before.` ] },
+
+      ]
+       }, 
 
 
 
