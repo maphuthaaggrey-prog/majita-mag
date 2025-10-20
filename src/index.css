@@ -859,6 +859,7 @@ h4 {
     margin-top: 0;
     font-size: 15px;
     color: #c9c9c9;
+    white-space-collapse: preserve-breaks;
 }
 #updates-content {
     margin-top: 1.4em;

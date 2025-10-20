@@ -622,10 +622,41 @@ export const majitas = [
         type: "Majita Monday",
         date: "Sep 11 2023",
         questions: [
-            { question: "WHO IS KIMMO", answer: "My name is Nkogatse Katobatoba, Im A 19 YearOld Creative and Photographer Based In Ga- Masemola. I would Best Like to Describe My Self As A Creative Visual Storyteller. Im Not Self Aware On Camera But In Despise Of That I Use It To Navigate The World Around Me. I Am Passionate About Photography. Im Always Reaching Out them Heights in This Field As A Creative. Currently | Specialize In Both Lifestyle, Events And Portrait Photography."},
-            { question: "WHAT KIND OF PERSON IS SUBURBAN ΚΙΜΜΟ", answer: "Im an ambivert. My Friends and Those Closest To Me Would Say I Am Giddy and Chatty. Im So Grounded and I Try To Be Humble All The Time. I'm Very Reserved And Honestly Shy. And im also Very Spiritually Oriented. I believe in God and i also belive in his purpose for my life. Besides that i am honestly laid back"},
-            { question: "HOW DID I START PHOTOGRAPHY", answer: "I would like to believe that photography found me. It was a gift greater than myself. Four years ago i started taking pictures. I started seeking a creative outlet or something else. I enjoyed doing that, i invested most of my time in that. I explored various options, but then i realized that throughout my journey i,am greatly fond of capturing memories and spaces around. I started to explorethe idea of photography. And lucky enough i had certain people who shared this"},
-            { question: "INTERESTS OUTSIDE OF PHOTOGRAPHY", answer: "Photography changed the whole system, everything i'm bound to do has photography beside it. But outside of photography i love travelling and exploring new places. importantly i love spending time withmy family and friends."},
+            { question: "WHO IS KIMMO", answer: `My name is Nkogatse Katobatoba, a 19 year old creative and photographer based in Ga-Masemola. I would best describe myself as a creative visual storyteller. 
+                
+            I’m not always self-aware in front of the camera, but I use it as a tool to navigate the world around me. Photography is my language it allows me to communicate what words often can’t. 
+
+            I’m passionate about growth and always reaching for new heights in the creative field. At the moment, I specialize in lifestyle, events and portrait photography, capturing raw moments that tell real stories. 
+    
+            `},
+            { question: "WHAT KIND OF PERSON IS SUBURBAN ΚΙΜΜΟ", answer: `I’m an ambivert  balanced between quiet and outgoing. My friends and those closest to me would describe me as giddy, chatty and grounded. I try to stay humble and present in everything I do. 
+
+            At heart, I’m reserved, shy and spiritually driven. I believe deeply in God and in His purpose for my life. Beyond the creative space, I’m simply a laid back person who enjoys peace, good energy and meaningful connections. 
+
+                `},
+            { question: "HOW DID I START PHOTOGRAPHY", answer: `I like to believe that photography found me, it was a gift greater than myself. 
+
+                About four years ago, I started taking pictures as a way to express myself and explore creativity. I tried different things, but I kept coming back to how much I loved capturing moments, spaces and emotions around me. 
+                
+                That curiosity grew into passion. I began investing my time and energy into it, learning, experimenting and finding my voice behind the lens. Along the journey, I was blessed to meet people who shared the same vision and inspired me to keep going. 
+
+                `},
+            { question: "INTERESTS OUTSIDE OF PHOTOGRAPHY", answer: `Photography changed the way I see everything  it’s always part of what I do. But outside of it, I love traveling, exploring new places and spending time with family and friends. 
+
+                        Those moments recharge me and remind me why I started to live fully, see beauty in everything and tell stories that matter. 
+
+               
+               
+                        `},
+            { question:  `WHAT KEEPS YOU GROUNDED AS A CREATIVE?`, answer: `What keeps me grounded is purpose. I know I’m not just doing this for attention or numbers I’m doing it because it’s part of my calling. Whenever I shoot, I feel guided by God, my ancestors and the energy around me. That’s what keeps me balanced, even when things get tough. `},
+            { question:  `WHERE DO YOU SEE YOURSELF GOING AS SUBURBANKIMMO? `, answer: `I see myself becoming a recognized visual storyteller someone who works closely with influencers, celebrities and brands capturing authentic, timeless visuals that carry emotion and depth.
+                
+                But more than the fame, I want to inspire young creatives from places like mine to believe that their dreams are valid, no matter where they start. Suburbankimmo is more than a name  it’s a statement of identity, confidence and growth. 
+`},
+            { question:  `WHAT DOES PHOTOGRAPHY MEAN TO YOU NOW? `, answer: `To me, photography has become a form of peace and connection. It’s no longer just about taking good pictures  it’s about feeling moments deeply and freezing energy in time. Every shot I take represents how I see the world: real, emotional and full of meaning. 
+                
+                It’s my way of speaking without words, of saying I was here and this moment mattered.`},
+            { question:  ``, answer: ``},
         ]
        },
        {
@@ -846,7 +877,9 @@ export const majitas = [
         date: "Mar 26 2025",
         questions: [
         { question: "Introduce yourself and tell us a bit about your background and upbringing", answer: `I am Tshegofatso Motloutsi, born and raised in Pretoria, both my parents are from
-                                            Limpopo, and I am a Pedi girl. I grew up in a 2-parent household, a daddy's little
+                                            Limpopo, and I am a Pedi girl. 
+                                            
+                                            I grew up in a 2-parent household, a daddy's little
                                             princess and my mother's best friend. Growing up I have always been an experimental
                                             person, and my parents always supported everything I showed interest in. I have
                                             always been outgoing, energetic, and socially active.`},   
