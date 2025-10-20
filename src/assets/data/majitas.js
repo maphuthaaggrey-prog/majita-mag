@@ -628,7 +628,7 @@ export const majitas = [
 
             I’m passionate about growth and always reaching for new heights in the creative field. At the moment, I specialize in lifestyle, events and portrait photography, capturing raw moments that tell real stories. 
      `},
-            { question: "WHAT KIND OF PERSON IS SUBURBAN ΚΙΜΜΟ", answer: `I’m an ambivert  balanced between quiet and outgoing. My friends and those closest to me would describe me as giddy, chatty and grounded. I try to stay humble and present in everything I do. 
+            { question: "WHAT KIND OF PERSON IS SUBURBAN KIMMO", answer: `I’m an ambivert  balanced between quiet and outgoing. My friends and those closest to me would describe me as giddy, chatty and grounded. I try to stay humble and present in everything I do. 
 
             At heart, I’m reserved, shy and spiritually driven. I believe deeply in God and in His purpose for my life. Beyond the creative space, I’m simply a laid back person who enjoys peace, good energy and meaningful connections. `},
             { question: "HOW DID I START PHOTOGRAPHY", answer: `I like to believe that photography found me, it was a gift greater than myself. 
