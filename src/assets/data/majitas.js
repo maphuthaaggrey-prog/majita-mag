@@ -31,6 +31,8 @@ import blacktearsimage1 from '../images/IMG-20210731-WA0026.jpg'
 import boikanyo from '../images/Boikanyo WCW August.jpg'
 import boikanyo1 from '../images/WhatsApp Image 2025-08-12 at 08.21.15_5dea305b.jpg'
 import mkhululi from '../images/Majita Mag October.jpg'
+import neo from '../images/Majita Mag November.jpg'
+import neoimage from '../images/neoimage.jpg'
 
 
 
@@ -1375,7 +1377,7 @@ Ultimately, I think it's all about sharing my authentic self with my audience an
         content: ["Meet Dovakxng, a hip hop artist from Mamelodi East, inspired by the game Skyrim, where the name was given to those whose voices hold power."],
         image: dovaking,
         type: "Majita Monday",
-        date: "June 02 2025",
+        date: "Jun 02 2025",
         questions: [
         {question: "Can you tell us about the moment you realized hip hop was your calling? ", answer: "Hip hop has been my calling since I first understood the beauty in lyricism, I found it interesting how meanings can be layered through rhythm and rhyme"},
         {question: "Where did your stage name come from, and what does it represent? ", answer: `My stage name Dovakxng was inspired by a game called Skyrim where the name was given to those who's voices hold power, so that related to me because I believe my voice could hold that power too, in context of  music `},
@@ -1394,7 +1396,7 @@ Ultimately, I think it's all about sharing my authentic self with my audience an
         content: ["Meet Tsheamor, a graphic designer who grew up surrounded by creatives, sparking his passion for art. He started experimenting with design in high school, creating his first logo in Microsoft Paint."],
         image: tsheamor,
         type: "Majita Monday",
-        date: "July 07 2025",
+        date: "Jul 07 2025",
         questions: [
         {question: "Intro & Background", answer: "My name is Tsheamo Kau, and I grew up in 1060. I was surrounded by creatives  almost all my friends were into some form of art  and that environment made me fall deeper in love with creativity. The idea of creating something out of nothing has always fascinated me. My journey into graphic design started back in high school, just experimenting with designs on my phone and later using my brother’s computer. One of my first real projects was designing a logo for a friend who was a DJ  I used Microsoft Paint at the time. That moment, along with the influence of my brother who was a music producer, opened up a world of creative tools and ideas for me. While he focused on music, I found my own lane in visual art and design. I now work across different areas like branding, motion graphics, and packaging  constantly learning and growing"},
         {question: "Creative Process & Style", answer: `My design style is a mix of old and new. I love finding old artwork and taking inspiration or samples from it  there’s something powerful about reviving vintage aesthetics in a modern way. Most of the time, I don’t plan too much. I just start designing, and ideas begin to flow on their own until I end up with a final piece, sometimes without even realizing it. I try not to overthink or compare my work to others, because that can block creativity. I draw inspiration from everything  music, culture, people, conversations, and random moments. It all plays a role in how I create. My go-to tools are Adobe Photoshop and Adobe Illustrator, I honestly see them as therapy. They’re part of my everyday process and I can’t imagine designing without them`},
@@ -1489,7 +1491,7 @@ I draw inspiration from past artworks. There are many designers I admire, even i
       content: ["Meet Angelina, a 25-year-old creative powerhouse from Glen Cowie, now based in Middelburg — she's a model, business owner, makeup artist, hairstylist, and podcast host."],
        image: angelina,
         type: "Women Crush Wednesday",
-       date: "July 30 2025",
+       date: "Jul 30 2025",
         questions: [
        {question: "For those meeting you for the first time — who is Angelina?", answer: `I am a 25 year old young lady named Mmatau Angelina Leopeng. I was born and bred in the streets of Glen Cowie in Limpopo. I am a model, business owner, makeup artist, hairstylist and a host on a podcast called 5 minutes on the streets. I am currently residing in Middelburg`},
         {question: `Lioness Beauty is such a powerful name. Where did the idea come from, and what does it represent for you? Also what services or products do you offer under this brand?`, answer: `My first name is Mmatau which means “Mother lion” the queen of the jungle. Lioness Beauty is for our gorgeous queens. We currently offer makeup, wig installation services and wig revamp services. We are hoping to introduce more services as we grow`},
@@ -1749,6 +1751,37 @@ I draw inspiration from past artworks. There are many designers I admire, even i
 
       ]
        }, 
+       {
+        id: 50,
+        name: "Neo Maleka", 
+        slug: "neo-maleka",
+        title: "Majita Monday",
+        content: ["Meet Neo Maleka — a DJ, sound service provider, and sound engineer who has turned his passion into a purpose-driven hustle."],
+        image: neo,
+        type: "Majita Monday",
+        date: "Nov 03 2025",
+         questions: [
+         {question: `Who are you and what do you do?` , answer: `           I’m Neo Maleka, a DJ, sound service provider, and sound engineer. I also run an internet café and recently opened my own food spot called Neo Café Fish & Chips Branch.
+
+                                                                            Neo is one of those Majita who believes in making things happen through action. His journey in sound and business shows what it means to hustle with purpose from setting up speakers for events to building spaces that serve the community.
+
+                                                                            When he’s not behind the decks or providing sound for functions, Neo is busy running his internet café and his Neo Café Fish & Chips Branch, where he serves up local favourites like chips, fish, Russians, Viennas, and pap with meat.
+
+                                                                            Neo’s story represents a new wave of young entrepreneurs who use their creativity and determination to open doors in more than one lane.
+                                                                            `},
+         {question: `Who is Neo beyond the DJ name? How would you describe yourself to someone meeting you for the first time?` , answer: `Neo is a professional educator and communications practitioner who believes in empowering communities and individuals around him `},
+         {question: `You’ve built a name in sound and DJing. How did your journey in sound engineering and event setup begin?` , answer: `It began when I developed the love for music at the age of 12 and it was amplified when certain organisations were excluding me from their work such as Giggs which led me to develop something on my own which can utilise to express my love for music and sound.`},
+         {question: `What inspired you to start your own sound service business instead of just being behind the decks as a DJ?` , answer: `Honestly, my background. I sat down and figured what could bring me bread besides academics and the first thing came to my mind was my natural skill given by God, Djying and sound engineering.`},
+         {question: `Your TikTok content promoting your sound setups has been getting attention  how has that platform helped you grow your brand?` , answer: `It assisted me a lot, especially with regard to getting clients and brand visibility. Through TikTok we are now able to provide our services provincially.`},
+         {question: `Tell us about Neo Café Fish & Chips Branch, where did the idea come from, and what makes it special to you?` , answer: `The idea came when I visited certain events and identified market gap with regard to food they sell at events. So I decided to come up with brand that will sell something different and tasty to clients.`},
+         {question: `Running multiple hustles can’t be easy. How do you manage your time and energy between sound gigs, your internet café, and the fish & chips branch?` , answer: [`Sometines I also wonder how I do it but the key is to have good friends and good employees with different skills and techniques. `, { image:neoimage}  ]},
+         {question: `What’s the biggest challenge you’ve faced while running these businesses, and how did you overcome it?` , answer: `Competition from brands that offer the same services as I do really gave me a challenge but I decided to go to digital marketing and offer clients quality services let alone appeal to their emotions when advertising our services`},
+         {question: `As someone building so much from the ground up, what keeps you motivated to keep pushing?` , answer: `Poverty, I really want poverty to miss me and my family `},
+         {question: `How do you see your businesses impacting the community or inspiring other Majita around you?` , answer: ` ⁠I hope it’ll impact them positively and make them realise that your background doesn’t define you. As long as you have a skill, persue it, it might be your way out of life struggles `},
+         {question: `What’s next for you  any new goals or plans for Neo Sound, the café, or your personal brand?` , answer: `There’s a lot coming that I don’t want to divulge yet due to competition and copy cats`},
+     
+        ]
+        },
 
 
 
