@@ -65,6 +65,9 @@ import parkAndChill from '../updates/park_and_chill.jpg'
 import parkAndChill1 from '../updates/park_and_chill1.jpg'
 import parkAndChill2 from '../updates/park_and_chill2.jpg'
 import thermal from '../updates/thermal.jpg'
+import allwhite from '../updates/1060allwhite.jpeg'
+import allwhite1 from '../updates/allwhite1.jpg'
+import allwhite2 from '../updates/allwhite2.jpg'
 
 import boiketloEasterHighlights2025 from '../updates/boiketlo/IMG-20250430-WA0045.jpg'
 import boiketloEasterHighlights20251 from '../updates/boiketlo/IMG-20250430-WA0032.jpg'
@@ -1782,6 +1785,32 @@ I draw inspiration from past artworks. There are many designers I admire, even i
      
         ]
         },
+        {
+            id:51,
+            title:  `4th Annual 1060 All White Soul Session Set to Light Up December!`,
+            image: allwhite,
+            slug: "all-white-soul-session-set-to-light-up-december",
+            type: "Event",
+            author: "Majita Mag",
+            date: "Nov 17 2025",
+            content: [
+                     `The 1060 All White Soul Session is back for its 4th year, and it’s one of the biggest December events in Ga-Masemola. People already know this event for its clean all-white theme, good music, and a classy atmosphere, and this year will be no different.` ,
+
+                     { image: allwhite1},
+                     { image: allwhite2},
+                     `The event will take place on Saturday, 27 December 2025, at Gamanyane (The Adventure), Apel Cross, Ga-Masemola. From 12 PM until late, people can expect great DJs, a beautiful setup, and the fun December vibes everyone loves.`,  
+                     { image: allwhite},
+                      `This year’s lineup already features King Ashby “King of Strawberries” along with Gugu Da DJ and KOKI MOLF, who are known for bringing Soul and R&B-inspired sounds. The organisers are expected to add even more DJs as the event gets closer, so the full lineup will grow and bring an even richer soul experience.`, 
+                      `Tickets are now available in different phases, so the earlier you buy, the cheaper it is:`, 
+                      ` • Phase 1 — R200 (Aug–Sept)`, 
+                      ` • Phase 2 — R250 (Oct–Nov)`, 
+                      ` • Phase 3 — R300 (December)`, 
+                      ` • R400 at the gate`, 
+                     `Every year the All White Soul Session grows bigger, and the 2025 edition is set to be one of the best. Whether you’re coming for the music, the fashion, or just to relax with friends, this event is one you don’t want to miss.`, 
+                     `#4thAnnual #AllWhite #ALLVIP #Mangeloi`, 
+       
+                   ],
+           },
 
 
 
