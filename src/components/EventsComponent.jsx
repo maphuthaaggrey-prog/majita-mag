@@ -19,7 +19,7 @@ const EventsComponent = () => {
                 <p id="line"></p>
             </div>
             <div className="music-grid-items">
-                {sortedEventUpdates.map((event) => (
+                {sortedEventUpdates.slice(0, 4).map((event) => (
                     <Link to={`/events/${event.slug}`} key={event.id} className="majita-link">
                         <img
                             src={event.image}
@@ -40,6 +40,9 @@ const EventsComponent = () => {
                         </div>
                     </Link>
                 ))}
+                                <Link to="/majitahighlights" style={{background: 'none'}}>
+                        <button className='see-more-button'>See more</button>
+                </Link>
             </div>
         </div>
     );

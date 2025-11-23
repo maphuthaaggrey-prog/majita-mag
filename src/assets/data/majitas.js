@@ -60,6 +60,10 @@ import garden1 from '../updates/garden_hello.jpg'
 import garden2 from '../updates/garden_n.jpg'
 import zap from '../updates/zap.jpg'
 import mrshanepic1 from '../updates/mrshanepic.webp'
+import kosa from '../updates/kosha_zack.jpg'
+import vaalmixzap from '../updates/zapmix.jpg'
+
+import shane_rythm4 from '../updates/mrshanerythm.jpg'
 import mrshanepic2 from '../updates/mrshane soul to soul ii.jpg'
 import parkAndChill from '../updates/park_and_chill.jpg'
 import parkAndChill1 from '../updates/park_and_chill1.jpg'
@@ -68,6 +72,7 @@ import thermal from '../updates/thermal.jpg'
 import allwhite from '../updates/1060allwhite.jpeg'
 import allwhite1 from '../updates/allwhite1.jpg'
 import allwhite2 from '../updates/allwhite2.jpg'
+import potoMondayDec from '../updates/potoMondayDec.jpg'
 
 import boiketloEasterHighlights2025 from '../updates/boiketlo/IMG-20250430-WA0045.jpg'
 import boiketloEasterHighlights20251 from '../updates/boiketlo/IMG-20250430-WA0032.jpg'
@@ -1811,7 +1816,69 @@ I draw inspiration from past artworks. There are many designers I admire, even i
        
                    ],
            },
-
-
+           {
+            id:55,
+            title:  `UNIVERSITY OF ORANGE FEST PRESENTS: POTO MONDAY DECEMBER EDITION 2025`,
+            image: potoMondayDec,
+            slug: "university-of-orange-fest-presents-poto-monday-december-edition",
+            type: "Event",
+            author: "Majita Mag",
+            date: "Nov 23 2025",
+            content: [
+                     `This December, University of Orange Fest brings the Poto Monday December Edition to the streets, with events on 08, 15, and 22 December 2025.` ,
+                     { image: potoMondayDec},
+                     `Best of all? ENTRANCE IS FREE! Come through for the ultimate summer Monday experience featuring: Authentic African pots, Live music performances and Daytime social vibes`,
+                     `Don't miss this opportunity to enjoy good food, great music, and even better company. Mark your calendars and bring your crew for the freshest way to spend your December Mondays!`, 
+                     `#PotoMonday #UniversityOfOrangeFest #DecemberVibes`, 
+       
+                   ],
+           },
+           {
+            id:54,
+            title: "Mr Shane SA Drops Rhythm Forge Vol.04",
+            image: shane_rythm4,
+            slug: "mr-shane-drops-rythm-forge-volume-four",
+            type: "Music",
+            author: "Majita Mag",
+            date: "Nov 23 2025",
+            content: [
+                   `This past Friday, 1060 Sounds released a brand-new mixtape titled Rhythm Forge Vol.04, mixed and compiled by Mr Shane SA. The project is a 100% production mix, meaning every song in the tape is produced by him. `, 
+                   `https://youtu.be/mpjY39GmRsQ`,      
+                   `This release also highlights Mr Shane SA’s consistency as a producer. His sound is clean, mature, and easy to recognize.`,
+               ],
+            link: "",
+           },
+           {
+            id:53,
+            title: `Zick-Zack & Ell Morwa Drop "Koša"`,
+            image: kosa,
+            slug: "zick-zack-and-ell-morwa-drop-Kosa",
+            type: "Music",
+            author: "Majita Mag",
+            date: "Nov 23 2025",
+            content: [
+                   `The streets of Ga Masemola have been fed today as Zick-Zack and Ell Morwa just released their new collaborative single "Koša".`, 
+                   `Released on 23rd November 2024, the track brings authentic 1060 flavor with Ell Morwa delivering sharp verses in Sepedi vernacular over Zick-Zack's production. The combination creates a raw, grounded sound that represents their hometown pride while pushing the culture forward.`,
+                   `Stream "Koša" now and support talent representing 1060 to the fullest.`,
+                   `https://open.spotify.com/album/4GKu671YN1DXnl2ID07zC1`,      
+               ],
+            link: "",
+           },
+           {
+            id:52,
+            title: `NOISY NEIGHBOURS 2025 Hip Hop Mix by ZAP`,
+            image: vaalmixzap,
+            slug: "noisy-neighbours-hip-hop-mix-by-zap",
+            type: "Music",
+            author: "Majita Mag",
+            date: "Nov 23 2025",
+            content: [
+                   `1060's own ZAP brings the heat with his new "NOISY NEIGHBOURS 2025" hip-hop mix, recorded in the Vaal at 1hunnit Studios, Sasolburg.`, 
+                   `This high-energy set features straight fire from artists like Gunna, DJ Sliqe, the legendary Ricky Rick, Justsam, and Masedi. ZAP blends these tracks together, keeping the energy at maximum level from start to finish.`,
+                   `Stream " EP08 NOISY NEIGHBOURS 2025" now and experience the Vaal's hottest hip-hop mix.`,
+                   `https://www.youtube.com/watch?v=yDNAXuZy0pA&t=1504s`,      
+               ],
+            link: "",
+           },
 
 ]

@@ -20,7 +20,8 @@ const LatestMusic = () => {
     }, []);
 
     // Filter out the active item (based on the slug from useParams)
-    const filteredMusic = allUpdates.filter((item) => item.slug !== slug);
+    const filteredMusic = allUpdates.filter((item) => item.slug !== slug)
+    .sort((a, b) => new Date(b.date) - new Date(a.date));;
 
     return (
         <div>

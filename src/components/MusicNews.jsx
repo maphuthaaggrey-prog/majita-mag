@@ -22,7 +22,7 @@ const MusicNews = () => {
                 {sortedMusicUpdates.length === 0 ? (
                     <p style={{display: 'none'}}>No music updates found.</p>
                 ) : (
-                    sortedMusicUpdates.map((music) => (
+                    sortedMusicUpdates.slice(0, 4).map((music) => (
                         <Link to={`/music/${music.slug}`} key={music.id} className="majita-link">
                             <img
                                 src={music.image}
@@ -44,6 +44,10 @@ const MusicNews = () => {
                         </Link>
                     ))
                 )}
+                <Link to="/majitahighlights" style={{background: 'none'}}>
+                        <button className='see-more-button'>See more</button>
+                </Link>
+
             </div>
         </div>
     );
