@@ -32,7 +32,9 @@ import boikanyo from '../images/Boikanyo WCW August.jpg'
 import boikanyo1 from '../images/WhatsApp Image 2025-08-12 at 08.21.15_5dea305b.jpg'
 import mkhululi from '../images/Majita Mag October.jpg'
 import neo from '../images/Majita Mag November.jpg'
+import martin from '../images/Majita Mag December.jpg'
 import neoimage from '../images/neoimage.jpg'
+import djBoity from '../images/Boity.jpeg'
 
 
 
@@ -1880,5 +1882,84 @@ I draw inspiration from past artworks. There are many designers I admire, even i
                ],
             link: "",
            },
+
+           {
+            id: 53,
+            name: "Martin RSA", 
+            slug: "martin-rsa",
+            title: "Majita Monday",
+            content: ["Martin Mminele, known online as Martin RSA—a content creator, stylist, and student at the University of Pretoria. "],
+            image: martin,
+            type: "Majita Monday",
+            date: "Dec 15 2025",
+             questions: [
+             {question: `Who are you?` , answer: `I’m Martin Mminele, known online as Martin RSA—a content creator, stylist, and student at the University of Pretoria. I’m in my early 20s and I’m building a platform that brings real South African youth culture to life. Whether it’s blind dates, chilling-with-friends episodes, or style content, I’m all about creating moments that feel authentic, fun and unapologetically real.
+                                                  
+                                                 I’m a storyteller at heart—someone who loves seeing people’s reactions, connecting strangers, and bringing vibes to the screen. On YouTube I’m growing a community that believes in what I do, and on TikTok I express the fashion side of me: clean, bold, effortless style that people can relate to.`},
+             {question: `What inspired you to start your YouTube channel and when did it feel like “okay, this is really happening”?` , answer: `I’ve always been that guy who loves creating moments, styling people and seeing reactions. I started YouTube because I wanted to bring real Limpopo youth culture to the screen—fun, raw conversations, vibes, and genuine interactions. It felt real the moment I shot my first blind date and people started reacting like, “Yo, we need more of this!”`},
+             {question: `Your channel is sitting at 4.09k subs—how does it feel being on the road to 5k?` , answer: `Honestly, it feels unreal. I’m grateful. Every subscriber feels like a person who believes in what I do. 5k is close now, and it’s motivating me to push even harder.`},
+             {question: `Between Chilling with Friends, Blind Dates and Q&As, which series represents “Martin” the most and why?` , answer: `Blind Dates. That’s my baby. It brings numbers, it brings chaos, and it brings realness. I love seeing strangers connect—or not connect—in the funniest and most unexpected ways.`},
+             {question: `What’s been the most unexpected moment on your channel so far?` , answer: `Definitely those moments when people who just met decide they’re suddenly soulmates on camera… and then block each other the next day. YouTube is wild.`},
+             {question: `What’s one thing you wish people understood about the work behind YouTube content?` , answer: `It’s not just “press record.” There’s planning, styling, directing, editing, managing people, setting vibes, and keeping energy high. It takes real effort and passion.`},
+             {question: `What do you look for when choosing friends to feature on your episodes?` , answer: `Good energy. If you’re fun, unfiltered and comfortable being yourself on camera, you’re perfect.`},
+             {question: `What moment had you laughing even after the cameras were off?` , answer: `There was a moment when my friend answered a question completely wrong because he was trying to flirt. We laughed for a good 20 minutes after shooting.`},
+             {question: `Which friend brings the most chaos to the show?` , answer: `The one who always talks before thinking. Every friend group has that one person… that’s my chaos distributor`},
+             {question: `What inspired you to start doing blind dates?` , answer: `People love love—and drama. And I realized no one around me was doing blind dates with SA youth the way I envisioned it. So I took the risk, and it paid off.`},
+             {question: `Have you ever felt like joining a blind date yourself?` , answer: `I’ve thought about it… but I enjoy being behind the scenes stirring the pot too much.`},
+             {question: `What's the wildest reaction you’ve seen between two people meeting for the first time?` , answer: `Someone walked in, looked at their date, and said, “Yoh… already?” before even sitting down. The confidence? The disrespect? The entertainment? Amazing.`},
+             {question: `You’re known as a fashionista—how did fashion become your thing?` , answer: `Since young, I always loved standing out. Clothes were my way of expressing mood, personality and creativity. When people started calling me a stylist, I realized it’s more than a hobby—it’s part of my identity.`},
+             {question: `How would you describe your style in three words?` , answer: `Clean. Bold. Effortless.`},
+             {question: `Who are your top 3 style influences right now?` ,        answer: [
+                "1. Fargo_pty_ltd",
+                "2. Complain department",
+                "3. Domingos",
+              ]
+            },
+             {question: `You have 6k followers and 39k likes on TikTok. What do you think makes people connect with your fashion content?` , answer: `Authenticity. I don’t copy trends—I style them my way. People connect with someone who looks like them but styles things differently.`},
+             {question: `What’s one fashion rule you live by… and one you love breaking?` , answer: [
+                "1. Rule I live by: Fit is everything.",
+                "2. Rule I break: “Don’t mix patterns” — I mix if it works for me.",
+              ]
+            },
+             {question: `Who is Martin when the camera is off?` , answer: `Chilled, creative, observant. I think a lot. I plan a lot. And I like my quiet moments.`},
+             {question: `What’s something most people don’t know about you?` , answer: `I’m actually shy around new people until I warm up. The camera Martin and the private Martin are cousins, not twins.`},
+             {question: `What keeps you grounded creatively?` , answer: `My purpose. Knowing that every video is an opportunity to grow and inspire.`},
+             {question: `What are you currently obsessed with—music, shows, trends?` , answer: `Right now I’m locked into amapiano sets, TikTok fit challenges, and anything that inspires fresh content ideas.`},
+             {question: `What can people expect from you in 2025?` , answer: `Better production, bigger blind dates, a stronger fashion presence, and collaborations that shake the timeline.`},
+             {question: `Any dream collabs for your YouTube channel or fashion content?` , answer: `Definitely other SA creators who are killing it in lifestyle and dating content. And fashion brands—big or upcoming—who understand street style.`},
+             {question: `When you hit 10k subs, what’s the one thing you want to look back at and be proud of?` , answer: `That I stayed consistent. That I grew without losing myself. And that my content actually impacted people.`},
+             {question: `What advice would you give to someone who wants to start creating content but doesn’t know where to begin?` , answer: `Start with what you have. Start with who you are. Don’t wait for perfect equipment or approval—consistency will take you further than confidence.`},
+             {question: `Finish the sentence: “Majita Monday is important because…”` , answer: `“…it brings the boys together, the vibes together, and starts the week with the realest energy.”`},
+
+            ]
+            },
+       //    {
+      //      id: 54,
+      //      name: "DJ Boity", 
+      //      slug: "dj-boity",
+      //      title: "Women Crush Wednesday",
+      //      content: ["DJ Boity is a passionate, driven, and fearless creative who uses music to connect with people."],
+      //      image: djBoity,
+      //      type: "Women Crush Wednesday",
+      //      date: "Dec 17 2025",
+      //       questions: [
+      //              {question: `Tell us a bit about yourself - who is DJ Boity?` , answer: `DJ Boity is a passionate, driven, and fearless creative who uses music to connect with people. I’m a South African female DJ who loves bringing good energy to every space I step into. I believe in growth, authenticity, and making people feel something through every set I play.`},
+      //              {question: `How did your journey into music and DJing begin?` , answer: `My journey started from a deep love for music and how it brings people together. I’ve always been the friend who controlled the playlist at gatherings, and eventually I realised I wanted to take that love to another level. I started learning the basics, watching other DJs, practising nonstop, and slowly falling in love with the craft.`},
+      //              {question: `Was there a specific moment or influence that made you say, "This is what I want to do"` , answer: `Yes. There was a moment at a local event where I stood in the crowd and watched a DJ control the room with so much confidence and passion. The energy, the connection, the power of the music everything in me said, “This is where I belong.”`},
+      //              {question: `What were some of the early challenges you faced stepping into the industry?` , answer: `Starting out, the biggest challenges were getting people to take me seriously, finding opportunities, and building my confidence behind the decks. Equipment wasn’t always accessible, and I had to practice wherever I could. I also had to push through doubt both from myself and others.`},
+      //              {question: `How did your upbringing or environment shape your love for music?` , answer: `I grew up in a musical environment where music was part of everyday life family gatherings, taxis, community events, everywhere. My upbringing taught me that music is a language of emotion and identity. It shaped my ear, my rhythm, and my desire to express myself through sound.`},
+       //             {question: `As a female DJ in a male-dominated space, what obstacles did you face and how did you overcome them?` , answer: `I faced stereotypes, doubt, and sometimes unfair expectations. Some people assumed I wasn’t serious or capable just because I’m a woman. I overcame that by working twice as hard, sharpening my skills, staying consistent, and letting my work speak for itself. I learned to walk into rooms with confidence and create my own space.`},
+       //             {question: `Can you tell us about a moment in your career where you felt, "Yes, I've arrived"?` , answer: `It was the first time I played a set and the entire crowd responded to every transition, every drop, every song. Seeing people go wild and feeling their energy match mine made me realise, “I’m really doing this. I belong here.”`},
+       //             {question: `What advice would you give to young women who want to follow in your footsteps?` , answer: `Start where you are, believe in your talent, and don’t let anyone make you feel small. Practice, network, stay professional, and be patient with your growth. Most importantly, protect your confidence this industry will test it, but your passion must be louder`},
+       //             {question: `How would you describe your sound, and what makes your sets stand out?` , answer: `My sound is a blend of high-energy rhythms, soulful elements, and feel-good vibes. I focus on creating a journey from smooth transitions to unexpected drops. What makes my sets stand out is the way I read the crowd and connect emotionally with them. I don’t just play music; I create memories.`},
+       //             {question: `What's your process when preparing for a gig - how do you read the crowd and build your playlist?` , answer: `Before every gig, I research the type of event and the audience I’m playing for. I prepare a flexible playlist with options for different moods. When I’m on stage, I read the crowd by watching their reactions what gets them moving, what slows them down. I follow the energy, not just the songs.`},
+       //             {question: `Do you produce your own music as well, or are there plans to step into that space?` , answer: `I’m interested in stepping into production, and it’s definitely in my plans. I want to create music that reflects my journey and sound. It’s a space I’m exploring more seriously because I want to expand my creativity and identity as an artist.`},
+       //             {question: `How important is it for you to represent women in the entertainment industry, especially behind the decks?` , answer: `It means everything to me. Representation changes mindsets. When young girls see women like me behind the decks, they feel it’s possible for them too. I want to be part of breaking barriers, creating space, and proving that talent has no gender.`},
+       //             {question: `Have you seen any shifts in how female DJs are treated or booked over the years?` , answer: `Yes, I’ve definitely seen a shift. There’s more recognition and respect for female DJs now, and more event organisers are realising the value we bring. We’re no longer booked as “the female act,” but as professionals who can hold down any stage. There’s still work to be done, but the doors are opening wider and the industry is slowly learning to appreciate our talent without comparing us to men.`},
+       //             {question: `What's your process when preparing for a gig - how do you read the crowd and build your playlist?` , answer: `There’s always that one track that brings the whole house alive. For me, it’s [SHELA BY SAM DEEP FT BOOHLE , NIA PEARL]. The minute it drops, the crowd’s energy shifts, everyone gets up, and the vibe just elevates instantly.`},
+       //             {question: `When you're not DJing, what does DJ Boity love to do to unwind?` , answer: `I’m big on recharging my energy. I love spending quiet time alone, listening to music, watching chilled content, or being around people who feel like home. Sometimes I just enjoy relaxing, or exploring new creative ideas. I believe in balancing the hype of the stage with moments that bring me peace.`},
+//
+  //          ]
+    //        },
 
 ]

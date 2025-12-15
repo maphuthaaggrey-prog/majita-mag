@@ -8,17 +8,14 @@ const LatestMusic = () => {
 
     useEffect(() => {
         const mergeAndSortUpdates = () => {
-            // Merge, filter, and sort updates by date
             const combinedUpdates = [...majitas]
                 .filter(update => update.type === 'Music') // Exclude specific types
                 .sort((a, b) => new Date(b.date) - new Date(a.date)); // Sort by date (newest first)
     
             setAllUpdates(combinedUpdates);
-        };
-    
+        };    
         mergeAndSortUpdates();
     }, []);
-
     // Filter out the active item (based on the slug from useParams)
     const filteredMusic = allUpdates.filter((item) => item.slug !== slug)
     .sort((a, b) => new Date(b.date) - new Date(a.date));;
@@ -30,7 +27,7 @@ const LatestMusic = () => {
             </p>
             {filteredMusic.slice(0, 4).map((item) => (
                 <Link
-    key={item.id} // Add a unique key
+    key={item.id} 
     to={
         item.type === "Majita Monday"
             ? `/majitamonday/${item.slug}`
@@ -38,10 +35,9 @@ const LatestMusic = () => {
             ? `/music/${item.slug}`
             : item.type === "Event"
             ? `/events/${item.slug}`
-            : "#" // Fallback if no matching type is found
+            : "#" 
     }
-    aria-label={`Read more about ${item.title}`} // Improve accessibility
->
+    aria-label={`Read more about ${item.title}`}>
                     <div className="latest-topic" style={{ display: 'flex', flexDirection: 'column' }}>
                         <div className="latest-on">
                             <img
