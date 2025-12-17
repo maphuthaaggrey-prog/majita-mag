@@ -34,7 +34,8 @@ import mkhululi from '../images/Majita Mag October.jpg'
 import neo from '../images/Majita Mag November.jpg'
 import martin from '../images/Majita Mag December.jpg'
 import neoimage from '../images/neoimage.jpg'
-import djBoity from '../images/Boity.jpeg'
+import djBoity from '../images/Boity Wednesday.jpg'
+import Boity2 from '../images/Boity.jpeg'
 
 
 
@@ -1933,33 +1934,33 @@ I draw inspiration from past artworks. There are many designers I admire, even i
 
             ]
             },
-       //    {
-      //      id: 54,
-      //      name: "DJ Boity", 
-      //      slug: "dj-boity",
-      //      title: "Women Crush Wednesday",
-      //      content: ["DJ Boity is a passionate, driven, and fearless creative who uses music to connect with people."],
-      //      image: djBoity,
-      //      type: "Women Crush Wednesday",
-      //      date: "Dec 17 2025",
-      //       questions: [
-      //              {question: `Tell us a bit about yourself - who is DJ Boity?` , answer: `DJ Boity is a passionate, driven, and fearless creative who uses music to connect with people. I’m a South African female DJ who loves bringing good energy to every space I step into. I believe in growth, authenticity, and making people feel something through every set I play.`},
-      //              {question: `How did your journey into music and DJing begin?` , answer: `My journey started from a deep love for music and how it brings people together. I’ve always been the friend who controlled the playlist at gatherings, and eventually I realised I wanted to take that love to another level. I started learning the basics, watching other DJs, practising nonstop, and slowly falling in love with the craft.`},
-      //              {question: `Was there a specific moment or influence that made you say, "This is what I want to do"` , answer: `Yes. There was a moment at a local event where I stood in the crowd and watched a DJ control the room with so much confidence and passion. The energy, the connection, the power of the music everything in me said, “This is where I belong.”`},
-      //              {question: `What were some of the early challenges you faced stepping into the industry?` , answer: `Starting out, the biggest challenges were getting people to take me seriously, finding opportunities, and building my confidence behind the decks. Equipment wasn’t always accessible, and I had to practice wherever I could. I also had to push through doubt both from myself and others.`},
-      //              {question: `How did your upbringing or environment shape your love for music?` , answer: `I grew up in a musical environment where music was part of everyday life family gatherings, taxis, community events, everywhere. My upbringing taught me that music is a language of emotion and identity. It shaped my ear, my rhythm, and my desire to express myself through sound.`},
-       //             {question: `As a female DJ in a male-dominated space, what obstacles did you face and how did you overcome them?` , answer: `I faced stereotypes, doubt, and sometimes unfair expectations. Some people assumed I wasn’t serious or capable just because I’m a woman. I overcame that by working twice as hard, sharpening my skills, staying consistent, and letting my work speak for itself. I learned to walk into rooms with confidence and create my own space.`},
-       //             {question: `Can you tell us about a moment in your career where you felt, "Yes, I've arrived"?` , answer: `It was the first time I played a set and the entire crowd responded to every transition, every drop, every song. Seeing people go wild and feeling their energy match mine made me realise, “I’m really doing this. I belong here.”`},
-       //             {question: `What advice would you give to young women who want to follow in your footsteps?` , answer: `Start where you are, believe in your talent, and don’t let anyone make you feel small. Practice, network, stay professional, and be patient with your growth. Most importantly, protect your confidence this industry will test it, but your passion must be louder`},
-       //             {question: `How would you describe your sound, and what makes your sets stand out?` , answer: `My sound is a blend of high-energy rhythms, soulful elements, and feel-good vibes. I focus on creating a journey from smooth transitions to unexpected drops. What makes my sets stand out is the way I read the crowd and connect emotionally with them. I don’t just play music; I create memories.`},
-       //             {question: `What's your process when preparing for a gig - how do you read the crowd and build your playlist?` , answer: `Before every gig, I research the type of event and the audience I’m playing for. I prepare a flexible playlist with options for different moods. When I’m on stage, I read the crowd by watching their reactions what gets them moving, what slows them down. I follow the energy, not just the songs.`},
-       //             {question: `Do you produce your own music as well, or are there plans to step into that space?` , answer: `I’m interested in stepping into production, and it’s definitely in my plans. I want to create music that reflects my journey and sound. It’s a space I’m exploring more seriously because I want to expand my creativity and identity as an artist.`},
-       //             {question: `How important is it for you to represent women in the entertainment industry, especially behind the decks?` , answer: `It means everything to me. Representation changes mindsets. When young girls see women like me behind the decks, they feel it’s possible for them too. I want to be part of breaking barriers, creating space, and proving that talent has no gender.`},
-       //             {question: `Have you seen any shifts in how female DJs are treated or booked over the years?` , answer: `Yes, I’ve definitely seen a shift. There’s more recognition and respect for female DJs now, and more event organisers are realising the value we bring. We’re no longer booked as “the female act,” but as professionals who can hold down any stage. There’s still work to be done, but the doors are opening wider and the industry is slowly learning to appreciate our talent without comparing us to men.`},
-       //             {question: `What's your process when preparing for a gig - how do you read the crowd and build your playlist?` , answer: `There’s always that one track that brings the whole house alive. For me, it’s [SHELA BY SAM DEEP FT BOOHLE , NIA PEARL]. The minute it drops, the crowd’s energy shifts, everyone gets up, and the vibe just elevates instantly.`},
-       //             {question: `When you're not DJing, what does DJ Boity love to do to unwind?` , answer: `I’m big on recharging my energy. I love spending quiet time alone, listening to music, watching chilled content, or being around people who feel like home. Sometimes I just enjoy relaxing, or exploring new creative ideas. I believe in balancing the hype of the stage with moments that bring me peace.`},
-//
-  //          ]
-    //        },
+           {
+            id: 54,
+            name: "DJ Boity", 
+            slug: "dj-boity",
+            title: "Women Crush Wednesday",
+            content: ["DJ Boity is a passionate, driven, and fearless creative who uses music to connect with people."],
+            image: djBoity,
+            type: "Women Crush Wednesday",
+            date: "Dec 17 2025",
+             questions: [
+                    {question: `Tell us a bit about yourself - who is DJ Boity?` , answer: `DJ Boity is a passionate, driven, and fearless creative who uses music to connect with people. I’m a South African female DJ who loves bringing good energy to every space I step into. I believe in growth, authenticity, and making people feel something through every set I play.`},
+                    {question: `How did your journey into music and DJing begin?` , answer: `My journey started from a deep love for music and how it brings people together. I’ve always been the friend who controlled the playlist at gatherings, and eventually I realised I wanted to take that love to another level. I started learning the basics, watching other DJs, practising nonstop, and slowly falling in love with the craft.`},
+                    {question: `Was there a specific moment or influence that made you say, "This is what I want to do"` , answer: `Yes. There was a moment at a local event where I stood in the crowd and watched a DJ control the room with so much confidence and passion. The energy, the connection, the power of the music everything in me said, “This is where I belong.”`},
+                    {question: `What were some of the early challenges you faced stepping into the industry?` , answer: `Starting out, the biggest challenges were getting people to take me seriously, finding opportunities, and building my confidence behind the decks. Equipment wasn’t always accessible, and I had to practice wherever I could. I also had to push through doubt both from myself and others.`},
+                    {question: `How did your upbringing or environment shape your love for music?` , answer: `I grew up in a musical environment where music was part of everyday life family gatherings, taxis, community events, everywhere. My upbringing taught me that music is a language of emotion and identity. It shaped my ear, my rhythm, and my desire to express myself through sound.`},
+                    {question: `As a female DJ in a male-dominated space, what obstacles did you face and how did you overcome them?` , answer: `I faced stereotypes, doubt, and sometimes unfair expectations. Some people assumed I wasn’t serious or capable just because I’m a woman. I overcame that by working twice as hard, sharpening my skills, staying consistent, and letting my work speak for itself. I learned to walk into rooms with confidence and create my own space.`},
+                    {question: `Can you tell us about a moment in your career where you felt, "Yes, I've arrived"?` , answer: `It was the first time I played a set and the entire crowd responded to every transition, every drop, every song. Seeing people go wild and feeling their energy match mine made me realise, “I’m really doing this. I belong here.”`},
+                    {question: `What advice would you give to young women who want to follow in your footsteps?` , answer: `Start where you are, believe in your talent, and don’t let anyone make you feel small. Practice, network, stay professional, and be patient with your growth. Most importantly, protect your confidence this industry will test it, but your passion must be louder`},
+                    {question: `How would you describe your sound, and what makes your sets stand out?` , answer: `My sound is a blend of high-energy rhythms, soulful elements, and feel-good vibes. I focus on creating a journey from smooth transitions to unexpected drops. What makes my sets stand out is the way I read the crowd and connect emotionally with them. I don’t just play music; I create memories.`},
+                    {question: `What's your process when preparing for a gig - how do you read the crowd and build your playlist?` , answer: `Before every gig, I research the type of event and the audience I’m playing for. I prepare a flexible playlist with options for different moods. When I’m on stage, I read the crowd by watching their reactions what gets them moving, what slows them down. I follow the energy, not just the songs.`},
+                    {question: `Do you produce your own music as well, or are there plans to step into that space?` , answer: `I’m interested in stepping into production, and it’s definitely in my plans. I want to create music that reflects my journey and sound. It’s a space I’m exploring more seriously because I want to expand my creativity and identity as an artist.`},
+                    {question: `How important is it for you to represent women in the entertainment industry, especially behind the decks?` , answer: [`It means everything to me. Representation changes mindsets. When young girls see women like me behind the decks, they feel it’s possible for them too. I want to be part of breaking barriers, creating space, and proving that talent has no gender.`, { image:Boity2}  ]},
+                    {question: `Have you seen any shifts in how female DJs are treated or booked over the years?` , answer: `Yes, I’ve definitely seen a shift. There’s more recognition and respect for female DJs now, and more event organisers are realising the value we bring. We’re no longer booked as “the female act,” but as professionals who can hold down any stage. There’s still work to be done, but the doors are opening wider and the industry is slowly learning to appreciate our talent without comparing us to men.`},
+                    {question: `What's your process when preparing for a gig - how do you read the crowd and build your playlist?` , answer: `There’s always that one track that brings the whole house alive. For me, it’s [SHELA BY SAM DEEP FT BOOHLE , NIA PEARL]. The minute it drops, the crowd’s energy shifts, everyone gets up, and the vibe just elevates instantly.`},
+                    {question: `When you're not DJing, what does DJ Boity love to do to unwind?` , answer: `I’m big on recharging my energy. I love spending quiet time alone, listening to music, watching chilled content, or being around people who feel like home. Sometimes I just enjoy relaxing, or exploring new creative ideas. I believe in balancing the hype of the stage with moments that bring me peace.`},
+       
+                ]
+           },
 
 ]
