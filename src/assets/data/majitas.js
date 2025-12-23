@@ -36,8 +36,8 @@ import martin from '../images/Majita Mag December.jpg'
 import neoimage from '../images/neoimage.jpg'
 import djBoity from '../images/Boity Wednesday.jpg'
 import Boity2 from '../images/Boity.jpeg'
-
-
+import eventreview from '../images/eventsreview.jpg'
+import eventreview2 from '../images/eventsreview2.jpg'
 
 import shane_EP from '../updates/shane_ep.jpg'
 import kraws_EP from '../updates/kraws_ep.jpg'
@@ -65,6 +65,7 @@ import zap from '../updates/zap.jpg'
 import mrshanepic1 from '../updates/mrshanepic.webp'
 import kosa from '../updates/kosha_zack.jpg'
 import vaalmixzap from '../updates/zapmix.jpg'
+import eventss from '../updates/eventss.jpg'
 
 import shane_rythm4 from '../updates/mrshanerythm.jpg'
 import mrshanepic2 from '../updates/mrshane soul to soul ii.jpg'
@@ -77,7 +78,6 @@ import allwhite1 from '../updates/allwhite1.jpg'
 import allwhite2 from '../updates/allwhite2.jpg'
 import potoMondayDec from '../updates/potoMondayDec.jpg'
 
-import boiketloEasterHighlights2025 from '../updates/boiketlo/IMG-20250430-WA0045.jpg'
 import boiketloEasterHighlights20251 from '../updates/boiketlo/IMG-20250430-WA0032.jpg'
 import boiketloEasterHighlights20252 from '../updates/boiketlo/IMG-20250430-WA0048.jpg'
 import boiketloEasterHighlights20253 from '../updates/boiketlo/IMG-20250430-WA0049.jpg'
@@ -138,10 +138,7 @@ import scorpionkinguj39 from '../updates/scorpionking/IMG-20250727-WA0006.jpg'
 import scorpionkinguj40 from '../updates/scorpionking/IMG-20250727-WA0007.jpg'
 import scorpionkinguj41 from '../updates/scorpionking/IMG-20250727-WA0008.jpg'
 
-
-
 import nikePhotoshootHighlight from '../updates/nike_highlights/IMG_7083.jpg'
-import nikePhotoshootHighlight1 from '../updates/nike_highlights/IMG_6447.jpg'
 import nikePhotoshootHighlight3 from '../updates/nike_highlights/IMG_6453.jpg'
 import nikePhotoshootHighlight2 from '../updates/nike_highlights/IMG_7083.jpg'
 import nikePhotoshootHighlight4 from '../updates/nike_highlights/IMG_6455.jpg'
@@ -201,18 +198,7 @@ import nikePhotoshootHighlight57 from '../updates/nike_highlights/IMG_6603.jpg'
 import nikePhotoshootHighlight58 from '../updates/nike_highlights/IMG_6605.jpg'
 import nikePhotoshootHighlight59 from '../updates/nike_highlights/IMG_6606.jpg'
 import nikePhotoshootHighlight60 from '../updates/nike_highlights/IMG_6607.jpg'
-import nikePhotoshootHighlight61 from '../updates/nike_highlights/IMG_6608.jpg'
 import nikePhotoshootHighlight62 from '../updates/nike_highlights/IMG_6613.jpg'
-import nikePhotoshootHighlight63 from '../updates/nike_highlights/IMG_6614.jpg'
-import nikePhotoshootHighlight64 from '../updates/nike_highlights/IMG_6615.jpg'
-import nikePhotoshootHighlight65 from '../updates/nike_highlights/IMG_6616.jpg'
-import nikePhotoshootHighlight66 from '../updates/nike_highlights/IMG_6618.jpg'
-import nikePhotoshootHighlight67 from '../updates/nike_highlights/IMG_6621.jpg'
-import nikePhotoshootHighlight68 from '../updates/nike_highlights/IMG_6622.jpg'
-import nikePhotoshootHighlight69 from '../updates/nike_highlights/IMG_6631.jpg'
-import nikePhotoshootHighlight70 from '../updates/nike_highlights/IMG_6632.jpg'
-import nikePhotoshootHighlight71 from '../updates/nike_highlights/IMG_6636.jpg'
-import nikePhotoshootHighlight72 from '../updates/nike_highlights/IMG_6639.jpg'
 import nikePhotoshootHighlight73 from '../updates/nike_highlights/IMG_6641.jpg'
 import nikePhotoshootHighlight74 from '../updates/nike_highlights/IMG_6657.jpg'
 import nikePhotoshootHighlight75 from '../updates/nike_highlights/IMG_6662.jpg'
@@ -288,8 +274,6 @@ import nikePhotoshootHighlight142 from '../updates/nike_highlights/IMG_6912.jpg'
 import nikePhotoshootHighlight143 from '../updates/nike_highlights/IMG_6913.jpg'
 import nikePhotoshootHighlight144 from '../updates/nike_highlights/IMG_6914.jpg'
 import nikePhotoshootHighlight145 from '../updates/nike_highlights/IMG_6915.jpg'
-import nikePhotoshootHighlight201 from '../updates/nike_highlights/IMG_6916.jpg'
-import nikePhotoshootHighlight202 from '../updates/nike_highlights/IMG_6917.jpg'
 import nikePhotoshootHighlight148 from '../updates/nike_highlights/IMG_6925.jpg'
 import nikePhotoshootHighlight149 from '../updates/nike_highlights/IMG_6926.jpg'
 import nikePhotoshootHighlight150 from '../updates/nike_highlights/IMG_6929.jpg'
@@ -416,7 +400,6 @@ import potohighlight54 from '../updates/potohighlights/DSC_9699.jpg'
 import potohighlight55 from '../updates/potohighlights/DSC_9700.jpg'
 import potohighlight56 from '../updates/potohighlights/DSC_9701.jpg'
 import potohighlight57 from '../updates/potohighlights/DSC_9704.jpg'
-
 export const majitas = [
     {
      id:1,
@@ -454,7 +437,6 @@ export const majitas = [
      { question: "Future plans", answer: ["My future plans is to teach photography, well I'm already doing it, but I wanna do it on a professional level. There are people that I've mentored and still mentoring some at the moment, also to build a first ever photography studio in my community."] }
   ]
     },
-
     {
      id: 3,
      name: "Corey", 
@@ -471,8 +453,6 @@ export const majitas = [
      {question: "Looking ahead, what are your hopes and aspirations for the future of creativity, both personally and within the broader creative community", answer: ["Right now what I am looking forward to is just expanding into different parts of creativity and do somethings that I haven't done before, I forgot to mentioned that I was also a blogger before so I interviewed Creatives in a form of a blog and I have always wanted to make it a visual thing so that's also something I would like to tap into and in the creative community I'm looking forward to collaborations man because I think as a unit we could make big moves, whether it's Music, Events or Clothing but I believe collaborations can take us further, if we can make big moves independently then imagine the ones we can do as a collective." ] }
      ]
     },
-
-
     {   
         id: 4,
         name: "Veteran Beatx",
@@ -503,9 +483,7 @@ export const majitas = [
             { question: "What First Got You Into Music", answer: "My cousin Manila R. I've always loved Hip Hop music since a young age from the influence of my big brother, but it was my cousin Manila who actually introduced me to the mic. It started off as just goofing around on beats but later got serious with time when we met and started working with the two talented producer brothers DaNotoriux Beats and Veteran Beatx, forming and introducing the group Left In The Dark(LITD). It's been bar after bar, record after record, freestyle after freestyle, feature after feature, performance after performance, and smash hit after smash hit ever since."},
             { question: "Favorite Part About Being A Musician", answer: "My main favourite part about being a musician, a rapper is that I never have to bottle up emotions inside. I express my feelings, emotions, and experiences on these beats. My other favourite part is the creative process - engaging with producers to find dope beats, having studio sessions, smoke sessions, writing on beats, having listening sessions, and definitely the performance part. I've always been one with Hip Hop, and having the ability to create my own songs from scratch (with the help of other pivotal members of the crew) is definitely a blessing from above, so basically my favourite part about being a musician is simply doing it (what musicians do - make music). The impact of music on the world is what makes me feel passionate about it"},
             { question: "What's Next", answer: "Lol a lot B. I'm currently dropping freestyles left and right trying to gain more traction and followers on my social media profiles, special S/O to Tsheamor Studios for helping out. The plan is basically to put myself out there, and what's next is simply just bettering the freestyle content, dropping more music/hits, and getting booked more. The aim is to move consistently until I'm all up in their face and are left with no other option but to hear me out."},
-
         ]
-
        },
     {   
         id: 6,
@@ -520,7 +498,6 @@ export const majitas = [
             { question: "Artistic Journey", answer: "Well, it all started with myself falling in love with music. I've been seen how music has a positive impact. So I wanted to share out the whole experiece to everyone, started off as a hip hop hip hop DJ then ventured into different genres as time goes. All of this happened in a very short span of time. From being a DJ, I needed to be more and deeply connected to the feeling then that's where I started producing beats for multiple artists both local and upcoming, many projects as a ghost-writer. For me to end up where I am it is because I've got a lot of inspiration from the events I used to get booked in and also from my mentors. So I decided to make a business out of this and host my own projects alongside two of my close friends."},
             { question: "Navigating Versatility and Balance", answer: "As people obviously we won't have the same strength and endurance to overcome a lot of things at once. It'll only depend on who you are and what you believe in. One thing about me is that I'm an opportunist when it comes to success, so whenever I see something that can change my life for the better, I check myself if I can do it, then if I can we then execute. There's no such thing as a lot of work, if you want something go and get it because it won't come to you. Time management is also important, we take it very lightly but then it is really worth it"},
             { question: "Event Organizing.", answer: "Working with both organisations is such a blessing to me, I don't wanna lie. I've always wanted to be part of VIP Milan SA ever since, simply because I liked the way the organisation handles its projects, the lifestyle and its professionalism, I just didn't have any experience at the time. So for time-being, I decided to start off my own events business, Brotherhood Events, together with my friends, Koketso Mazia and Gomolemo Nokeri of which we are all co-founder We did this to maximise the experience and recognition in this Industry. SOLD OUT SHOW! Under Brotherhood Events, I've been responsible in hosting events such as The Annual Cognacfest & Friday Yama 2K. Currently under VIP Milan, a lot of events are projected to different stakeholders but I'm mostly responsible in curating, promoting and managing events such as The Rosé Sunday Picnic, all based in Pretoria"},
-
         ]
        },
        {
@@ -548,7 +525,6 @@ export const majitas = [
       }
     ]
        },
-    
        {
         id: 8,
         name: "Yvette",
@@ -558,13 +534,10 @@ export const majitas = [
         type: "Majita Monday",
         content: "Meet Yvette - Mohlomphegi, a renowned Event Organizer and Entrepreneur, proudly hailing from Ga-Masemola",
         date: "Oct 7 2024",
-
         questions: [
         { question: "Who are you?", answer: "I'm a young entrepreneurship, born and bred in Ga-Masemola originally known as Yvette Masemola"},
-        { question: "Event organiser", answer: `I always knew my path in life would eventually lead me into entrepreneurship, specifically launching an event called "Orange Festival". 
-        
+        { question: "Event organiser", answer: `I always knew my path in life would eventually lead me into entrepreneurship, specifically launching an event called "Orange Festival".      
         During my high school studies, I discovered that event planning and entrepreneurship were just part of my DNA. I was surrounded by people who hosted events and I was like why not venture into this industry. To my surprise it came out proper and we're still doing it every year 21 December. 
-        
         When you're fire-fighting your "To Do" list is often swirling around in your head. Take control and write everything down. In times of intense pressure, you'll need to prioritise and rank your items in order of importance. A priority matrix is often really helpful here. Never the easiest thing for event organisers to do. But to ensure you stay calm and manage important tasks effectively, see which of the less important tasks you can farm out to somebody else.`},
         { question: "Stylist", answer: "Be yourself, I stay true to my identity, my values, my vision, and not following the trends blindly. You can use the trends as a source of inspiration, but not as a limitation or a constraint. Knowing your style will help you filter out the trends that are not compatible with your aesthetic and per- sonality, and focus on the ones that enhance and complement your look."},
         { question: "Influential", answer: "The first step to increasing your influence is to build connections. I keep learning, I volunteer my time, I experience new things and places, and I get creative."},
@@ -605,7 +578,6 @@ export const majitas = [
             { question: "Where do you find inspiration for your art?", answer: "I find inspiration from our fallen african kingdoms and are current state of society. When i can't form new ideas i travel home and analyse how much everything shifted from then to now, how its caused use to struggle or win, then take that and form a new mental image of all the damages and build ups of the human society as whole."},
             { question: "What do you see as the biggest challenges facing artists today?", answer: ["There's many challenge we face as artist, for example exposure and job opportunities, like as an artist there are some of the things you have to do them free because you want exposure which you can spend about 5 years doing things free. and also art equipment is not cheap and not easily accessible, art stores are very rare. So basically as an artist one of the difficulty thing is you can't full express yourself if you not financially ok, you'll always have to compromise, which is something that it's not full quraantee. today theres alot of people creating art, which makes it a bit harder to break through if you creating something someone has already seen on a platform where people just like an scroll past. Also people gate keeping art events and call outs to galleries, we could work together and make southie art infested that way more culture can be expressed through the expansion of artist in thesespaces."]},
         ]
- 
        },
        {
         id: 11,
@@ -621,8 +593,6 @@ export const majitas = [
             { question:"How did you go about turning your passion for barbering into a business?", answer: "Well, When I was a kid I was always into finding ways to make money. Back in primary school I started by selling mangoes, and naartjies(dinarekisi) from my Aunt's garden. Then later on I got into fixing bikes, and funny enough, people even started to call me 'Mr. Fix'. And That's when I realized I actually enjoy running my own show. And now, here I am, with my very own barber Salon."},
             { question:"What were some of the challenges you faced when starting your barbershop, and how did you overcome them?", answer: "The challenges I've faced have been tough. People would often say I was too young for the job, doubting my skills and ability to cut hair properly. Some even thought I'd mess up their hair completely. And I don't blame them because back then, I didn't have all the right equipment, and my workspace wasn't exactly ideal. But despite all that, my determination kept me going. For every negative comment, there were also positive ones that encouraged me to push harder and do better. They're the ones that gave me the energy to build something bigger and better out of this passion."},
             { question:"What advice would you give to someone thinking about starting their own barbershop?", answer: "Building a successful barbershop takes time and effort. Stay committed to your vision, even when faced with challenges or setbacks, keep pushing forward. And you'll eventual see results. Believe in Yourself, Don't let doubts hold you back. Trust in your skills and passion for barbering, even if others doubt you because of your age or experience. Start Small, Dream Big, Begin with what you have and expand from that. You don't nee fancy equipment or a perfect workspace to start. Just focus on providing excellent service and building a loyal clientele. And always remember, both positive and negative feedbacks can be valuable. Use criticism as motivation to improve."},
-
-
         ]
        },
        {
@@ -635,33 +605,23 @@ export const majitas = [
         type: "Majita Monday",
         date: "Sep 11 2023",
         questions: [
-            { question: "WHO IS KIMMO", answer: `My name is Nkogatse Katobatoba, a 19 year old creative and photographer based in Ga-Masemola. I would best describe myself as a creative visual storyteller. 
-                
+            { question: "WHO IS KIMMO", answer: `My name is Nkogatse Katobatoba, a 19 year old creative and photographer based in Ga-Masemola. I would best describe myself as a creative visual storyteller.                
             I’m not always self-aware in front of the camera, but I use it as a tool to navigate the world around me. Photography is my language it allows me to communicate what words often can’t. 
-
             I’m passionate about growth and always reaching for new heights in the creative field. At the moment, I specialize in lifestyle, events and portrait photography, capturing raw moments that tell real stories. 
      `},
             { question: "WHAT KIND OF PERSON IS SUBURBAN KIMMO", answer: `I’m an ambivert  balanced between quiet and outgoing. My friends and those closest to me would describe me as giddy, chatty and grounded. I try to stay humble and present in everything I do. 
-
             At heart, I’m reserved, shy and spiritually driven. I believe deeply in God and in His purpose for my life. Beyond the creative space, I’m simply a laid back person who enjoys peace, good energy and meaningful connections. `},
             { question: "HOW DID I START PHOTOGRAPHY", answer: `I like to believe that photography found me, it was a gift greater than myself. 
-
-                About four years ago, I started taking pictures as a way to express myself and explore creativity. I tried different things, but I kept coming back to how much I loved capturing moments, spaces and emotions around me. 
-                
+                About four years ago, I started taking pictures as a way to express myself and explore creativity. I tried different things, but I kept coming back to how much I loved capturing moments, spaces and emotions around me.     
                 That curiosity grew into passion. I began investing my time and energy into it, learning, experimenting and finding my voice behind the lens. Along the journey, I was blessed to meet people who shared the same vision and inspired me to keep going. 
                 `},
             { question: "INTERESTS OUTSIDE OF PHOTOGRAPHY", answer: `Photography changed the way I see everything  it’s always part of what I do. But outside of it, I love traveling, exploring new places and spending time with family and friends. 
-
-                        Those moments recharge me and remind me why I started to live fully, see beauty in everything and tell stories that matter. 
-                        `},
+                        Those moments recharge me and remind me why I started to live fully, see beauty in everything and tell stories that matter. `},
             { question:  `WHAT KEEPS YOU GROUNDED AS A CREATIVE?`, answer: `What keeps me grounded is purpose. I know I’m not just doing this for attention or numbers I’m doing it because it’s part of my calling. Whenever I shoot, I feel guided by God, my ancestors and the energy around me. That’s what keeps me balanced, even when things get tough. `},
-            { question:  `WHERE DO YOU SEE YOURSELF GOING AS SUBURBANKIMMO? `, answer: `I see myself becoming a recognized visual storyteller someone who works closely with influencers, celebrities and brands capturing authentic, timeless visuals that carry emotion and depth.
-                
-                But more than the fame, I want to inspire young creatives from places like mine to believe that their dreams are valid, no matter where they start. Suburbankimmo is more than a name  it’s a statement of identity, confidence and growth. 
-`},
-            { question:  `WHAT DOES PHOTOGRAPHY MEAN TO YOU NOW? `, answer: `To me, photography has become a form of peace and connection. It’s no longer just about taking good pictures  it’s about feeling moments deeply and freezing energy in time. Every shot I take represents how I see the world: real, emotional and full of meaning. 
-                
-                It’s my way of speaking without words, of saying I was here and this moment mattered.`},
+            { question:  `WHERE DO YOU SEE YOURSELF GOING AS SUBURBANKIMMO? `, answer: `I see myself becoming a recognized visual storyteller someone who works closely with influencers, celebrities and brands capturing authentic, timeless visuals that carry emotion and depth.    
+            But more than the fame, I want to inspire young creatives from places like mine to believe that their dreams are valid, no matter where they start. Suburbankimmo is more than a name  it’s a statement of identity, confidence and growth. `},
+            {question:  `WHAT DOES PHOTOGRAPHY MEAN TO YOU NOW? `, answer: `To me, photography has become a form of peace and connection. It’s no longer just about taking good pictures  it’s about feeling moments deeply and freezing energy in time. Every shot I take represents how I see the world: real, emotional and full of meaning.        
+            It’s my way of speaking without words, of saying I was here and this moment mattered.`},
         ]
        },
        {
@@ -678,7 +638,6 @@ export const majitas = [
             { question: "What made you to become a producer ?", answer: "I grew up in a family that loves music and my uncle was drummer and my father was a music lover he would always bald out music every night especially when he was happy so this made me fall inlove with music more and made me want to produce music and listening to nasty c and rider 502 while growing up also made me want to be in their shoes and try to make music for the people"},
             { question: "How has your creative process evolved over the years?", answer: "When I started producing beats I started with hip hop and rnb and I've realised that there was no progressive movement in hip hop and rnb in my neighbourhood then I started to produce amapiano music blend With the people from my neighbourhood and since I moved to Pretoria things are slowly but surely changing and doors are opening because I am meeting new people everyday and I am collaborating with many upcoming artists from all around the country and some from Namibia and London"},
             { question: "What is the greatest accomplishment you've Achieved throughout your journey?", answer: "I have build a fan base where I stay now and I have collaborated with foreign artists like Kaytee and Lyno de producer I have managed to pursue my deejaying career .I have managed to get myself room studio equipment. I've started to play in clubs and started to travel around provinces for deejaying gig"},
-
         ]
        },
        {
@@ -720,7 +679,6 @@ export const majitas = [
         ]
        },
       {
- 
         id: 16,
         name: "Unkel TK",
         slug: "unkel-tk",
@@ -770,9 +728,7 @@ export const majitas = [
         date: "Feb 14 2025",
         content: [
             `Kraws Bohnz is back, delivering his latest EP, "A Gift From Me To Ya’ll" ,  a vibrant collection of tracks that solidifies his place as one of the most versatile artists in the game. The EP features seven standout tracks, each showcasing Kraws Bohnz’s signature style and artistic depth with two features from Razor McPablo & Killey:`,
-
             `He last dropped in 2023 with a single titled "Bra Kop (Produced by Veteran Beatx)", which further cemented his reputation as a dynamic and innovative artist.`,
-        
             `Stream "A Gift From Me To Ya’ll" NOW!`,
             `https://open.spotify.com/album/4OeX9ZIrEsHOtWLUNBXaeP`
         ],
@@ -814,7 +770,6 @@ export const majitas = [
               `Powered by: Activate Your Voice NPC`,
               `Looking forward to seeing everyone there!`,
               { image: Annual1060YouthDayWalk}, 
-
             ],
      link: "",
     },
@@ -833,7 +788,6 @@ export const majitas = [
               `The event will feature top performances by some of the biggest names in the industry, including Kelvin Momo, Oscar Mbo, and Sun-El Musician, along with surprise acts that will keep you vibing all night long. The energy is set to be unmatched, so don’t miss out!`,  
               { image: ttposter},
               ` Don’t miss out – get your tickets, dress up, and come through for a night full of good vibes and great music. Let’s make memories together!`, 
-
             ],
      link: "",
     },
@@ -848,8 +802,7 @@ export const majitas = [
         content: [
             `Unkel TK has just released his first Afro-tech mixtape, Spirit Tuner Afro Tech Plug 01. This mixtape blends African rhythms with electronic beats, creating a unique and exciting sound. Unkel TK says, "I’m really happy to share this mix with everyone. It shows my love for African music and electronic beats. I want listeners to enjoy the mix and feel the energy."`, 
             `https://www.youtube.com/watch?v=ZmW4PoB-JmA`,
-            `While Unkel TK is more into Amapiano, he enjoys trying new things, and this mix takes listeners on a journey through deep Afro-tech sounds and upbeat rhythms.`,
-           
+            `While Unkel TK is more into Amapiano, he enjoys trying new things, and this mix takes listeners on a journey through deep Afro-tech sounds and upbeat rhythms.`, 
         ],
         link: "",
     },
@@ -864,13 +817,10 @@ export const majitas = [
         content: [
             `Mr. Shane SA has returned to the spotlight with his latest release, "Rhythm Forge (100% Production Mix)." This mix is an absolute banger, crafted entirely by Mr. Shane SA himself, showcasing his unique sound and unmatched production skills. Known for his captivating beats and smooth transitions, Mr. Shane SA brings an electrifying energy to the world of house music, taking listeners on a rhythmic journey they won't soon forget.`, 
             `https://youtu.be/X069XHzYZ8E?si=lXUHUNtO5cgXJQUr`,
-            `Follow Mr. Shane SA on social media to stay updated on his latest drops and exclusive content. You can find him on Facebook, Instagram, and Twitter (@MrShaneSA). Make sure to check out more from Mr 1060 Sounds!`,
-           
+            `Follow Mr. Shane SA on social media to stay updated on his latest drops and exclusive content. You can find him on Facebook, Instagram, and Twitter (@MrShaneSA). Make sure to check out more from Mr 1060 Sounds!`, 
         ],
         link: "",
     },
-
-
     {
         id: 25,
         name: "Tshegofatso Motloutsi",
@@ -882,8 +832,7 @@ export const majitas = [
         date: "Mar 26 2025",
         questions: [
         { question: "Introduce yourself and tell us a bit about your background and upbringing", answer: `I am Tshegofatso Motloutsi, born and raised in Pretoria, both my parents are from
-                                            Limpopo, and I am a Pedi girl. 
-                                            
+                                            Limpopo, and I am a Pedi girl.                                      
                                             I grew up in a 2-parent household, a daddy's little
                                             princess and my mother's best friend. Growing up I have always been an experimental
                                             person, and my parents always supported everything I showed interest in. I have
@@ -949,10 +898,8 @@ export const majitas = [
                                                 fuels your energy, learning these different things about yourself will help you love
                                                 yourself more and once you love yourself fully, there is nothing the world can say to
                                                 you that will faze you.`]},
-
         ]
        },
-       
     {
         id: 24,
         name: "Decoolxteekay", 
@@ -985,7 +932,6 @@ export const majitas = [
                  `🔸 Bring your own camp chair and Potjiekos pots `, 
                  `🔸 Expect soulful tunes, great energy, and an unforgettable experience.`, 
                  `Let’s cook, vibe, and groove together. Don’t miss out on the ultimate cookout experience! 🔥`, 
-   
                ],
        },
        {
@@ -1000,8 +946,7 @@ export const majitas = [
             `Maleboo has just released his latest album, Lesole Ntweng, a powerful 15-track project showcasing his lyrical skills and passion for music. This album features some of the names in the game, including Tribby Wadi Bhoza, Shibu Molomo, Flash T, and Sannere.`, 
             `The entire album was mixed and mastered by Maleboo, while the beats were crafted by Flash T, Sgivho Beats, Cull Mobb, and our very own 1060 producer Veteran Beatx, ensuring a high-quality sound from start to finish.`, 
             `https://open.spotify.com/album/2CwkatoF4JgVwFjWMcigv3?si=1b0mkyr6RSaqaiBCozxyDQ`,
-            `Maleboo’s Lesole Ntweng is now available on all major streaming platforms. Be sure to check it out and let us know which track is your favorite!`,
-           
+            `Maleboo’s Lesole Ntweng is now available on all major streaming platforms. Be sure to check it out and let us know which track is your favorite!`,  
         ],
     },
        {
@@ -1016,8 +961,7 @@ export const majitas = [
             `Artwork Sounds unleashes Back to Basics Vol. 2 with Mr Shane, a project that promises to take listeners on a deep musical journey. Known for their smooth, soulful, and immersive sound, the duo continues to push the boundaries of deep house.`, 
             `The project features an impressive lineup of collaborators, including DJ Kent, Poizen, Ntomusic, Hypaphonik, Decency, Deep Essentials, Solo Thato, and Section Five. Each artist brings a unique energy to the project, blending seamlessly with Artwork Sounds and Mr. Shane SA’s signature style.`, 
             `https://open.spotify.com/album/7BhsjAjp5a9Kx0WvpPeBHf?si=W87FltuxQbSYlxM7pX3Itw`,
-            `Whether you’re a deep house fanatic or just love good music, Back to Basics Vol. 2 is a must-listen. Now streaming on all major platforms!`,
-           
+            `Whether you’re a deep house fanatic or just love good music, Back to Basics Vol. 2 is a must-listen. Now streaming on all major platforms!`,     
         ],
     },
     {
@@ -1032,9 +976,7 @@ export const majitas = [
         questions: [
         {question: "How would you define your sound, and what genres do you explore the most? ", answer: "My sound is a fusion of traditional South African rhythms with modern styles, blending the old with the new. I explore genres like Amapiano, Afro-pop, and Hip-hop, often incorporating elements of folk and R&B. My music is a reflection of my roots and experiences, with a focus on storytelling and emotional depth. I aim to create a unique sound that's both authentic and innovative, pushing the boundaries of what's possible in South African music."},
         {question: "What was the turning point that made you realize music was your path, and how has that journey shaped the artist you are today?", answer: `For me, the turning point was a moment of raw emotion and vulnerability. I was going through a tough time, and music became my escape, my confidant, and my voice. I remember writing a song during that period, and it was like the words just flowed out of me, tapping into a deep well of feelings and experiences. When I shared that song with others, their reactions were overwhelming – they connected with it on a level that resonated deeply.
-
                     That moment made me realize that music wasn't just something I did; it was a part of who I am. It was a way to express myself, to tell stories that needed to be told, and to connect with others on a fundamental level. From then on, I dedicated myself to honing my craft, experimenting with different sounds, and pushing myself to grow as an artist.
-
                     That journey has shaped me into the artist I am today by teaching me the importance of authenticity, resilience, and connection. I've learned to stay true to myself, to take risks, and to trust my instincts. The ups and downs, the triumphs and setbacks – they've all contributed to my growth and my unique perspective. Today, I'm driven by a passion to create music that not only reflects my own experiences but also resonates with others, leaving a lasting impact.`},
         {question: "What's the most unexpected genre or style you've experimented with?", answer: ["Lekompo, cos is taking over now"] },
         {question: "How do you ensure that your music stays authentic while adapting to different sounds and trends? ", answer: [`For me, authenticity is key. I focus on staying true to my core values, emotions, and experiences.
@@ -1044,10 +986,8 @@ export const majitas = [
         {question: "Do you have a dream collaboration that would challenge your versatility even further? ", answer: ["Yes Drake, it will help because I've always wanted to be recognised globally " ] },
         {question: "How do you balance being an artist and being relatable to your audience?", answer: [`You know, as an artist, I'm always looking for ways to express myself and connect with my audience on a deeper level. Music is a huge part of that, but I've also been inspired by the idea of sharing my life experiences, passions, and interests with my fans.` ] },
         {question: "Do you think lifestyle content is a natural extension of your music or is it its own separate creative space? ", answer: [`For me, lifestyle content is a natural extension of my music. It's a way to share the other sides of my personality and creativity, whether that's through fashion, travel, food, or just everyday life. I think it's really helped me build a stronger connection with my fans and give them a more well-rounded view of who I am as an artist.
-
-Plus, exploring lifestyle content has allowed me to tap into my curiosity and creativity in new ways. It's been really fun to experiment with different formats and styles, and to see how I can use lifestyle content to enhance my music and vice versa.
-
-Ultimately, I think it's all about sharing my authentic self with my audience and giving them a reason to engage with me on a deeper level. Whether it's through my music or my lifestyle content, I want to inspire and connect with people in a meaningful way.`] }
+                    Plus, exploring lifestyle content has allowed me to tap into my curiosity and creativity in new ways. It's been really fun to experiment with different formats and styles, and to see how I can use lifestyle content to enhance my music and vice versa.
+                    Ultimately, I think it's all about sharing my authentic self with my audience and giving them a reason to engage with me on a deeper level. Whether it's through my music or my lifestyle content, I want to inspire and connect with people in a meaningful way.`] }
         ]
        }, 
     {
@@ -1312,8 +1252,6 @@ Ultimately, I think it's all about sharing my authentic self with my audience an
                  { image: nikePhotoshootHighlight253},
                  { image: nikePhotoshootHighlight254},
                  { image: nikePhotoshootHighlight255},
-
-
                  `The 1060 NIKE Photoshoot reminded us that style, confidence, and good vibes always stand out. The photos speak for themselves—a moment to remember.`,    
                ],
        },
@@ -1375,8 +1313,7 @@ Ultimately, I think it's all about sharing my authentic self with my audience an
         content: [
             `ZAP has just released a brand-new R&B/Hip-Hop mixtape in collaboration with Drone Masters. The mix brings a perfect balance of old school classics and new school flavor, giving listeners the best of both worlds.`, 
             `https://www.youtube.com/watch?v=sVInjZqTSOk`,
-            `ZAP continues to represent 1060 with style and passion. This mixtape brings fresh energy and a vibe that’s perfect for chilling, cruising, or turning up with friends. With help from Drone Masters, the sound is sharp and well-produced from start to finish.`,
-           
+            `ZAP continues to represent 1060 with style and passion. This mixtape brings fresh energy and a vibe that’s perfect for chilling, cruising, or turning up with friends. With help from Drone Masters, the sound is sharp and well-produced from start to finish.`,           
         ],
         link: "",
     },
@@ -1495,28 +1432,28 @@ I draw inspiration from past artworks. There are many designers I admire, even i
                ],
        },
           {
-        id: 39,
+       id: 39,
        name: "Angelina Leopeng", 
        slug: "angelina-leopeng",
-      title: "Women Crush Wednesday",
-      content: ["Meet Angelina, a 25-year-old creative powerhouse from Glen Cowie, now based in Middelburg — she's a model, business owner, makeup artist, hairstylist, and podcast host."],
+       title: "Women Crush Wednesday",
+       content: ["Meet Angelina, a 25-year-old creative powerhouse from Glen Cowie, now based in Middelburg — she's a model, business owner, makeup artist, hairstylist, and podcast host."],
        image: angelina,
-        type: "Women Crush Wednesday",
+       type: "Women Crush Wednesday",
        date: "Jul 30 2025",
         questions: [
-       {question: "For those meeting you for the first time — who is Angelina?", answer: `I am a 25 year old young lady named Mmatau Angelina Leopeng. I was born and bred in the streets of Glen Cowie in Limpopo. I am a model, business owner, makeup artist, hairstylist and a host on a podcast called 5 minutes on the streets. I am currently residing in Middelburg`},
+        {question: "For those meeting you for the first time — who is Angelina?", answer: `I am a 25 year old young lady named Mmatau Angelina Leopeng. I was born and bred in the streets of Glen Cowie in Limpopo. I am a model, business owner, makeup artist, hairstylist and a host on a podcast called 5 minutes on the streets. I am currently residing in Middelburg`},
         {question: `Lioness Beauty is such a powerful name. Where did the idea come from, and what does it represent for you? Also what services or products do you offer under this brand?`, answer: `My first name is Mmatau which means “Mother lion” the queen of the jungle. Lioness Beauty is for our gorgeous queens. We currently offer makeup, wig installation services and wig revamp services. We are hoping to introduce more services as we grow`},
-       {question:  `Did you always know you wanted to be in the beauty and creative space, or did you discover it along the way?`, answer: [`Like any other kid growing up, I wanted to be a doctor or a teacher or any of these careers that were deemed to be the best. During my matric, 2018, I discovered that I want to be a model and I already loved anything that had to do with the beauty industry (be it nails, makeup, hair etc) so that’s how I ended up going to a beauty school.`] },
-       {question: `You’re a business owner, presenter, makeup artist, and model, how do you navigate all those roles without losing yourself in the process?`, answer: [`Time management is key, I’m a planner and  I always ensure to keep track of where I need to be and what I need to do while ensuring that I don’t neglect other parts of my life. `] },
-       {question: "Take us behind the scenes, what’s the reality of running your own business as a young woman in today’s world?", answer: ["It’s hard but when have we ever not had it hard? You deal with clients that failed to take proper care of the services you did on them and they blame you, you have to fix and understand that a customer is always right. Seasonal changes affects sales, the economy is also working against us in terms of pricing so it’s a lot especially for someone who is starting their business alone with no financial assistance." ] },
-       {question: `What inspired you to step into the modelling space, and how has it shaped the way you see yourself today?`, answer: [`Modelling is a tough industry, from getting recognised to bookings and to its own rules but one thing it did for me was to help build my confidence, you learn to love and appreciate yourself more and more.` ] },
+        {question:  `Did you always know you wanted to be in the beauty and creative space, or did you discover it along the way?`, answer: [`Like any other kid growing up, I wanted to be a doctor or a teacher or any of these careers that were deemed to be the best. During my matric, 2018, I discovered that I want to be a model and I already loved anything that had to do with the beauty industry (be it nails, makeup, hair etc) so that’s how I ended up going to a beauty school.`] },
+        {question: `You’re a business owner, presenter, makeup artist, and model, how do you navigate all those roles without losing yourself in the process?`, answer: [`Time management is key, I’m a planner and  I always ensure to keep track of where I need to be and what I need to do while ensuring that I don’t neglect other parts of my life. `] },
+        {question: "Take us behind the scenes, what’s the reality of running your own business as a young woman in today’s world?", answer: ["It’s hard but when have we ever not had it hard? You deal with clients that failed to take proper care of the services you did on them and they blame you, you have to fix and understand that a customer is always right. Seasonal changes affects sales, the economy is also working against us in terms of pricing so it’s a lot especially for someone who is starting their business alone with no financial assistance." ] },
+        {question: `What inspired you to step into the modelling space, and how has it shaped the way you see yourself today?`, answer: [`Modelling is a tough industry, from getting recognised to bookings and to its own rules but one thing it did for me was to help build my confidence, you learn to love and appreciate yourself more and more.` ] },
         {question: `Modelling often comes with pressure and public perception, how do you stay true to yourself in front of the camera?⁠`, answer: [`Confidence is key always. My favourite motto is “you’re perfect in your imperfections” and that alone has made me love myself beyond the things that I never loved. ` ] },
         {question: `Let’s talk about the podcast, how did 5 Minutes on the Street come into your life, and what made you say yes to it?`, answer: [`I was approached by Farry, the founder of 5 minutes on the streets. He pitched the idea to me and I liked the vision behind it, I felt like it aligned well with who I am and what I am trying to achieve so I said yes! ` ] },
         {question: `Out of all the episodes you’ve done so far, which one left a lasting impact on you?`, answer: [`Dosline’s interview was the best episode we’ve done for me so far. It really hit hard when he passed because he was that one person who opened opportunities for us here in Middelburg. It taught me that life is too short to worry about things we have no control over so we must live while we’re still alive. May his precious soul rest in peace. ` ] },
         {question: `When you’re doing someone’s makeup or styling their hair, what’s your intention beyond just the final look?`, answer: [`The intention always depends on what the clients want and my job is to execute their ideas as best as I could. ` ] },
-      {question: `As a makeup artist and hairstylist, you’re constantly helping people feel their best. What does beauty mean to you personally?`, answer: [`Makeup and hairstyling for me is a form of art, self expression and therapy not just for me as a stylist but for the clients as well. ` ] },
-       {question: `Being in creative industries can be draining. Where do you go, or what do you do, to refill your cup and stay inspired?`, answer: [`Social media is always the best place for me to find inspiration especially with the work that I do. For my wellbeing and to refill my cup, going out with people close to me, be it over lunch or just a night out really helps.` ] },
-       {question: `What’s something about your journey people don’t see on social media, but that’s shaped who you are?`, answer: [`Hard times, life after matric was never kind to me. I found myself dropping out of beauty college due to financial difficulties caused by covid while I was also going through an abusive relationship. I ended up studying engineering which I never loved, got a job and faced emotional abuse at the workplace. All that contributed into building my resilient character.` ] },
+        {question: `As a makeup artist and hairstylist, you’re constantly helping people feel their best. What does beauty mean to you personally?`, answer: [`Makeup and hairstyling for me is a form of art, self expression and therapy not just for me as a stylist but for the clients as well. ` ] },
+        {question: `Being in creative industries can be draining. Where do you go, or what do you do, to refill your cup and stay inspired?`, answer: [`Social media is always the best place for me to find inspiration especially with the work that I do. For my wellbeing and to refill my cup, going out with people close to me, be it over lunch or just a night out really helps.` ] },
+        {question: `What’s something about your journey people don’t see on social media, but that’s shaped who you are?`, answer: [`Hard times, life after matric was never kind to me. I found myself dropping out of beauty college due to financial difficulties caused by covid while I was also going through an abusive relationship. I ended up studying engineering which I never loved, got a job and faced emotional abuse at the workplace. All that contributed into building my resilient character.` ] },
         {question: ` And finally, when people look back on your work, your voice, and your impact, what do you hope they remember most?`, answer: [`My mindset, I hope people remember me as someone who believed in trying because failure is also a reward. Knock on every door, one will eventually open. I hope people will remember me and take from me my spirit of resilience and confidence.` ] },
         {question: `What challenges have you faced running a beauty business, and how have you overcome them?`, answer: [`Start-up for me was the major challenge. I’d run out of products and have to make sure I work smart by taking every money I made from the clients I received and invest in the business by buying more products, investing in equipment that I need and making sure I set my priorities straight. It’s very important to differentiate between needs and luxury. I work with what I have while making sure I’m working towards what will make the business and my work better` ] },
         {question: `What’s the ultimate dream for Lioness Beauty?`, answer: [`The ultimate dream since Lioness Beauty was only a thought was for it to be a beauty spa. When God blesses me, that’s the first thing I want to do.` ] },
@@ -1533,8 +1470,7 @@ I draw inspiration from past artworks. There are many designers I admire, even i
         content: [
             `Mr Shane is set to drop his much-awaited follow-up Album “Soul To Soul II” on July 25, 2025. This is the follow-up to his last project, “Soul To Soul,” which came out on December 13, 2024. That album had 8 soulful house tracks and featured big names like Artwork Sounds, Soultronixx, George Lesley, Poizen, SGVO, Judy Jay, Enosoul, Deep Essentials, and King Deetoy. `, 
             { image: mrshanepic2 },
-            `Now with “Soul To Soul II,” Mr Shane is bringing more soulful sounds. Two songs from the Album — one featuring Nto Musica and the other with Black Desciple — were already released last week on July 18, and they’re getting great feedback. You can pre-order the full Album`,
-           
+            `Now with “Soul To Soul II,” Mr Shane is bringing more soulful sounds. Two songs from the Album — one featuring Nto Musica and the other with Black Desciple — were already released last week on July 18, and they’re getting great feedback. You can pre-order the full Album`,           
         ],
         link: "",
     },
@@ -1549,8 +1485,7 @@ I draw inspiration from past artworks. There are many designers I admire, even i
         content: [
             `Mr Shane SA has officially released his brand-new Album, Soul To Soul II, and it’s finally out on all platforms!  Staying true to his unique sound, known as “1060 Sounds,”.` , 
             `https://open.spotify.com/album/4hZZzL1rwQYgXEXpW41goK`,
-            `This time around, Mr Shane SA teams up with a fresh lineup of talented artists, creating a powerful collection of tracks that speak to the soul. The Album features: Kali Mija, George Lesley, Earful Soul ZA, Soultronixx, Deep Essentials ,Ac Musiq, NtoMusica Sibeko, KINGDeetoy, Macanny, Black Desciple, and KeaH`,
-           
+            `This time around, Mr Shane SA teams up with a fresh lineup of talented artists, creating a powerful collection of tracks that speak to the soul. The Album features: Kali Mija, George Lesley, Earful Soul ZA, Soultronixx, Deep Essentials ,Ac Musiq, NtoMusica Sibeko, KINGDeetoy, Macanny, Black Desciple, and KeaH`,           
         ],
         link: "",
     },
@@ -1564,8 +1499,7 @@ I draw inspiration from past artworks. There are many designers I admire, even i
         date: "July 28 2025",
         content: [
                  `Scorpion Kings Live with Friends Activation Event held on Friday, 25 July 2025, at the UJ, ongoing from 12PM to 3PM at the UJ Bunting Road campus. It was designed to promote the upcoming 29 August 2025 Loftus Stadium concert and drive ticket sales.` ,
-                 `Several artists and personalities attended and performed, including Kabza De Small and Mdu a.k.a TRP, among others, bringing live energy straight to the UJ campus.`,
-               
+                 `Several artists and personalities attended and performed, including Kabza De Small and Mdu a.k.a TRP, among others, bringing live energy straight to the UJ campus.`,     
                  { image: scorpionkinguj},
                  { image: scorpionkinguj35 },
                  { image: scorpionkinguj11 },
@@ -1644,7 +1578,7 @@ I draw inspiration from past artworks. There are many designers I admire, even i
        image: boikanyo,
        type: "Women Crush Wednesday",
        date: "Aug 13 2025",
-        questions: [
+       questions: [
         {question: `Can you tell us about yourself?` , answer: `I am a 23-year-old vibrant and purpose-driven woman from the beautiful village of Ga-Mphahlele in Limpopo. I am a model, content creator, and passionate youth empowerment advocate. I believe in using my voice and influence to inspire others, especially young people from small communities, to believe in their own potential. `},
         {question: `What inspired you to begin your journey in pageantry, and what keeps you motivated?`, answer: `I entered pageantry because I saw it as a platform to tell my story, represent my community, and empower others. What keeps me motivated is knowing that every step I take opens doors for young girls who may think their dreams are too big for where they come from. `},
         {question: `Winning Miss Lepelle Public Choice and becoming 1st Princess is a remarkable achievement. How did that moment feel for you?`, answer: `It was a surreal and humbling moment. It wasn’t just a win for me it was a win for every person who believed in me, voted for me, and supported me. It reminded me that hard work, faith, and community support can make anything possible. `, },
@@ -1729,7 +1663,7 @@ I draw inspiration from past artworks. There are many designers I admire, even i
        image: mkhululi,
        type: "Majita Monday",
        date: "Oct 13 2025",
-        questions: [
+       questions: [
         {question: `Let’s take it back, where did you grow up, and what was life like for you coming up?` , answer: `My name is Mkhululi Nkelenjane, a young creative from the Eastern Cape, born and raised in a small village called eCala. Life there was simple, old-fashioned, and underdeveloped, but it shaped me in ways I’ll never forget. Growing up in a place where not everything was available taught me to be resourceful and creative with whatever I had. It grounded me and gave me a real appreciation for hard work and authenticity.`},
         {question: `What kind of kid were you more into art, music, or just living in the moment?`, answer: `I was definitely the creative type. Even though I didn’t have much access to art or music at the time, I was always experimenting sketching, styling outfits, or just imagining new ideas. I’d say I was more into creating my own world than just living in the one I was given.`},
         {question: `Looking at where you are now, what do you think shaped you the most from your upbringing?`, answer: `The biggest thing that shaped me was seeing how people back home, ezilalini made things work with so little. That taught me resilience and pride in what you create.That mindset still drives me today  it’s what pushes me to keep building and creating, no matter what.`, },
@@ -1771,7 +1705,7 @@ I draw inspiration from past artworks. There are many designers I admire, even i
         image: neo,
         type: "Majita Monday",
         date: "Nov 03 2025",
-         questions: [
+        questions: [
          {question: `Who are you and what do you do?` , answer: `           I’m Neo Maleka, a DJ, sound service provider, and sound engineer. I also run an internet café and recently opened my own food spot called Neo Café Fish & Chips Branch.
 
                                                                             Neo is one of those Majita who believes in making things happen through action. His journey in sound and business shows what it means to hustle with purpose from setting up speakers for events to building spaces that serve the community.
@@ -1893,7 +1827,7 @@ I draw inspiration from past artworks. There are many designers I admire, even i
             image: martin,
             type: "Majita Monday",
             date: "Dec 15 2025",
-             questions: [
+            questions: [
              {question: `Who are you?` , answer: `I’m Martin Mminele, known online as Martin RSA—a content creator, stylist, and student at the University of Pretoria. I’m in my early 20s and I’m building a platform that brings real South African youth culture to life. Whether it’s blind dates, chilling-with-friends episodes, or style content, I’m all about creating moments that feel authentic, fun and unapologetically real.
                                                   
                                                  I’m a storyteller at heart—someone who loves seeing people’s reactions, connecting strangers, and bringing vibes to the screen. On YouTube I’m growing a community that believes in what I do, and on TikTok I express the fashion side of me: clean, bold, effortless style that people can relate to.`},
@@ -1943,7 +1877,7 @@ I draw inspiration from past artworks. There are many designers I admire, even i
             image: djBoity,
             type: "Women Crush Wednesday",
             date: "Dec 17 2025",
-             questions: [
+            questions: [
                     {question: `Tell us a bit about yourself - who is DJ Boity?` , answer: `DJ Boity is a passionate, driven, and fearless creative who uses music to connect with people. I’m a South African female DJ who loves bringing good energy to every space I step into. I believe in growth, authenticity, and making people feel something through every set I play.`},
                     {question: `How did your journey into music and DJing begin?` , answer: `My journey started from a deep love for music and how it brings people together. I’ve always been the friend who controlled the playlist at gatherings, and eventually I realised I wanted to take that love to another level. I started learning the basics, watching other DJs, practising nonstop, and slowly falling in love with the craft.`},
                     {question: `Was there a specific moment or influence that made you say, "This is what I want to do"` , answer: `Yes. There was a moment at a local event where I stood in the crowd and watched a DJ control the room with so much confidence and passion. The energy, the connection, the power of the music everything in me said, “This is where I belong.”`},
@@ -1961,6 +1895,33 @@ I draw inspiration from past artworks. There are many designers I admire, even i
                     {question: `When you're not DJing, what does DJ Boity love to do to unwind?` , answer: `I’m big on recharging my energy. I love spending quiet time alone, listening to music, watching chilled content, or being around people who feel like home. Sometimes I just enjoy relaxing, or exploring new creative ideas. I believe in balancing the hype of the stage with moments that bring me peace.`},
        
                 ]
+           },
+           {
+            id:55,
+            title:  `1060 December Events Updates`,
+            image: eventss,
+            slug: "december-events-updates",
+            type: "Event",
+            author: "Majita Mag",
+            date: "Dec 23 2025",
+            content: [
+                     `December in Ga-Masemola has been fairly quiet compared to previous years, with fewer events taking place. Some event organisers have been less active, and Orange Fest, which was expected to happen on the 21st of December, did not take place. This created a gap in the festive calendar.` ,
+                     `However, the community has still had places to enjoy themselves. Nico’s Shisanyama has played an important role in keeping people entertained and making sure the area does not feel boring. In addition, Poto Mondays have been taking place every Monday throughout December, giving people a regular space to relax, socialise, and enjoy music.` ,
+                     `Despite the slow start, a few key events helped bring life back into the area.` ,
+                     `Food Garden 1060 will take place on Christmas Eve and is expected to bring together good food and good music. The event will feature local artists such as Tycoon, Mr Shane, Recky R, Sir Oscar, Zap, and others.
+                    
+                     The event has already shown strong community support, with some ticket categories selling out early.` ,
+                     `The 4th Annual 1060 All White Soul Session will take place on the 27th of December. The event is known for calm and mature vibes, with guests dressing in white and enjoying soulful music.
+
+                        The lineup includes Koki Molf, King Ashby, Brian Mafatshe, Recky R, and other respected DJs. The event will start at 12h00.` ,
+                     `1060 Park and Chill will take place on the 30th of December and will focus on music, cars, and networking. The event is founded by Unkel TK, who is confirmed to be part of the lineup. The full lineup has not yet been released. The event is expected to offer a relaxed space for creatives, car lovers, and music fans to connect before the year ends.` ,
+                     `With better organisation and consistency, Ga-Masemola has the potential to host more exciting and well-planned events in the future.` ,
+
+                     { image: eventreview}, 
+                     { image: parkAndChill}, 
+                     { image: eventreview2}, 
+                   ],
+            link: "",
            },
 
 ]
