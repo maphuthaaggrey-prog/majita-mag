@@ -38,6 +38,8 @@ import djBoity from '../images/Boity Wednesday.jpg'
 import Boity2 from '../images/Boity.jpeg'
 import eventreview from '../images/eventsreview.jpg'
 import eventreview2 from '../images/eventsreview2.jpg'
+import kat from '../images/Majita Mag January.jpg'
+import kat_book from '../images/kat_book.jpeg'
 
 import shane_EP from '../updates/shane_ep.jpg'
 import kraws_EP from '../updates/kraws_ep.jpg'
@@ -1923,5 +1925,60 @@ I draw inspiration from past artworks. There are many designers I admire, even i
                    ],
             link: "",
            },
+
+           {
+            id: 56,
+            name: "Katlego Masemola", 
+            slug: "katlego-masemola",
+            title: "Majita Monday",
+            content: ["Fishermen JNK is often recognised for humour, street interviews, and bold interactions in public spaces."],
+            image: kat,
+            type: "Majita Monday",
+            date: "Jan 12 2026",
+            questions: [
+             {question: `Who is Fishermen JNK beyond the camera, the jokes, and social media?` , answer: `Fishermen JNK is a private company specialising in printing, publishing, and content creation. The main objective is to contribute to community growth and make it easier for young people to access local expertise in their creative journeys.
+                
+                That said, I am not Fishermen JNK. The “J” in JNK stands for Jafta and the “K” for Katlego. Fishermen JNK was founded in 2019 by Jafta Masemola and myself, Katlego M. Masemola, with the intention of bringing kasi ideas and creativity into village spaces.
+                
+                Beyond the camera, you’ll probably find me beating people at chess — away from the camera, no evidence. Other than that, a man has to eat. One must hustle and make money, even if it’s not much.`},
+             {question: `How would you describe your journey so far from where you started to where you are now?` , answer: `We were young and naïve. We put all our eggs in one basket, not knowing it would be a bumpy road filled with potholes. The eggs didn’t make an omelette they got scrambled.
+                        
+                It has been, and still is, a learning journey. We are constantly trying to find the right audience and build a platform that truly serves our people. Despite all the shenanigans, I believe we’ll get it right. This adventure will be one hell of a story to tell for decades. For now, though, we’re still scrambling the eggs.`},
+             {question: `What experiences shaped your personality the most, and how do they still influence you today?` , answer: `Failure.
+                
+                Fear of failure often stops people from taking a step forward. I lost so much that I learned to play the hand I was dealt — to work with what I have and make the best of it. I can’t fully describe those experiences, but I can say this: failure has become my superpower.`},
+             {question: `You’re known for going to events and asking people fun sometimes embarrassing questions. What draws you to people and public spaces as your creative playground?` , answer: `Honestly, it’s marketing. We’re trying to build a name in the field while enjoying the process. Public spaces aren’t playgrounds for us they’re workplaces. The people there are often joyful, and that energy naturally creates great content.`},
+             {question: `What do you think humour reveals about people and about yourself?` , answer: `Humour reveals character. It shows how much tolerance someone has and how long they can remain patient. What we do plays with satire, but from a personal and observational perspective.
+                        As for me, humour might be my weakness. If you watch our videos, you’ll notice I give off a bit too much energy. I get overly excited. Maybe that’s something I need to fix but then again, I can’t pretend to be excited. It is what it is.`},
+             {question: `Has there ever been a moment where you realised your work had more impact than just entertainment?` , answer: `I was once at a wedding where I was certain no one knew me. Suddenly, someone recognised me and shouted, “Colog-ne!” It caught me off guard, but the joy on that person’s face said everything.
+                        What makes me proud is knowing we inspire people to chase their dreams. People often approach me to share how our work has positively influenced their lives. I truly hope they succeed otherwise, we would have led them astray.`},
+             {question: `Many people know you as a comedian or content creator, but fewer know you’ve written a poetry book. What inspired you to write it?` , answer: `I’m a writer. Everything inspires me to write. There’s a hurricane of thoughts constantly moving through my head, and writing allows me to isolate them, even if only briefly.
+                        I don’t see myself as a poet just a skilled writer trying to find his way through the media circus.`},
+             {question: `What themes do you explore in your poetry, and why are they important to express?` , answer: [`Each poem stands on its own. The themes range from love and second chances to tragedy, gender-based violence, nostalgia, self-reflection, and regret.
+The title Infinite Thoughts reflects the unease present throughout the work. As individuals managing our own messes, we must learn to understand others before we act. People have it worse out there  the least we can do is be kind and understanding.`, { image:kat_book}  ]},
+             {question: `Do you see a connection between your comedy and your poetry?` , answer: `To be honest, since the poetry, I rarely find myself funny. The poetry tries to cancel out the comedy and with life happening, it might just win. The line between them is paper-thin. It scares me at times.`},
+             {question: `What motivates you to keep creating when growth feels slow or recognition is limited?` , answer: `That one like. That one view. That one person who keeps coming back.
+Our slogan, “Your response is our influence,” captures what fuels us. Regardless of low numbers, we know our work is still needed. We are not there yet.`},
+             {question: `What personal values guide how you create and express yourself?` , answer: `Integrity and morals. We avoid exploiting or offending our audience. Sometimes it feels like treading on eggshells, especially when navigating controversial topics.
+                        While it’s all fun and games, these are people’s lives. Perhaps our growth is slower because we try to keep things clean and innocent  but that’s a price we’re willing to pay.`},
+             {question: `In moments of doubt or pressure, what keeps you grounded?` , answer: `The goal is to keep the main aim the main aim. We stay focused despite bad reviews or poor numbers.
+                        I’m a Kaizer Chiefs fan, so I know how to take a punch and still come back fighting. We didn’t come this far just to stop here. We are not done yet`},
+             {question: `How do you envision your creative journey evolving in the next few years?` , answer: `Better video and audio quality. Stronger digital marketing. Top-tier editing for the books we publish.
+                        We can’t be an upcoming media house forever. We will reach the peak and stay there.`},
+             {question: `What impact do you hope your work will have on young people and your community?` , answer: `We aim to support people struggling with depression and indecision. We want to show that nothing is impossible just improbable.
+
+                        Our mission is to motivate young people to push through and to bring expertise often found in Johannesburg, Durban, or Cape Town into village spaces. Once the bridge between urban and rural is broken, the rest is history`},
+             {question: `If Fishermen JNK were remembered for something deeper than laughs, what would it be?` , answer: `The writing. Our narratives connect with people on a deeper level.
+Through projects like Ramblings on YouTube, Infinite Thoughts, and Stofi: Chaos of Entropy (available via Visionary Writings), we show that there is far more to Fishermen JNK than humour. Infinite Thoughts took a part of my soul and that is my gift to the world.`},
+             {question: `What is something people often misunderstand about you?` , answer: `People often call trying to buy fish. Despite the name, Fishermen JNK doesn’t sell fish we sell services: editing, proofreading, ghostwriting, copyrighting, and creative promotion.
+            
+                        Our platform also amplifies local talent. On our YouTube channel, you’ll find artists unknown to the world being given a space to leave a digital footprint`},
+             {question: `What message would you like to leave for people trying to find their voice and identity?` , answer: `Trying is always better than waiting. You’ll never know unless you do what needs to be done.
+
+                        Don’t sit around waiting for a miracle. Punch above your weight that’s how you gain knowledge and experience.`},
+             {question: `Where can people find you?` , answer: `Facebook: Fishermen JNK
+                                                                YouTube: Fishermen JNK`},
+             ]
+            },
 
 ]
