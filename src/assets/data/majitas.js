@@ -2063,7 +2063,7 @@ Through projects like Ramblings on YouTube, Infinite Thoughts, and Stofi: Chaos 
             `Better late than never, the photo gallery from last year’s epic Food Garden Events is finally here! The Food Garden 1060 event was a big success.`,
             { image: fgHighlight2 },
             { image: fgHighlight5 },
-            `The event took place at Lepakeng, bringing together good music, good food, and great people. People came out to enjoy the day and connect with one another. The DJs kept the crowd entertained with Amapiano, Deep House, Hip Hop, and Lekompo, giving everyone something they enjoy.`,
+            `The event took place at Lepakeng, bringing together good music, and good food. People came out to enjoy the day and connect with one another. The DJs kept the crowd entertained with Amapiano, Deep House, Hip Hop, and Lekompo, giving everyone something they enjoy.`,
             { image: fgHighlight3 },
             { image: fgHighlight6 },
             { image: fgHighlight7 },
