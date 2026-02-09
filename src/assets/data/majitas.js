@@ -2058,7 +2058,7 @@ Through projects like Ramblings on YouTube, Infinite Thoughts, and Stofi: Chaos 
         slug: "food-garden-december-24th-2025-highlights",
         type: "Event",
         author: "Majita Mag",
-        date: "Jan 09 2026",
+        date: "Feb 09 2026",
         content: [
             `Better late than never, the photo gallery from last year’s epic Food Garden Events is finally here! The Food Garden 1060 event was a big success.`,
             { image: fgHighlight2 },
