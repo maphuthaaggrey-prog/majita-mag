@@ -140,6 +140,20 @@ import scorpionkinguj39 from '../updates/scorpionking/IMG-20250727-WA0006.jpg'
 import scorpionkinguj40 from '../updates/scorpionking/IMG-20250727-WA0007.jpg'
 import scorpionkinguj41 from '../updates/scorpionking/IMG-20250727-WA0008.jpg'
 
+import fgHighlight1 from '../updates/food_garden/20260208-182731-2141979518570.jpg'
+import fgHighlight2 from '../updates/food_garden/20260208-020613-8317066429741.jpg'
+import fgHighlight3 from '../updates/food_garden/20260208-181449-9362911168749.jpg'
+import fgHighlight4 from '../updates/food_garden/20260208-180310-6490223148801.jpg'
+import fgHighlight5 from '../updates/food_garden/20260208-175709-2132609193889.jpg'
+import fgHighlight6 from '../updates/food_garden/20260208-020119-7763428433888.jpg'
+import fgHighlight7 from '../updates/food_garden/20260208-181829-8048055437502.jpg'
+import fgHighlight8 from '../updates/food_garden/20260208-020615-7492965403310.jpg'
+import fgHighlight9 from '../updates/food_garden/20260208-182729-9597425953406.jpg'
+import fgHighlight10 from '../updates/food_garden/20260208-175710-9952676594778.jpg'
+import fgHighlight11 from '../updates/food_garden/20260208-180308-1886759747372.jpg'
+import fgHighlight12 from '../updates/food_garden/20260208-173310-3887803400922.jpg'
+import fgHighlight13 from '../updates/food_garden/20260208-175419-2811074263690.jpg'
+
 import nikePhotoshootHighlight from '../updates/nike_highlights/IMG_7083.jpg'
 import nikePhotoshootHighlight3 from '../updates/nike_highlights/IMG_6453.jpg'
 import nikePhotoshootHighlight2 from '../updates/nike_highlights/IMG_7083.jpg'
@@ -1977,7 +1991,7 @@ I draw inspiration from past artworks. There are many designers I admire, even i
         date: "Jan 12 2026",
         questions: [
             {
-                question: `WWWWWho is Fishermen JNK beyond the camera, the jokes, and social media?`, answer: `Fishermen JNK is a private company specialising in printing, publishing, and content creation. The main objective is to contribute to community growth and make it easier for young people to access local expertise in their creative journeys.
+                question: `Who is Fishermen JNK beyond the camera, the jokes, and social media?`, answer: `Fishermen JNK is a private company specialising in printing, publishing, and content creation. The main objective is to contribute to community growth and make it easier for young people to access local expertise in their creative journeys.
                 
                 That said, I am not Fishermen JNK. The “J” in JNK stands for Jafta and the “K” for Katlego. Fishermen JNK was founded in 2019 by Jafta Masemola and myself, Katlego M. Masemola, with the intention of bringing kasi ideas and creativity into village spaces.
                 
@@ -2035,6 +2049,36 @@ Through projects like Ramblings on YouTube, Infinite Thoughts, and Stofi: Chaos 
             {
                 question: `Where can people find you?`, answer: `Facebook: Fishermen JNK
                                                                 YouTube: Fishermen JNK`},
+        ]
+    },
+    {
+        id: 57,
+        title: `Food Garden 1060: 24th December 2025 Highlights!`,
+        image: fgHighlight1,
+        slug: "food-garden-december-24th-2025-highlights",
+        type: "Event",
+        author: "Majita Mag",
+        date: "Jan 09 2026",
+        content: [
+            `Better late than never, the photo gallery from last year’s epic Food Garden Events is finally here! The Food Garden 1060 event was a big success.`,
+            { image: fgHighlight2 },
+            { image: fgHighlight5 },
+            `The event took place at Lepakeng, bringing together good music, good food, and great people. People came out to enjoy the day and connect with one another. The DJs kept the crowd entertained with Amapiano, Deep House, Hip Hop, and Lekompo, giving everyone something they enjoy.`,
+            { image: fgHighlight3 },
+            { image: fgHighlight6 },
+            { image: fgHighlight7 },
+            { image: fgHighlight8 },
+            { image: fgHighlight9 },
+            { image: fgHighlight10 },
+            { image: fgHighlight4 },
+            { image: fgHighlight1 },
+            { image: fgHighlight11 },
+            { image: fgHighlight12 },
+            { image: fgHighlight13 },
+
+            `Even though the pictures came a bit late, the memories are still fresh. Big shoutout to the photographers Geniux Moments, Kimmo And Lesh Pixel for capturing the moments.`,
+            `To see all the amazing memories, check out the full gallery here:`,
+            `https://moments.geniux.co.za/creators/creator/Food%20Garden`,
         ]
     },
 
