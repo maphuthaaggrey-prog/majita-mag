@@ -40,6 +40,7 @@ import eventreview from '../images/eventsreview.jpg'
 import eventreview2 from '../images/eventsreview2.jpg'
 import kat from '../images/Majita Mag January.jpg'
 import kat_book from '../images/kat_book.jpeg'
+import visionGold from '../images/Majita Mag March 2026.jpg'
 
 import shane_EP from '../updates/shane_ep.jpg'
 import kraws_EP from '../updates/kraws_ep.jpg'
@@ -2079,6 +2080,30 @@ Through projects like Ramblings on YouTube, Infinite Thoughts, and Stofi: Chaos 
             `Even though the pictures came a bit late, the memories are still fresh. Big shoutout to the photographers Geniux Moments, Kimmo And Lesh Pixel for capturing the moments.`,
             `To see all the amazing memories, check out the full gallery here:`,
             `https://moments.geniux.co.za/creators/creator/Food%20Garden`,
+        ]
+    },
+    {
+        id: 58,
+        name: "Nchireletseng",
+        slug: "nchireletseng",
+        title: "Majita Monday",
+        content: ["Meet Nchireletseng - the founder and lead photographer of VisionGold Photography"],
+        image: visionGold,
+        type: "Majita Monday",
+        date: "Mar 09 2026",
+        questions: [
+            { question: `Who are you?`, answer: `I'm Nchireletseng , the founder and lead photographer of VisionGold Photography. I'm a storyteller at heart, capturing love, laughter, and tears in the most beautiful way possible .` },
+            { question: `What inspired the birth of VisionGold Photography and why the name VisionGold?`, answer: `I wanted to create a brand that captures the vision of love and turns it into timeless gold. "Vision" is about seeing the beauty in every moment, and "Gold" is about making those moments precious and lasting . Plus, gold is warm, like love` },
+            { question: `When did you decide to focus primarily on weddings?`, answer: `After shooting my first few weddings, I knew it was it. The emotions, the storytelling, the intimacy – it all clicked. Now, I'm all about capturing those once-in-a-lifetime love celebrations` },
+            { question: `What does this motto mean to you personally and professionally?`, answer: `It's about staying focused on the goal (the vision) and believing everything will work out (trust the process). It's a reminder to stay patient and trust my craft, even when things get crazy` },
+            { question: `Can you share a moment in your journey where you truly had to trust the process?`, answer: `There was a wedding where everything went off-script – rain poured, tech issues, the works. I trusted the process, adapted, and we ended up capturing some of the most beautiful, candid moments in the rain` },
+            { question: `What makes wedding photography different from other events for you?`, answer: `Weddings are intimate, once-off, and full of raw emotions. It's about capturing the unrepeatable story of two people becoming one` },
+            { question: `What emotion do you always aim to preserve on a wedding day?`, answer: `Joy – the pure, unfiltered happiness of the couple and their loved ones. I want couples to look back and feel that spark` },
+            { question: `What was the biggest challenge in building VisionGold into a brand?`, answer: `Finding my unique voice and standing out in a crowded market. But focusing on storytelling, being authentic, and building real connections with couples helped .` },
+            { question: `How do you ensure consistency in quality and client experience?`, answer: `By staying true to my style, communicating clearly, and always delivering more than promised. Plus, I obsess over details` },
+            { question: `What advice would you give photographers who want to specialize in weddings?`, answer: `Learn the art of storytelling, be adaptable, and build relationships. Weddings are about people, not just photos. And practice, practice, practice` },
+            { question: `Where do you see VisionGold Photography in the next five years?`, answer: `Expanding my team, telling more stories, maybe exploring new formats like films or exhibitions. And continuing to capture love in all its forms .` },
+            { question: `What legacy do you hope VisionGold leaves in the wedding industry?`, answer: `I hope VisionGold is remembered for capturing love authentically and leaving couples with timeless treasures they treasure forever .` },
         ]
     },
 
