@@ -2112,7 +2112,7 @@ Through projects like Ramblings on YouTube, Infinite Thoughts, and Stofi: Chaos 
         name: "Tsebo Ntladi",
         slug: "tsebo",
         title: "Tsebo Ntladi",
-        content: ["Meet Tsebo Ntladi - the founder and lead photographer of VisionGold Photography"],
+        content: ["Meet Tsebo Ntladi - From Limpopo Ga-Masemola (Mošongo next to Ga-Snake shop)"],
         image: tsebo,
         type: "Majita Monday",
         date: "May 04 2026",
