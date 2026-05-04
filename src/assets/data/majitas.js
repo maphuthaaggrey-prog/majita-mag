@@ -42,6 +42,7 @@ import kat from '../images/Majita Mag January.jpg'
 import kat_book from '../images/kat_book.jpeg'
 import visionGold from '../images/Majita Mag March 2026.jpg'
 
+import tsebo from '../images/Tsebo.jpeg'
 import shane_EP from '../updates/shane_ep.jpg'
 import kraws_EP from '../updates/kraws_ep.jpg'
 import boiketlo from '../updates/easterBoiketlo.jpg'
@@ -2104,6 +2105,28 @@ Through projects like Ramblings on YouTube, Infinite Thoughts, and Stofi: Chaos 
             { question: `What advice would you give photographers who want to specialize in weddings?`, answer: `Learn the art of storytelling, be adaptable, and build relationships. Weddings are about people, not just photos. And practice, practice, practice` },
             { question: `Where do you see VisionGold Photography in the next five years?`, answer: `Expanding my team, telling more stories, maybe exploring new formats like films or exhibitions. And continuing to capture love in all its forms .` },
             { question: `What legacy do you hope VisionGold leaves in the wedding industry?`, answer: `I hope VisionGold is remembered for capturing love authentically and leaving couples with timeless treasures they treasure forever .` },
+        ]
+    },
+    {
+        id: 59,
+        name: "Tsebo Ntladi",
+        slug: "tsebo",
+        title: "Tsebo Ntladi",
+        content: ["Meet Tsebo Ntladi - the founder and lead photographer of VisionGold Photography"],
+        image: tsebo,
+        type: "Majita Monday",
+        date: "May 04 2026",
+        questions: [
+            { question: `1. Where are you from, and how did your upbringing shape your creative eye?`, answer: `I am from Limpopo Ga-Masemola (Mošongo next to Ga-Snake shop) . Growing up in a village teaches you to observe life as it happens. Growing up with limited resources teaches you how to improvise, as our village is developing I saw an opportunity of taking people photos since there were few photographers and videographers in our village. ` },
+            { question: `2. When did your journey into photography and videography begin, and what pulled you into it?`, answer: `I opened an internet café at Ga-masemola next to Usave. I started by shooting people id photos at the internet café. As I visit places like malls I saw people making indoor photoshoots, I then came with an idea of bringing al that to our village to cancel out the face that people have to travel to Lebowakgomo for photoshoots on their birthdays. ` },
+            { question: `3. Do you see yourself more as a photographer, videographer, or a full visual storyteller — and why?`, answer: `I see myself as a photographer, videographer and also as a full storyteller because of the moments I capture. Every moment I capture tells a story from photography to videography. It’s less about chasing money and more about noticing meaning in ordinary moments.` },
+            { question: `4. You shoot weddings,  portraits, lifestyle, and events — how do you stay consistent across all these different spaces?`, answer: `It is not easy to shoot across this different spaces since I have followers and people follow you because of the content you post. For example if I post many wedding videos I will be followed by a certain age group, it becomes tricky when you go and shoot an event since you have to post and now you have to put in mind that your followers are mostly older people who would not be interested in event content. I try to stay consistent by always giving myself time to learn more and also to know techniques I use to shoot for different occations` },
+            { question: `5. What’s the difference in how you capture a moment through a photo versus a video?`, answer: `` },
+            { question: `6. What has been your most defining or unforgettable shoot so far?`, answer: `My most unforgettable shoot was when I was hired to take content for one of the best upcoming company that deals with flushing toilets that decomposes bacteria and turn it into nitrates so that it helps people with planting. It is an unforgettable shoot since I was also shooting our president Cyril Ramaphosa. The content I shot was also presented in one of the speeches he made on television.` },
+            { question: `7. What challenges have tested you the most in your journey, and how did you overcome them?`, answer: `The most challenging test I faced is when clients do not make payments in time. Some clients would even not pay for their wedding videos after I shot and edited, they are only satisfied that people saw that there were cameras and drones at their wedding then after they don’t pay. I overcame this by accepting 50% deposit for booking, then the remaining balance before or at the day of the wedding before even shooting` },
+            { question: `8. Outside of your work, who is Tsebo Ntladi as a person? What grounds you in everyday life?`, answer: `Outside of photography, I’m a very grounded and simple person. I value my space, my people, and the small moments in life. I come from a village background, and that upbringing keeps me humble and connected to who I am. What grounds me daily is my family, my environment, and taking time to reflect and observe life without always being behind the camera. That balance helps me stay real and intentional in everything I do. By profession I am working as a web developer/Graphic designer.` },
+            { question: `9. As a man navigating life and responsibility, how do you take care of your physical health and well-being?`, answer: `I play 5 aside indoor soccer.` },
+            { question: `10. What life lessons have shaped the man you are today, beyond the camera?`, answer: `I always believed that, ”if you want it give it a try”. In life you can never achieve something unless you try. Most of our youth keep on dreaming and preaching about achieving things without even trying. ` },
         ]
     },
 
