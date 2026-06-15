@@ -41,6 +41,8 @@ import eventreview2 from '../images/eventsreview2.jpg'
 import kat from '../images/Majita Mag January.jpg'
 import kat_book from '../images/kat_book.jpeg'
 import visionGold from '../images/Majita Mag March 2026.jpg'
+import Kraws from '../images/Kraws Bohnz June 2026.jpeg'
+import brakop from '../images/Bra Kop.jpeg'
 
 import tsebo from '../images/Tsebo.jpeg'
 import shane_EP from '../updates/shane_ep.jpg'
@@ -2127,6 +2129,30 @@ Through projects like Ramblings on YouTube, Infinite Thoughts, and Stofi: Chaos 
             { question: `8. Outside of your work, who is Tsebo Ntladi as a person? What grounds you in everyday life?`, answer: `Outside of photography, I’m a very grounded and simple person. I value my space, my people, and the small moments in life. I come from a village background, and that upbringing keeps me humble and connected to who I am. What grounds me daily is my family, my environment, and taking time to reflect and observe life without always being behind the camera. That balance helps me stay real and intentional in everything I do. By profession I am working as a web developer/Graphic designer.` },
             { question: `9. As a man navigating life and responsibility, how do you take care of your physical health and well-being?`, answer: `I play 5 aside indoor soccer.` },
             { question: `10. What life lessons have shaped the man you are today, beyond the camera?`, answer: `I always believed that, ”if you want it give it a try”. In life you can never achieve something unless you try. Most of our youth keep on dreaming and preaching about achieving things without even trying. ` },
+        ]
+    },
+    {
+        id: 60,
+        name: "Kraws Bohnz",
+        slug: "kraws-bohnz",
+        title: "Kraws Bonhz",
+        content: ["Kraws Bohnz - a musician and creative who is passionate about music, and personal growth"],
+        image: Kraws,
+        type: "Majita Monday",
+        date: "Jun 15 2026",
+        questions: [
+            { question: `Who is Kraws Bohnz beyond the music?`, answer: `I am Thabo Glen Mashabela, known professionally as Kraws Bohnz. beyond music i am a walking brand finding my way into content creation and other creative artforms i cannot yet disclose. far beyond that i am a family-oriented person who value loyalty respect and growth I come from humble beginnings and carry the lessons of my upbringing into everything I do. Music is my passion, but I'm also someone who believes in uplifting others, staying true to my roots, and constantly evolving as a person.` },
+            { question: `Where did you grow up, and how did your environment shape who you are today?`, answer: `I'm from Ga-Masemola, Limpopo and grew up in a township in Mpumalanga. Growing up in these two communities taught me resilience, patience and the importance of working hard. My music reflects a story about a Kasi boy who dared to dream. It is through the struggles, triumphs and the experiences I have witnessed that shaped my perspective on life, enriching me with stories to tell, a voice to express myself and a deep appreciation for where I come from.` },
+            { question: `When did you first realize music was something you wanted to pursue seriously?`, answer: `My journey started with my older brother, Wasavii. Long before I made music myself, I secretly admired him. I looked up to the way he rapped, the way he wrote his lyrics, and the level of intellect he brought into his music. I wanted to be like him, so I found myself copying a lot of what he did and studying his approach to the craft. The turning point came in 2018 when he invited me to one of his recording sessions and gave me my first-ever feature on a song called Like Me Now. That moment changed everything for me. I wasn't just recording with my brother I was recording with someone who was widely respected as one of the best lyricists in the hood. Being part of that experience made me realize that music was something I genuinely wanted to pursue. From that day, he continued to fuel and inspire my passion for music. Not long after, I met Veteran Beatx, who became both a close friend and a creative partner. From there, everything seemed to align. Opportunities started presenting themselves, my skills improved, and I became hungrier every day to learn, create, and grow as an artist. That's when I knew this wasn't just a hobby anymore it was my calling. ` },
+            { question: `What was happening in your life at that time?`, answer: `At the time I was trying to find my identity and purpose. Like many young people, I was navigating life's challenges while chasing my dreams. Music became an outlet and a source of motivation, giving me direction and something bigger to work toward` },
+            { question: `How would you describe your sound to someone hearing you for the first time?`, answer: [`My music is a reflection of self it is authentic, relatable, and rooted in real-life experiences. I blend storytelling, emotion, and modern sounds to create music that people can connect with on a personal level. It's a sound that reflects both where I come from and where I'm headed.`, { image: brakop }] },
+            {
+                question: `What inspired Bra Kop? Why was now the right time  to release the music video?`, answer: `The inspiration for Bra Kop came from a funny moment with my mom. She asked me to cut her hair because she wanted to go completely bald. I jokingly teased her, saying she wanted to look like "Bra Kop." As I continued joking around, I started singing the words, and line after line just kept coming to me. At some point, I stopped and thought, "This is actually dope why not turn it into a song? I immediately called Veteran Beats for a beat, my brother came through, and the rest was history. The song was created naturally from a real-life moment, which is part of what makes it special. The music video is coming out now because it felt like the right time to bring the full Bra Kop experience to life. The song has its own personality and energy, and the visuals help tell that story in a bigger and more entertaining way. `
+            },
+            { question: `If someone discovers your music through this interview and can only listen to one song, which song should it be and why?`, answer: `I would say Bra Kop. Not only is it one of my most energetic and memorable songs, but it also perfectly represents who I am as an artist. The song was born from a real-life moment with my mom, and what started as a joke turned into a record that connected with people. It shows my ability to find inspiration in everyday life and turn it into music that is authentic, relatable, and entertaining. If you want to understand Kraws Bohnz, Bra Kop is the perfect place to start.` },
+            { question: ``, answer: `` },
+            { question: ``, answer: `` },
+            { question: ``, answer: `` },
         ]
     },
 
