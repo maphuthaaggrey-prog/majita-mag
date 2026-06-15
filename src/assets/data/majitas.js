@@ -43,6 +43,9 @@ import kat_book from '../images/kat_book.jpeg'
 import visionGold from '../images/Majita Mag March 2026.jpg'
 import Kraws from '../images/Kraws Bohnz June 2026.jpeg'
 import brakop from '../images/Bra Kop.jpeg'
+import backtothefuture from '../updates/Back-To-The-Future.webp'
+import theroots from '../updates/theroots.jpg'
+import sbudeep from '../images/sbudeep.jpg'
 
 import tsebo from '../images/Tsebo.jpeg'
 import shane_EP from '../updates/shane_ep.jpg'
@@ -2169,6 +2172,51 @@ Through projects like Ramblings on YouTube, Infinite Thoughts, and Stofi: Chaos 
             `https://www.youtube.com/watch?v=RBCd5aRXjnE&list=RDRBCd5aRXjnE&start_radio=1`,
             `The video was filmed at Barman’s barbershop, which played an important role in bringing the concept to life and adding an authentic street feel to the visuals.`,
             `The Bra Kop music video is now available to watch.`,
+        ],
+        link: "",
+    },
+    {
+        id: 62,
+        title: `Zick-Zack: “Back To The Future” Album Release `,
+        image: backtothefuture,
+        slug: "zick-zack-back-to-the-future-album-release",
+        type: "Music",
+        author: "Majita Mag",
+        date: "May 08 2026",
+        content: [
+            `Zick-Zack has officially released his brand-new Album, “Back To The Future,” and it’s finally out on all platforms!  This project marks a special moment and we are excited to finally share it with you`,
+            `https://open.spotify.com/album/7uItD9J11oBa8M8RXWq85M?si=2v5FNPKPRHCKORr72iOwjw`,
+            `The project is a 12-track album produced with no features, giving a pure sound experience from start to finish. Each track carries its own mood, energy, and story, showing the creativity and range behind the production.`,
+        ],
+        link: "",
+    },
+    {
+        id: 63,
+        title: `Mr Shane SA & Recky R Return to the Source with New Album THE ROOTS`,
+        image: theroots,
+        slug: "mr-shane-sa-&-recky-r-return-to-the-source-with-new-album-the-roots",
+        type: "Music",
+        author: "Majita Mag",
+        date: "Apr 24 2026",
+        content: [
+            `On April 24, 2026, Mr Shane SA and Recky R officially dropped their latest collaborative album, THE ROOTS — and it’s exactly what the title promises.`,
+            `https://open.spotify.com/album/6AsY08s7jHur4YuDhhwCro`,
+            `The 5-track album brings together a strong lineup: Earful Soul on the opener “THE ROOTS (1060 SOUNDS),” Kabza De Small & Roctonic SA on “UNMATCHED BLEND,” Luu Deep on “FINAL DESTINATION (1060 SOUNDS),” Bee-Bar on “TENSIXY FUNK (1060 SOUNDS),” and Deep Essentials on the closing track “ITS GONNA BE ALRIGHT.”`,
+        ],
+        link: "",
+    },
+    {
+        id: 64,
+        title: `Sbu Deep-Intac just landed First Frequency`,
+        image: sbudeep,
+        slug: "sbu-deep-intac-just-landed-first-frequency",
+        type: "Music",
+        author: "Majita Mag",
+        date: "May 30 2026",
+        content: [
+            `Sbu Deep-Intac, representing 1060 (Ga Masemola), has just released his latest project First Frequency. The 5-track deep house offering features a strong collaborative lineup, including Mr Shane SA on "Lost" and Recky-R on "Four Elements."`,
+            `https://open.spotify.com/album/1Gwfwjf5Z6d8jZKEnug93b`,
+            `The album also showcases Sbu's solo work with "It's That Groove," "Latin Vox 2 - Revised," and the original "Latin Vox." Straight from the heart of Ga Masemola, First Frequency delivers raw, soulful energy for the heads who know. Go stream it now.`,
         ],
         link: "",
     },
