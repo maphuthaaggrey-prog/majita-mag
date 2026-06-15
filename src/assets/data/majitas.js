@@ -2153,10 +2153,24 @@ Through projects like Ramblings on YouTube, Infinite Thoughts, and Stofi: Chaos 
                 The music video is coming out now because it felt like the right time to bring the full Bra Kop experience to life. Even though the song was released in 2023, it has continued to connect with people and carry its own unique energy. The opportunity came naturally when Evidence Notorioux, a creative partner, friend and brother, made equipment available and encouraged us to finally bring the visuals to life. What started as a simple ride home turned into a video shoot with Freeze and Thapelo directing. It shows the importance of having a strong creative circle around you. The song already had a personality of its own, and now the visuals help tell that story in a bigger and more entertaining way. Big shout out to Barman for opening up his barbershop for the shoot. We appreciate the support and contribution to making the Bra Kop music video happen.`
             },
             { question: `If someone discovers your music through this interview and can only listen to one song, which song should it be and why?`, answer: `I would say Bra Kop. Not only is it one of my most energetic and memorable songs, but it also perfectly represents who I am as an artist. The song was born from a real-life moment with my mom, and what started as a joke turned into a record that connected with people. It shows my ability to find inspiration in everyday life and turn it into music that is authentic, relatable, and entertaining. If you want to understand Kraws Bohnz, Bra Kop is the perfect place to start.` },
-            { question: ``, answer: `` },
-            { question: ``, answer: `` },
-            { question: ``, answer: `` },
+
         ]
+    },
+    {
+        id: 61,
+        title: `Kraws Bohnz Drops Official Music Video for “Bra Kop”`,
+        image: brakop,
+        slug: "kraws-bohnz-drops-official-music-video-for-bra-kop",
+        type: "Music",
+        author: "Majita Mag",
+        date: "May 29 2026",
+        content: [
+            `Kraws Bohnz has officially released the music video for his 2023 single Bra Kop. The track was produced by Veteran Beatx, and has grown its own identity since its release. The official visuals were shot and directed by Evidence Maphutha, capturing the raw energy and story behind the song.`,
+            `https://www.youtube.com/watch?v=RBCd5aRXjnE&list=RDRBCd5aRXjnE&start_radio=1`,
+            `The video was filmed at Barman’s barbershop, which played an important role in bringing the concept to life and adding an authentic street feel to the visuals.`,
+            `The Bra Kop music video is now available to watch.`,
+        ],
+        link: "",
     },
 
 ]
