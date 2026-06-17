@@ -6,8 +6,7 @@ import Share from '../components/Share';
 import facebook from '../assets/icons/Facebook_white.svg';
 import instagram from '../assets/icons/Instagram_white.svg';
 import { Helmet } from 'react-helmet-async';
-
-const SITE_URL = 'https://www.majitamag.co.za';
+import { toISODate, getFullImageUrl, SITE_URL } from '../utils/seo';
 
 const Events = () => {
     const [selectedImage, setSelectedImage] = useState(null);
@@ -22,26 +21,26 @@ const Events = () => {
     const description = Array.isArray(update.content) ? update.content.map(c => typeof c === 'string' ? c : '').join(' ') : update.content;
     const truncatedDescription = description.length > 160 ? `${description.substring(0, 160)}...` : description;
 
-    const fullImageUrl = update.image.startsWith('http')
-        ? update.image
-        : `${SITE_URL}/assets/updates/${update.image.replace(/^\//, '')}`;
+    const fullImageUrl = getFullImageUrl(update.image);
 
     const canonicalUrl = typeof window !== 'undefined'
         ? `${window.location.origin}${window.location.pathname}`
         : `${SITE_URL}/${update.slug}`;
 
+    // Extract first 5 images only
     const imageContents = update.content.filter(item => typeof item === 'object' && item.image);
     const previewImages = imageContents.slice(0, 3);
 
     return (
         <>
             <Helmet>
-                <title>{update.title} | Majita Mag</title>
+                <title>{update.title} • Majita Mag</title>
                 <meta name="description" content={truncatedDescription} />
                 <meta name="robots" content="index, follow" />
                 <link rel="canonical" href={canonicalUrl} />
 
-                <meta property="og:title" content={`${update.title} | Majita Mag`} />
+                {/* Open Graph */}
+                <meta property="og:title" content={`${update.title} • Majita Mag`} />
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content={canonicalUrl} />
                 <meta property="og:image" content={fullImageUrl} />
@@ -50,18 +49,20 @@ const Events = () => {
                 <meta property="og:site_name" content="Majita Mag" />
                 <meta property="og:locale" content="en_ZA" />
 
+                {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content={update.title} />
                 <meta name="twitter:description" content={truncatedDescription} />
                 <meta name="twitter:image" content={fullImageUrl} />
 
+                {/* Structured data */}
                 <script type="application/ld+json">
                     {JSON.stringify({
                         "@context": "https://schema.org",
                         "@type": "Article",
                         "headline": update.title,
                         "image": [fullImageUrl],
-                        "datePublished": update.date,
+                        "datePublished": toISODate(update.date),
                         "author": { "@type": "Organization", "name": "Majita Mag" },
                         "publisher": {
                             "@type": "Organization",
@@ -130,7 +131,7 @@ const Events = () => {
                                 </Link>
                             )}
 
-                            <p id="updates-content">Stay up-to-date with the latest event news by following us on social media:</p>
+                            <p>Stay up-to-date with the latest event news by following us on social media:</p>
                             <div className="footer-icons" style={{ display: 'unset' }}>
                                 <a href="https://www.facebook.com/profile.php?id=61572469034879" target='_blank' rel="noopener noreferrer">
                                     <img src={facebook} alt="Facebook" style={{ opacity: '20%', marginRight: '1em' }} />

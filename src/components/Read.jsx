@@ -4,8 +4,7 @@ import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import Share from '../components/Share';
-
-const SITE_URL = 'https://www.majitamag.co.za';
+import { toISODate, getFullImageUrl, SITE_URL } from '../utils/seo';
 
 const Update = () => {
   const { slug } = useParams();
@@ -31,9 +30,7 @@ const Update = () => {
     : majita.content || `Get to know ${majita.name} on Majita Mag.`;
   const truncatedDescription = description.length > 160 ? `${description.substring(0, 160)}...` : description;
 
-  const fullImageUrl = majita.image.startsWith('http')
-    ? majita.image
-    : `${SITE_URL}/assets/updates/${majita.image.replace(/^\//, '')}`;
+  const fullImageUrl = getFullImageUrl(majita.image);
 
   const canonicalUrl = typeof window !== 'undefined'
     ? `${window.location.origin}${window.location.pathname}`
@@ -42,13 +39,13 @@ const Update = () => {
   return (
     <>
       <Helmet>
-        <title>{majita.name}</title>
+        <title>{majita.name} • Majita Mag</title>
         <meta name="description" content={truncatedDescription} />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href={canonicalUrl} />
 
-
-        <meta property="og:title" content={`${majita.name} | Majita Mag`} />
+        {/* Open Graph */}
+        <meta property="og:title" content={`${majita.name} • Majita Mag`} />
         <meta property="og:type" content="profile" />
         <meta property="og:url" content={canonicalUrl} />
         <meta property="og:image" content={fullImageUrl} />
@@ -57,13 +54,13 @@ const Update = () => {
         <meta property="og:site_name" content="Majita Mag" />
         <meta property="og:locale" content="en_ZA" />
 
-
+        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={majita.name} />
         <meta name="twitter:description" content={truncatedDescription} />
         <meta name="twitter:image" content={fullImageUrl} />
 
-
+        {/* Structured data */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -71,7 +68,7 @@ const Update = () => {
             "name": majita.name,
             "image": fullImageUrl,
             "url": canonicalUrl,
-            "datePublished": majita.date,
+            "datePublished": toISODate(majita.date),
             "publisher": {
               "@type": "Organization",
               "name": "Majita Mag",
