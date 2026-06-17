@@ -1,32 +1,61 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="logo (1).png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:url" content="https://www.majitamag.co.za/">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Majita Mag">
-    <meta property="og:image" content="https://www.majitamag.co.za/frame.png">
-    <title>Majita Mag</title>
 
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-    <script>
-      if (sessionStorage.redirect) {
-        const redirect = sessionStorage.redirect;
-        delete sessionStorage.redirect;
-        history.replaceState(null, null, redirect);
-      }
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="logo (1).png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO -->
+  <title>Majita Mag | South African Culture, Music & Lifestyle Magazine</title>
+  <meta name="description"
+    content="Majita Mag is a South African digital magazine covering music, culture, fashion, and lifestyle. Stay up to date with the latest stories and trends." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.majitamag.co.za/" />
+
+  <!-- Open Graph -->
+  <meta property="og:url" content="https://www.majitamag.co.za/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Majita Mag | South African Culture, Music & Lifestyle Magazine" />
+  <meta property="og:description"
+    content="Majita Mag is a South African digital magazine covering music, culture, fashion, and lifestyle." />
+  <meta property="og:image" content="https://www.majitamag.co.za/frame.png" />
+  <meta property="og:site_name" content="Majita Mag" />
+  <meta property="og:locale" content="en_ZA" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Majita Mag" />
+  <meta name="twitter:description" content="South African culture, music, and lifestyle magazine." />
+  <meta name="twitter:image" content="https://www.majitamag.co.za/frame.png" />
+
+  <!-- JSON-LD structured data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Majita Mag",
+      "url": "https://www.majitamag.co.za/",
+      "logo": "https://www.majitamag.co.za/logo (1).png"
+    }
     </script>
-    
-    <!-- Cloudflare Web Analytics -->
-     <script 
-          defer src='https://static.cloudflareinsights.com/beacon.min.js' 
-          data-cf-beacon='{"token": "78c7156bad34429c9e7e11d162d27752"}'>
+</head>
 
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script>
+    if (sessionStorage.redirect) {
+      const redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      history.replaceState(null, null, redirect);
+    }
+  </script>
+
+  <!-- Cloudflare Web Analytics -->
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js'
+    data-cf-beacon='{"token": "78c7156bad34429c9e7e11d162d27752"}'>
     </script><!-- End Cloudflare Web Analytics -->
-  </body>
+</body>
+
 </html>

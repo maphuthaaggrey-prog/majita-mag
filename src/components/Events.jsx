@@ -7,6 +7,8 @@ import facebook from '../assets/icons/Facebook_white.svg';
 import instagram from '../assets/icons/Instagram_white.svg';
 import { Helmet } from 'react-helmet-async';
 
+const SITE_URL = 'https://www.majitamag.co.za';
+
 const Events = () => {
     const [selectedImage, setSelectedImage] = useState(null);
     const handleImageClick = (image) => setSelectedImage(image);
@@ -19,9 +21,15 @@ const Events = () => {
 
     const description = Array.isArray(update.content) ? update.content.map(c => typeof c === 'string' ? c : '').join(' ') : update.content;
     const truncatedDescription = description.length > 160 ? `${description.substring(0, 160)}...` : description;
-    const fullImageUrl = update.image.startsWith('http') ? update.image : `https://www.majitamag.co.za/assets/updates${update.image}`;
 
-    // Extract first 5 images only
+    const fullImageUrl = update.image.startsWith('http')
+        ? update.image
+        : `${SITE_URL}/assets/updates/${update.image.replace(/^\//, '')}`;
+
+    const canonicalUrl = typeof window !== 'undefined'
+        ? `${window.location.origin}${window.location.pathname}`
+        : `${SITE_URL}/${update.slug}`;
+
     const imageContents = update.content.filter(item => typeof item === 'object' && item.image);
     const previewImages = imageContents.slice(0, 3);
 
@@ -30,11 +38,39 @@ const Events = () => {
             <Helmet>
                 <title>{update.title} | Majita Mag</title>
                 <meta name="description" content={truncatedDescription} />
-                <meta property="og:title" content={update.title} />
-                <meta property="og:type" content={update.type} />
-                <meta property="og:url" content={window.location.href} />
+                <meta name="robots" content="index, follow" />
+                <link rel="canonical" href={canonicalUrl} />
+
+                <meta property="og:title" content={`${update.title} | Majita Mag`} />
+                <meta property="og:type" content="article" />
+                <meta property="og:url" content={canonicalUrl} />
                 <meta property="og:image" content={fullImageUrl} />
+                <meta property="og:image:alt" content={update.title} />
                 <meta property="og:description" content={truncatedDescription} />
+                <meta property="og:site_name" content="Majita Mag" />
+                <meta property="og:locale" content="en_ZA" />
+
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content={update.title} />
+                <meta name="twitter:description" content={truncatedDescription} />
+                <meta name="twitter:image" content={fullImageUrl} />
+
+                <script type="application/ld+json">
+                    {JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "Article",
+                        "headline": update.title,
+                        "image": [fullImageUrl],
+                        "datePublished": update.date,
+                        "author": { "@type": "Organization", "name": "Majita Mag" },
+                        "publisher": {
+                            "@type": "Organization",
+                            "name": "Majita Mag",
+                            "logo": { "@type": "ImageObject", "url": `${SITE_URL}/logo (1).png` }
+                        },
+                        "mainEntityOfPage": canonicalUrl
+                    })}
+                </script>
             </Helmet>
 
             <div className="hero-section">
@@ -45,8 +81,8 @@ const Events = () => {
                     <div className="desktop-display">
                         <div className="majita-info events-info">
                             <p className="updates-date">{update.date} • Majita Mag</p>
-                            <p className="updates-name">{update.title}</p>
-                            <h1 className="majita-type">{update.type}</h1>
+                            <h1 className="updates-name">{update.title}</h1>
+                            <p className="majita-type">{update.type}</p>
                             <div id="updates-content">
                                 {Array.isArray(update.content) && update.content.map((contentItem, index) => {
                                     if (typeof contentItem === 'string') {
@@ -65,13 +101,7 @@ const Events = () => {
                                         } else if (contentItem.startsWith("http")) {
                                             return (
                                                 <p id="updates-content" key={index}>
-                                                    <a
-                                                        href={contentItem}
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                    >
-                                                        {contentItem}
-                                                    </a>
+                                                    <a href={contentItem} target="_blank" rel="noopener noreferrer">{contentItem}</a>
                                                 </p>
                                             );
                                         } else {
@@ -83,7 +113,7 @@ const Events = () => {
                                                 key={index}
                                                 className="media"
                                                 src={contentItem.image}
-                                                alt="event"
+                                                alt={`${update.title} - photo ${index + 1}`}
                                                 onClick={() => handleImageClick(contentItem.image)}
                                                 style={{ borderRadius: '2px', height: 'auto' }}
                                             />

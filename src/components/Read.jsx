@@ -5,15 +5,14 @@ import { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import Share from '../components/Share';
 
+const SITE_URL = 'https://www.majitamag.co.za';
+
 const Update = () => {
   const { slug } = useParams();
   const majita = majitas.find((majita) => majita.slug === slug);
 
-  if (!majita) {
-    return <div>Majita not found</div>;
-  }
-
   const [sortedMajitas, setSortedMajitas] = useState([]);
+
   useEffect(() => {
     const sorted = [...majitas]
       .filter((update) => update.type === 'Majita Monday' && update.type !== 'Women Crush Wednesday')
@@ -21,24 +20,70 @@ const Update = () => {
     setSortedMajitas(sorted);
   }, []);
 
+  if (!majita) {
+    return <div>Majita not found</div>;
+  }
 
   const filteredMajitas = sortedMajitas.filter((item) => item.slug !== slug);
+
+  const description = Array.isArray(majita.content)
+    ? majita.content.map(c => (typeof c === 'string' ? c : '')).join(' ')
+    : majita.content || `Get to know ${majita.name} on Majita Mag.`;
+  const truncatedDescription = description.length > 160 ? `${description.substring(0, 160)}...` : description;
+
+  const fullImageUrl = majita.image.startsWith('http')
+    ? majita.image
+    : `${SITE_URL}/assets/updates/${majita.image.replace(/^\//, '')}`;
+
+  const canonicalUrl = typeof window !== 'undefined'
+    ? `${window.location.origin}${window.location.pathname}`
+    : `${SITE_URL}/majitamonday/${majita.slug}`;
 
   return (
     <>
       <Helmet>
-        <title>{majita.name} • Majita Mag</title>
-        <meta name="description" content={majita.content} />
-        <meta property="og:title" content={majita.name} />
-        <meta property="og:type" content={majita.type} />
-        <meta property="og:url" content={window.location.href} />
-        <meta property="og:image" content={majita.image} />
-        <meta property="og:description" content={majita.content} />
+        <title>{majita.name}</title>
+        <meta name="description" content={truncatedDescription} />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href={canonicalUrl} />
+
+
+        <meta property="og:title" content={`${majita.name} | Majita Mag`} />
+        <meta property="og:type" content="profile" />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:image" content={fullImageUrl} />
+        <meta property="og:image:alt" content={majita.name} />
+        <meta property="og:description" content={truncatedDescription} />
+        <meta property="og:site_name" content="Majita Mag" />
+        <meta property="og:locale" content="en_ZA" />
+
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={majita.name} />
+        <meta name="twitter:description" content={truncatedDescription} />
+        <meta name="twitter:image" content={fullImageUrl} />
+
+
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ProfilePage",
+            "name": majita.name,
+            "image": fullImageUrl,
+            "url": canonicalUrl,
+            "datePublished": majita.date,
+            "publisher": {
+              "@type": "Organization",
+              "name": "Majita Mag",
+              "logo": { "@type": "ImageObject", "url": `${SITE_URL}/logo (1).png` }
+            }
+          })}
+        </script>
       </Helmet>
 
       <div id="container">
         <div id="creative-details">
-          <p className="heading">Featuring {majita.name}</p>
+          <h1 className="heading">Featuring {majita.name}</h1>
           <img id="creative-image" src={majita.image} alt={majita.name} />
           <div id="tracklist" className="track-listing">
             {majita.questions.map((trackItem, index) => (
@@ -54,7 +99,7 @@ const Update = () => {
                       <img
                         key={i}
                         src={item.image}
-                        alt="Additional content"
+                        alt={`${majita.name} - additional photo ${i + 1}`}
                         id="creative-img"
                       />
                     )
@@ -65,10 +110,10 @@ const Update = () => {
               </div>
             ))}
           </div>
-          <div style={{ margin: '1.3em'}}>
+          <div style={{ margin: '1.3em' }}>
             <Share />
           </div>
-        
+
         </div>
 
 
@@ -94,9 +139,9 @@ const Update = () => {
               </p>
             </Link>
           ))}
-       
+
         </div>
-       
+
 
         <Link
           to="/majitamonday"
