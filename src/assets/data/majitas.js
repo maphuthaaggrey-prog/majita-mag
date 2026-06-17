@@ -75,6 +75,8 @@ import mrshanepic1 from '../updates/mrshanepic.webp'
 import kosa from '../updates/kosha_zack.jpg'
 import vaalmixzap from '../updates/zapmix.jpg'
 import eventss from '../updates/eventss.jpg'
+import youthday from '../updates/1060youth2026.jpg'
+import youthposter from '../updates/2026poster_youth.jpg'
 
 import shane_rythm4 from '../updates/mrshanerythm.jpg'
 import mrshanepic2 from '../updates/mrshane soul to soul ii.jpg'
@@ -2219,6 +2221,25 @@ Through projects like Ramblings on YouTube, Infinite Thoughts, and Stofi: Chaos 
             `The album also showcases Sbu's solo work with "It's That Groove," "Latin Vox 2 - Revised," and the original "Latin Vox." Straight from the heart of Ga Masemola, First Frequency delivers raw, soulful energy for the heads who know. Go stream it now.`,
         ],
         link: "",
+    },
+    {
+        id: 65,
+        title: `1060 Youth Day Walk Celebrates 5 Years of Unity and Action`,
+        image: youthposter,
+        slug: "youth-day-walk-celebrates-5-years-of-unity-and-action",
+        type: "Event",
+        author: "Majita Mag",
+        date: "June 17 2026",
+        content: [
+            `The 1060 Youth Day Walk reached a major milestone yesterday as the community came together to celebrate the 5th Anniversary of this important annual event. What started in 2022 has now grown into a movement that continues to bring people together every Youth Day to remember the history of June 16 while inspiring the next generation`,
+            `This year's walk was extra special as it marked 50 years since the June 16, 1976 Youth Uprising and 5 years of the 1060 Youth Day Walk. Community members, learners, youth leaders, and supporters gathered to take part in the walk and celebrate the spirit of unity, action, and youth empowerment.`,
+            `Over the past five years, the event has become one of the most recognized Youth Day activities in Ga Masemola. It has provided a positive space for young people to come together, learn, connect, and reflect on the sacrifices made by the youth of 1976.`,
+            { image: youthday },
+            { image: youthposter },
+            { image: youthday3 },
+            `Congratulations to the organizers, volunteers, sponsors, participants, and everyone who has supported the 1060 Youth Day Walk over the years. Here's to 5 years of unity and action, and many more years of making a positive impact in the lives of young people.`,
+            `50 Years of June 16th. 5 Years Empowered. ✊🏾`,
+        ],
     },
 
 ]
