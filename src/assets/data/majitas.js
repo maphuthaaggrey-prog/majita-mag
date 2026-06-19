@@ -79,6 +79,7 @@ import youthday from '../updates/1060youth2026.jpg'
 import youthposter from '../updates/2026poster_youth.jpg'
 
 import shane_rythm4 from '../updates/mrshanerythm.jpg'
+import shane_rythm6 from '../updates/mrshanerythm6.jpg'
 import mrshanepic2 from '../updates/mrshane soul to soul ii.jpg'
 import parkAndChill from '../updates/park_and_chill.jpg'
 import parkAndChill1 from '../updates/park_and_chill1.jpg'
@@ -2240,6 +2241,22 @@ Through projects like Ramblings on YouTube, Infinite Thoughts, and Stofi: Chaos 
             `Congratulations to the organizers, volunteers, sponsors, participants, and everyone who has supported the 1060 Youth Day Walk over the years. Here's to 5 years of unity and action, and many more years of making a positive impact in the lives of young people.`,
             `50 Years of June 16th. 5 Years Empowered. ✊🏾`,
         ],
+    },
+    {
+        id: 66,
+        title: "Mr Shane SA Drops Rhythm Forge Vol.06",
+        image: shane_rythm6,
+        slug: "mr-shane-drops-rhythm-forge-volume-six",
+        type: "Music",
+        author: "Majita Mag",
+        date: "Jun 19 2026",
+        content: [
+            `Mr Shane SA has officially released Rhythm Forge Vol.06, the latest installment in his popular Rhythm Forge series. The project is a 100% production mix, showcasing a collection of tracks produced entirely by Mr Shane SA.`,
+            `https://www.youtube.com/watch?v=ppYD5t75dmM&list=RDppYD5t75dmM&start_radio=1`,
+            `Known for his signature sound and consistent output, Mr Shane SA continues to cement his place as one of the producers carrying the sound forward. Rhythm Forge Vol.06 delivers a smooth listening experience while highlighting his growth and creativity behind the boards.`,
+            `The mix is now available to stream and enjoy, offering another glimpse into the musical world of Mr Shane SA and the Rhythm Forge brand.`,
+        ],
+        link: "",
     },
 
 ]
